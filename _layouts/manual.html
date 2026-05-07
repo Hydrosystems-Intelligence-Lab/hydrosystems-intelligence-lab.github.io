@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+{% assign manual_hero_image = page.hero_image | default: site.manual_hero_image %}
+{% assign manual_hero_position = page.hero_image_position | default: site.manual_hero_image_position | default: 'center center' %}
+
+<section
+  class="manual-hero{% if manual_hero_image %} has-image{% endif %}"
+  {% if manual_hero_image %}
+    style="--manual-hero-image: url('{{ manual_hero_image | relative_url }}'); --manual-hero-position: {{ manual_hero_position }};"
+  {% endif %}
+>
+  <div class="wrapper manual-hero-inner">
+    <p class="eyebrow">Open Lab Manual</p>
+    <h1>{{ page.title }}</h1>
+    {% if page.summary %}
+      <p class="page-summary">{{ page.summary }}</p>
+    {% endif %}
+  </div>
+</section>
+
+<section class="manual-shell">
+  <div class="wrapper manual-grid">
+    <aside class="manual-sidebar" aria-label="Lab manual navigation">
+      <a class="manual-brand" href="{{ '/manual/' | relative_url }}">HORA Lab Manual</a>
+      <nav class="manual-nav">
+        {% for item in site.data.manual_navigation %}
+          <a href="{{ item.url | relative_url }}" {% if page.url == item.url %}aria-current="page"{% endif %}>{{ item.title }}</a>
+        {% endfor %}
+      </nav>
+    </aside>
+    <article class="manual-content prose">
+      {{ content }}
+    </article>
+  </div>
+</section>

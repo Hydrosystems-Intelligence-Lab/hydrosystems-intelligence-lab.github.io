@@ -1,0 +1,126 @@
+journal_articles:
+  title: Peer-Reviewed Papers
+  note: Peer-reviewed papers will be listed here.
+  items:
+    - title: "ELM-MOSART-DOC: A Large-Scale Riverine Dissolved Organic Carbon Model and Its Application Over the United States"
+      authors: "Lingbo Li, Hong-Yi Li, Guta Abeshu, Xiaojuan Yang, Jinyun Tang, Zeli Tan, Chang Liao, Dongyu Feng, Peter Thornton, and L. Ruby Leung"
+      venue: "Journal of Advances in Modeling Earth Systems, 18(2), e2025MS005307"
+      year: 2026
+      doi: "10.1029/2025MS005307"
+    - title: "Transformation rate maps of dissolved organic carbon in the contiguous US"
+      authors: "Lingbo Li, Hong-Yi Li, Guta Abeshu, Jinyun Tang, L. Ruby Leung, Chang Liao, Zeli Tan, Hanqin Tian, Peter Thornton, and Xiaojuan Yang"
+      venue: "Earth System Science Data, 17, 2713-2733"
+      year: 2025
+      doi: "10.5194/essd-17-2713-2025"
+    - title: "Causal relationships of vegetation productivity with root zone water availability and atmospheric dryness at the catchment scale"
+      authors: "Guta Wakbulcho Abeshu, Hong-Yi Li, Mingjie Shi, and L. Ruby Leung"
+      venue: "Hydrology and Earth System Sciences, 29, 1847-1864"
+      year: 2025
+      doi: "10.5194/hess-29-1847-2025"
+    - title: "Differential responses of plant and microbial respiration to extreme precipitation and drought during spring and summer in the Eurasian meadow steppe"
+      authors: "Tsegaye Gemechu Legesse, Jingfeng Xiao, Gang Dong, Xiaobing Dong, Nano Alemu Daba, Guta Wakbulcho Abeshu, Luping Qu, Wen Zhu, Lulu Wang, Xiaoping Xin, and Changliang Shao"
+      venue: "Environmental Research, 269"
+      year: 2025
+      doi: "10.1016/j.envres.2025.120883"
+    - title: "GCAM-GLORY v1.0: representing global reservoir water storage in a multi-sector human-Earth system model"
+      authors: "Mengqi Zhao, Thomas B. Wild, Neal T. Graham, Son H. Kim, Matthew Binsted, A. F. M. Kamal Chowdhury, Siwa Msangi, Pralit L. Patel, Chris R. Vernon, Hassan Niazi, Hong-Yi Li, and Guta W. Abeshu"
+      venue: "Geoscientific Model Development, 17, 5587-5617"
+      year: 2024
+      doi: "10.5194/gmd-17-5587-2024"
+    - title: "Exploring the food-energy-water nexus in coupled natural-human systems under climate change with a fully integrated agent-based modeling framework"
+      authors: "Jiaorui Zhang, Y. C. Ethan Yang, Guta W. Abeshu, Hongyi Li, Fengwei Hung, Chung-Yi Lin, and L. Ruby Leung"
+      venue: "Journal of Hydrology, 636, 131048"
+      year: 2024
+      doi: "10.1016/j.jhydrol.2024.131048"
+    - title: "Generalized Relationship Linking Water Balance and Vegetation Productivity across Site-to-Regional Scales"
+      authors: "Guta Wakbulcho Abeshu, Hong-Yi Li, Mingjie Shi, Jack Brookshire, Jingyun Tang, Chonggang Xu, Nate G. McDowell, and L. Ruby Leung"
+      venue: "Journal of Hydrologic Engineering, 29(5)"
+      year: 2024
+      doi: "10.1061/JHYEFF.HEENG-6163"
+    - title: "Enhancing the representation of water management in global hydrological models"
+      authors: "Guta Wakbulcho Abeshu, Fuqiang Tian, Thomas Wild, Mengqi Zhao, Sean Turner, A. F. M. Kamal Chowdhury, Chris R. Vernon, Hongchang Hu, Yuan Zhuang, Mohamad Hejazi, and Hong-Yi Li"
+      venue: "Geoscientific Model Development, 16, 5449-5472"
+      year: 2023
+      doi: "10.5194/gmd-16-5449-2023"
+    - title: "Panta Rhei benchmark dataset: socio-hydrological data of paired events of floods and droughts"
+      authors: "Heidi Kreibich, Kai Schroter, Giuliano Di Baldassarre, Anne F. Van Loon, Maurizio Mazzoleni, Guta Wakbulcho Abeshu, et al."
+      venue: "Earth System Science Data, 15, 2009-2023"
+      year: 2023
+      doi: "10.5194/essd-15-2009-2023"
+    - title: "The challenge of unprecedented floods and droughts in risk management"
+      authors: "Heidi Kreibich, Anne F. Van Loon, Kai Schroter, Philip J. Ward, Maurizio Mazzoleni, Nivedita Sairam, Guta Wakbulcho Abeshu, et al."
+      venue: "Nature, 608, 80-86"
+      year: 2022
+      doi: "10.1038/s41586-022-04917-5"
+    - title: "Median bed-material sediment particle size across rivers in the contiguous US"
+      authors: "Guta Wakbulcho Abeshu, Hong-Yi Li, Zhenduo Zhu, Zeli Tan, and L. Ruby Leung"
+      venue: "Earth System Science Data, 14, 929-942"
+      year: 2022
+      doi: "10.5194/essd-14-929-2022"
+    - title: "A new large-scale suspended sediment model and its application over the United States"
+      authors: "Hong-Yi Li, Zeli Tan, Hongbo Ma, Zhenduo Zhu, Guta Wakbulcho Abeshu, Senlin Zhu, Sagy Cohen, Tian Zhou, Donghui Xu, and L. Ruby Leung"
+      venue: "Hydrology and Earth System Sciences, 26, 665-688"
+      year: 2022
+      doi: "10.5194/hess-26-665-2022"
+    - title: "Horton Index: Conceptual Framework for Exploring Multi-Scale Links Between Catchment Water Balance and Vegetation Dynamics"
+      authors: "Guta W. Abeshu and Hong-Yi Li"
+      venue: "Water Resources Research, 57, e2020WR029343"
+      year: 2021
+      doi: "10.1029/2020WR029343"
+    - title: "The DOE E3SM Coupled Model Version 1: Overview and Evaluation at Standard Resolution"
+      authors: "Jean-Christophe Golaz, Peter M. Caldwell, Luke P. Van Roekel, Mark R. Petersen, Qi Tang, Jonathan D. Wolfe, Guta Abeshu, et al."
+      venue: "Journal of Advances in Modeling Earth Systems, 11(7), 2089-2129"
+      year: 2019
+      doi: "10.1029/2018MS001603"
+conference_papers:
+  title: Conference Abstracts
+  note: Conference abstracts, posters, and presentations will be added here.
+  items:
+    - title: "Lag in catchment vegetation response to water availability and atmospheric dryness"
+      authors: "Guta Wakbulcho Abeshu and Hong-Yi Li"
+      venue: "EGU General Assembly 2023, EGU23-7302"
+      year: 2023
+      doi: "10.5194/egusphere-egu23-7302"
+    - title: "Deriving a Solubility Map of Soil Organic Carbon over the Contiguous United States"
+      authors: "Lingbo Li, Hong-Yi Li, Guta W. Abeshu, Xiaojuan Yang, Jinyun Tang, Peter E. Thornton, and others"
+      venue: "AGU Fall Meeting Abstracts"
+      year: 2023
+    - title: "Improving Lake Representations in Earth System Modeling"
+      authors: "Hong-Yi Li, Guta Wakbulcho Abeshu, L. Ruby Leung, Zeli Tan, and Tian Zhou"
+      venue: "AGU Fall Meeting"
+      year: 2021
+    - title: "A unified functional relationship between catchment water balance and vegetation productivity"
+      authors: "Guta Wakbulcho Abeshu, Hong-Yi Li, Jack Brookshire, Jinyun Tang, Chonggang Xu, Nathan McDowell, and L. Ruby Leung"
+      venue: "AGU Fall Meeting"
+      year: 2021
+    - title: "A new global water management module: Distributed vs. Lumped representations"
+      authors: "Guta Wakbulcho Abeshu, Hong-Yi Li, Mohamad Issa Hejazi, Thomas Bernard Wild, Chris R. Vernon, and Mengqi Zhao"
+      venue: "AGU Fall Meeting"
+      year: 2021
+    - title: "Soil, Plant, and Climate Interactions in the Critical Zone Under Varying Land Use, Ecosystem Management, and Climatic Forcing I"
+      authors: "Salvatore Calabrese, Guta Wakbulcho Abeshu, Binayak Mohanty, Hong-Yi Li, and William J. Riley"
+      venue: "AGU Fall Meeting"
+      year: 2020
+preprints:
+  title: Preprints
+  note: Preprints and working papers will be posted here.
+  items:
+    - title: "A Unified Scheme for Modeling Saturation and Infiltration Excess Runoff"
+      authors: "Yuanqi Hong, Guta Wakbulcho Abeshu, Hong-Yi Li, Dingbao Wang, Mengqi Zhao, Thomas Wild, Gunter Bloschl, and L. Ruby Leung"
+      venue: "EGUsphere"
+      year: 2025
+      doi: "10.5194/egusphere-2025-5039"
+datasets_software:
+  title: Datasets / Software
+  note: Open datasets, models, code, and decision-support tools will be highlighted here.
+  items:
+    - title: "A national map of riverine median bed-material particle size over CONUS"
+      authors: "Hong-Yi Li, Guta Abeshu, Zhenduo Zhu, Zeli Tan, and L. Ruby Leung"
+      venue: "Zenodo"
+      year: 2021
+      doi: "10.5281/zenodo.4921987"
+    - title: "Transformation rate maps of dissolved organic carbon in the contiguous US"
+      authors: "Lingbo Li, Hong-Yi Li, Guta Abeshu, Jinyun Tang, L. Ruby Leung, Chang Liao, Zeli Tan, Hanqin Tian, Peter Thornton, and Xiaojuan Yang"
+      venue: "Zenodo"
+      year: 2024
+      doi: "10.5281/zenodo.14563816"

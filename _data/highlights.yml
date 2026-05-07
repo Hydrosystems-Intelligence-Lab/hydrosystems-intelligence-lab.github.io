@@ -1,0 +1,36 @@
+- title: Human water management in large-scale hydrologic models
+  label: Foundational work
+  summary: Research on representing reservoirs, allocation, and water management in global hydrologic and multisector models provides a foundation for HORA's work on operational intelligence.
+  evidence: "Geoscientific Model Development, 2023; GCAM-GLORY, 2024"
+  links:
+    - text: Water management in global hydrological models
+      url: "https://doi.org/10.5194/gmd-16-5449-2023"
+    - text: GCAM-GLORY reservoir storage model
+      url: "https://doi.org/10.5194/gmd-17-5587-2024"
+- title: Vegetation, water balance, and hydroclimate stress
+  label: Foundational work
+  summary: Studies of catchment water balance, root-zone water availability, atmospheric dryness, and vegetation productivity support HORA's interest in process-aware AI for drought and ecosystem response.
+  evidence: "Water Resources Research, 2021; Journal of Hydrologic Engineering, 2024; HESS, 2025"
+  links:
+    - text: Horton Index framework
+      url: "https://doi.org/10.1029/2020WR029343"
+    - text: Vegetation response to water availability
+      url: "https://doi.org/10.5194/hess-29-1847-2025"
+- title: Open datasets for riverine and biogeochemical processes
+  label: Open data
+  summary: Public datasets on riverine sediment and dissolved organic carbon show the kind of reusable, documented data products HORA aims to continue producing.
+  evidence: "Earth System Science Data and Zenodo data products"
+  links:
+    - text: Riverine bed-material particle size dataset
+      url: "https://doi.org/10.5281/zenodo.4921987"
+    - text: DOC transformation rate maps
+      url: "https://doi.org/10.5281/zenodo.14563816"
+- title: Unprecedented floods, droughts, and sociohydrologic risk
+  label: Risk and resilience
+  summary: Work on unprecedented hydrologic extremes and paired flood-drought events informs HORA's emphasis on connected extremes, nonstationarity, and decision-relevant risk analysis.
+  evidence: "Nature, 2022; Earth System Science Data, 2023"
+  links:
+    - text: Unprecedented floods and droughts
+      url: "https://doi.org/10.1038/s41586-022-04917-5"
+    - text: Panta Rhei benchmark dataset
+      url: "https://doi.org/10.5194/essd-15-2009-2023"

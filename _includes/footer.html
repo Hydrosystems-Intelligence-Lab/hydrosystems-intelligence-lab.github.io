@@ -1,0 +1,32 @@
+<footer class="site-footer">
+  <div class="wrapper footer-grid">
+    <div>
+      <img class="footer-logo" src="{{ '/assets/img/H3.png' | relative_url }}" alt="{{ site.title }}">
+    </div>
+    <div>
+      <strong>{{ site.lab.institution }}</strong>
+      <p>{{ site.lab.department }}<br>{{ site.lab.institute }}<br>Las Cruces, New Mexico</p>
+    </div>
+    <div>
+      <strong>Contact</strong>
+      <p><a href="mailto:{{ site.lab.email }}">{{ site.lab.email }}</a></p>
+      <p><a href="{{ '/opportunities/' | relative_url }}">Prospective students</a></p>
+      <p><a href="{{ '/manual/' | relative_url }}">Open lab manual</a></p>
+      <p><a href="{{ '/software-data/' | relative_url }}">Software & data</a></p>
+    </div>
+  </div>
+  <div class="wrapper footer-meta" role="contentinfo">
+    {% assign template_name = site.site_credits.template_name | default: "Open-source Jekyll template" %}
+    {% assign template_url = site.site_credits.template_url | default: "" | strip %}
+    <p>
+      Built with <a href="https://jekyllrb.com/">Jekyll</a>
+      • Template:
+      {% if template_url != "" %}
+        <a href="{{ template_url }}">{{ template_name }}</a>
+      {% else %}
+        {{ template_name }}
+      {% endif %}
+      • Last updated {{ "now" | date: "%B %-d, %Y" }}.
+    </p>
+  </div>
+</footer>

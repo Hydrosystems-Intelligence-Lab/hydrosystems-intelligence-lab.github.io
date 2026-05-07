@@ -1,0 +1,39 @@
+<header class="site-header">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="institutional-bar">
+    <div class="wrapper institutional-inner">
+      <span class="institutional-brand">
+        {% if site.lab.institution_logo %}
+          <img class="institutional-logo" src="{{ site.lab.institution_logo | relative_url }}" alt="{{ site.lab.institution }} logo">
+        {% endif %}
+        <a href="https://www.nmsu.edu/">{{ site.lab.institution }}</a>
+      </span>
+      <a href="https://ce.nmsu.edu/">{{ site.lab.department }}</a>
+    </div>
+  </div>
+  <div class="wrapper nav-wrapper">
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="{{ site.title }} home">
+      <span class="brand-mark" aria-hidden="true">HORA</span>
+      <span>
+        <span class="brand-title">Abeshu Lab</span>
+        <span class="brand-subtitle">Climate &middot; Water &middot; Energy &middot; Infrastructure &middot; Society</span>
+      </span>
+    </a>
+    <nav class="site-nav" aria-label="Primary navigation">
+      {% for item in site.data.navigation %}
+        {% assign is_current = false %}
+        {% if page.url == item.url %}
+          {% assign is_current = true %}
+        {% endif %}
+        {% if item.active_paths %}
+          {% for active_path in item.active_paths %}
+            {% if page.url contains active_path %}
+              {% assign is_current = true %}
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+        <a href="{{ item.url | relative_url }}" {% if is_current %}aria-current="page"{% endif %}>{{ item.title }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>

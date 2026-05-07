@@ -1,0 +1,50 @@
+- title: Physics-Informed AI for Connected Water Extremes
+  icon: extremes
+  image: /assets/img/research-connected-extremes.jpg
+  image_alt: AI-generated visualization of connected drought, flood, reservoir, groundwater, and community water-system dynamics.
+  summary: Modeling how droughts, floods, heat, and water-storage anomalies emerge, interact, and propagate across watersheds, aquifers, reservoirs, and communities.
+  focus:
+    - Graph learning for cascading hydroclimate extremes across connected water systems.
+    - Multi-sensor fusion using satellite, in-situ, hydrometric, and reanalysis data.
+    - Risk mapping that links hazards with infrastructure exposure and community vulnerability.
+  outcomes: Probabilistic forecasts and hotspot analyses to support preparedness in systems such as the Rio Grande, Elephant Butte, Caballo, and irrigated landscapes.
+- title: Equitable Water Security and Sociohydrologic Intelligence
+  icon: equity
+  image: /assets/img/research-water-equity.jpg
+  image_alt: AI-generated visualization of rural water infrastructure, communities, fields, and spatial analytics for water security.
+  summary: Combining AI, Earth observation, hydrologic modeling, and socioeconomic data to identify water access gaps and emerging risks.
+  focus:
+    - Fine-scale mapping of water insecurity, quality stressors, and service gaps.
+    - Scenario modeling for climate, development, governance, and public health outcomes.
+    - Transparent equity analytics for rural, underserved, and colonia communities.
+  outcomes: Decision-ready benchmarks that help agencies and partners prioritize water infrastructure, policy intervention, and community resilience investments.
+- title: Learning-Enhanced Earth System and Hydrologic Modeling
+  icon: earth
+  image: /assets/img/research-earth-system-modeling.jpg
+  image_alt: AI-generated visualization of Earth-system hydrology, satellites, model grids, groundwater, and learning-based model components.
+  summary: Building physics-guided machine learning components that improve regional and global hydrologic models under changing climate, land, and infrastructure conditions.
+  focus:
+    - Differentiable soil moisture, groundwater, surface water, and storage representations.
+    - Model-data fusion with GRACE, SMAP, SWOT, streamflow records, and global networks.
+    - Integration with modeling systems such as E3SM, MOSART, and Xanthos.
+  outcomes: Faster, more reliable model components that preserve physical constraints while improving prediction under non-stationary conditions.
+- title: Adaptive Operations for Resilient Water Infrastructure
+  icon: resilience
+  image: /assets/img/research-infrastructure-operations.jpg
+  image_alt: AI-generated visualization of reservoir operations, hydropower infrastructure, river releases, and decision-support overlays.
+  summary: Developing AI-enabled decision tools for reservoirs, hydropower, flood control, water supply, and environmental flows under deep uncertainty.
+  focus:
+    - Hybrid forecasting that blends hydraulic routing, hydrologic prediction, and regime-shift detection.
+    - Multi-objective optimization for flood protection, supply reliability, equity, and ecosystem needs.
+    - Operator-centered decision support for drought-to-flood transitions and other rapid changes.
+  outcomes: Open-source tools, scenarios, and training resources that support adaptive risk management with agencies, utilities, and stakeholder groups.
+- title: Lake Dynamics, Remote Sensing, and Earth-System Integration
+  icon: lakes
+  image: /assets/img/research-lake-dynamics.jpg
+  image_alt: AI-generated visualization of lake remote sensing, thermal structure, ice, changing extent, and satellite observations.
+  summary: Using multi-sensor observations and physics-guided learning to monitor and predict lake storage, extent, temperature, ice, and mixing.
+  focus:
+    - Optical, radar, altimetry, and thermal sensing for global and regional lake dynamics.
+    - Data assimilation methods that honor heat, water, and mass-balance constraints.
+    - Improved lake boundary conditions and parameterizations for hydrologic and Earth-system models.
+  outcomes: Scalable datasets and forecasts for lake-dependent water availability, arid-land planning, and climate feedback assessment.

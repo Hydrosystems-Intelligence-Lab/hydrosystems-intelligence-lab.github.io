@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" role="img" aria-labelledby="title desc">
+  <title id="title">Profile placeholder</title>
+  <desc id="desc">A simple abstract profile placeholder with water and network motifs.</desc>
+  <rect width="640" height="640" fill="#f3f6f8"/>
+  <circle cx="320" cy="245" r="105" fill="#861f41"/>
+  <path d="M150 548c30-118 100-178 170-178s140 60 170 178" fill="#10243d"/>
+  <path d="M112 468c72 38 144 38 216 0s144-38 216 0" fill="none" stroke="#1b8a8f" stroke-width="18" stroke-linecap="round"/>
+  <path d="M126 512c66 30 132 30 198 0s132-30 198 0" fill="none" stroke="#2f6ea3" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="180" cy="150" r="12" fill="#1b8a8f"/>
+  <circle cx="460" cy="148" r="12" fill="#1b8a8f"/>
+  <circle cx="520" cy="245" r="10" fill="#2f6ea3"/>
+  <path d="M192 150h268M460 150l60 95" fill="none" stroke="#9fb4c6" stroke-width="8" stroke-linecap="round"/>
+</svg>

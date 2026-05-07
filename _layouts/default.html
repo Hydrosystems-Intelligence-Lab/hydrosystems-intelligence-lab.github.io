@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}">
+  <head>
+    {% assign page_description = page.description | default: page.summary | default: site.description %}
+    {% assign social_image = page.hero_image | default: site.social_image %}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{{ page_description | strip_html | normalize_whitespace }}">
+    <meta name="theme-color" content="#f8faf7">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}">
+    <meta property="og:description" content="{{ page_description | strip_html | normalize_whitespace }}">
+    <meta property="og:type" content="website">
+    {% if site.url and site.url != "" %}
+      <meta property="og:url" content="{{ page.url | absolute_url }}">
+      <link rel="canonical" href="{{ page.url | absolute_url }}">
+    {% endif %}
+    {% if social_image and site.url and site.url != "" %}
+      <meta property="og:image" content="{{ social_image | absolute_url }}">
+      <meta name="twitter:card" content="summary_large_image">
+    {% endif %}
+    <link rel="icon" type="image/png" href="{{ '/assets/img/favicon.png' | relative_url }}">
+    <link rel="apple-touch-icon" href="{{ '/assets/img/favicon.png' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  </head>
+  <body>
+    {% include header.html %}
+    <main id="main">
+      {{ content }}
+    </main>
+    {% include footer.html %}
+  </body>
+</html>

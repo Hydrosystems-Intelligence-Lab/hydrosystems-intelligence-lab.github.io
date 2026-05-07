@@ -1,0 +1,36 @@
+pi:
+  name: Dr. Guta Wakbulcho Abeshu
+  role: Incoming Assistant Professor
+  department: Department of Civil & Environmental Engineering
+  institute: Institute for Applied Practice in AI and Machine Learning
+  institution: New Mexico State University
+  email: gutewaqi@gmail.com
+  image: /assets/img/pi-guta.JPG
+  bio: >-
+    Dr. Guta Wakbulcho Abeshu studies how water, climate, ecosystems,
+    infrastructure, and communities interact across scales. His work brings
+    together hydrologic modeling, Earth-system science, remote sensing, and
+    physics-informed artificial intelligence to improve understanding and
+    prediction of water systems under change. Before launching HORA at New
+    Mexico State University, he contributed to research on catchment
+    ecohydrology, global water management, lake and reservoir modeling, and
+    learning-enhanced hydrologic prediction at the University of Houston,
+    Montana State University, and Pacific Northwest National Laboratory.
+
+open_roles:
+  - name: You?
+    role: Postdoctoral Researcher
+    status: Future postdoctoral opportunities will be posted as funded projects become available.
+    image: /assets/img/pi-placeholder.svg
+  - name: You?
+    role: PhD Student
+    status: Recruiting motivated doctoral students for Spring 2027.
+    image: /assets/img/pi-placeholder.svg
+  - name: You?
+    role: Undergraduate Researcher
+    status: Project-based opportunities will be announced as the lab grows.
+    image: /assets/img/pi-placeholder.svg
+
+groups:
+  - name: Collaborators
+    status: HORA welcomes collaborations with agencies, communities, utilities, and research partners working on water resilience.

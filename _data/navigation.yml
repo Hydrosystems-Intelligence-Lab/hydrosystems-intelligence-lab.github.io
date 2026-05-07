@@ -1,0 +1,21 @@
+- title: Home
+  url: /
+- title: Research
+  url: /research/
+- title: Team
+  url: /people/
+- title: Publications
+  url: /publications/
+- title: Software & Data
+  url: /software-data/
+- title: Opportunities
+  url: /opportunities/
+- title: Contact
+  url: /contact/
+- title: News
+  url: /updates/
+- title: Lab Manual
+  url: /manual/
+  active_paths:
+    - /team-resources/
+    - /manual/
