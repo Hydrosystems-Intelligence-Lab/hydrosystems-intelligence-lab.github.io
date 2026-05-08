@@ -1,7 +1,7 @@
 ---
 layout: manual
 title: Advising Philosophy and Expectations
-summary: Mentoring commitments, progress expectations, and advising norms for graduate students in the HORA Abeshu Lab.
+summary: Mentoring commitments, progress expectations, and advising norms for graduate students in the HORA Abeshu Research Group.
 ---
 
 ## Overview
@@ -14,7 +14,7 @@ The advisor is committed to:
 - supporting funding pathways through fellowships, research assistantships, and teaching assistantships; and
 - helping students prepare for and pursue post-PhD opportunities.
 
-This document outlines how the HORA Abeshu Lab operates. It is not exhaustive and will evolve as the lab grows. Students are encouraged to ask questions about anything that is unclear.
+This document outlines how the HORA Abeshu Research Group operates. It is not exhaustive and will evolve as the group grows. Students are encouraged to ask questions about anything that is unclear.
 
 ## Meetings
 
@@ -28,7 +28,7 @@ Meetings are typically in person when both parties are on campus, and by video c
 
 ### Group meetings
 
-All lab members are expected to attend the weekly HORA Abeshu Lab meeting, where members present research progress, discuss new papers, and prepare for upcoming conferences and proposals.
+All group members are expected to attend the weekly HORA Abeshu Research Group meeting, where members present research progress, discuss new papers, and prepare for upcoming conferences and proposals.
 
 ## Degree Progress
 
@@ -93,14 +93,14 @@ Students should expect funding for at least one conference per year, with additi
 
 Presentation is a core part of scientific work and professional development. Students should expect to present in:
 
-- HORA Abeshu Lab meetings;
+- HORA Abeshu Research Group meetings;
 - NMSU CEE seminars and the IAAM seminar series;
 - annual NMSU Graduate Research Symposium;
 - AGU Fall Meeting and other field-specific conferences (CUAHSI Biennial, AMS, NeurIPS climate workshops, and related venues).
 
 ## Publications and Authorship
 
-Students are expected to submit dissertation chapters for publication in peer-reviewed journals as each chapter matures. Dissertations in the HORA Abeshu Lab will typically consist of an overarching introduction and conclusion, plus three to four chapters of original research, each at some point in the publication process.
+Students are expected to submit dissertation chapters for publication in peer-reviewed journals as each chapter matures. Dissertations in the HORA Abeshu Research Group will typically consist of an overarching introduction and conclusion, plus three to four chapters of original research, each at some point in the publication process.
 
 The default expectation is that the advisor is a co-author on dissertation chapters, acting as a highly engaged collaborator. Other co-authors will be added per standard authorship practices in hydrology, Earth system science, and machine learning.
 
@@ -110,7 +110,7 @@ Discuss authorship early, ideally before analysis begins, and certainly before w
 
 The PhD signifies the capability to independently initiate, conduct, document, and defend original scholarship. Graduation is determined primarily by research maturity, along with preparation for professional goals. Funding constraints and post-PhD opportunities also factor into the conversation.
 
-In the HORA Abeshu Lab, the typical expectation at defense is that the student has at least one chapter published or in press, at least one additional chapter submitted, and the remaining chapters in advanced form.
+In the HORA Abeshu Research Group, the typical expectation at defense is that the student has at least one chapter published or in press, at least one additional chapter submitted, and the remaining chapters in advanced form.
 
 The final decision on graduation timing rests with the dissertation committee.
 
@@ -122,7 +122,7 @@ It is critical to have multiple mentors and intellectual influences. Beyond the 
 - other CEE and IAAM faculty;
 - faculty at other NMSU colleges (Engineering, Arts and Sciences, ACES);
 - external collaborators at PNNL, UH, and partner institutions;
-- postdocs and senior students within the lab;
+- postdocs and senior students within the group;
 - members of the broader scientific community (AGU, CUAHSI, Earth Science Women's Network, BlackInGeo, Latinx in STEM, and related communities).
 
 Institutional resources include the CEE Director of Graduate Studies, the CEE Department Head, the NMSU Graduate School, NMSU Counseling and Psychological Services, and the NMSU Ombudsperson.
@@ -133,6 +133,6 @@ Students are welcome to discuss any topic they find appropriate: teaching opport
 
 ## Respectful Community
 
-All members of the HORA Abeshu Lab are expected to adhere to NMSU standards of conduct and to treat advisors, peers, collaborators, and community partners with respect. The lab has zero tolerance for harassment, discrimination, or behavior that undermines the dignity of any community member.
+All members of the HORA Abeshu Research Group are expected to adhere to NMSU standards of conduct and to treat advisors, peers, collaborators, and community partners with respect. The group has zero tolerance for harassment, discrimination, or behavior that undermines the dignity of any community member.
 
-Acknowledgment: This document draws structural inspiration from the publicly shared graduate advising materials of Prof. Noah Diffenbaugh (Stanford). Content has been substantially adapted for the HORA Abeshu Lab at NMSU.
+Acknowledgment: This document draws structural inspiration from the publicly shared graduate advising materials of Prof. Noah Diffenbaugh (Stanford). Content has been substantially adapted for the HORA Abeshu Research Group at NMSU.

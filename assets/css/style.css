@@ -37,7 +37,9 @@ html {
 body {
   margin: 0;
   overflow-x: hidden;
-  background: var(--mist);
+  background:
+    linear-gradient(180deg, rgba(243, 247, 246, 0.86), rgba(243, 247, 246, 0.91)),
+    url("../img/nm-organ-mountains.jpg") center top / cover fixed;
   color: var(--ink);
   line-height: 1.62;
 }
@@ -131,7 +133,7 @@ ul {
 
 .institutional-bar {
   color: #f8e8ee;
-  background: var(--crimson-dark);
+  background: #8c0b42;
   font-size: 1.08rem;
   font-weight: 800;
 }
@@ -161,30 +163,30 @@ ul {
   gap: 0.5rem;
 }
 
-.institutional-text {
-  display: inline-block;
-  line-height: 1.2;
-}
-
-.institutional-motto {
-  display: block;
-  color: rgba(255, 255, 255, 0.78);
-  font-size: 0.78rem;
-  font-weight: 800;
-  white-space: nowrap;
-}
-
-.institutional-text a {
-  display: block;
-}
-
+.institutional-text,
 .institutional-links {
   display: inline-flex;
   flex-direction: column;
+  gap: 0;
+  line-height: 1.05;
+}
+
+.institutional-motto {
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 1.08em;
+  font-weight: 800;
+  line-height: 1.05;
+  white-space: nowrap;
+}
+
+.institutional-text a,
+.institutional-links a {
+  line-height: 1.05;
+}
+
+.institutional-links {
   align-items: flex-end;
-  justify-content: flex-end;
-  gap: 0.08rem;
-  line-height: 1.25;
+  justify-content: center;
   text-align: right;
 }
 
@@ -206,27 +208,13 @@ ul {
   display: inline-flex;
   align-items: center;
   flex: 0 0 auto;
-  gap: 0.58rem;
   min-width: 210px;
   color: var(--ink);
   text-decoration: none;
 }
 
-.brand > span:not(.brand-mark) {
+.brand > span {
   min-width: 0;
-}
-
-.brand-mark {
-  display: grid;
-  place-items: center;
-  width: 54px;
-  height: 42px;
-  border-radius: 8px;
-  color: var(--white);
-  background: linear-gradient(135deg, var(--crimson), var(--navy));
-  font-size: 0.78rem;
-  font-weight: 900;
-  letter-spacing: 0;
 }
 
 .brand-title,
@@ -480,8 +468,9 @@ ul {
 .home-intro-section {
   padding-block: 3.2rem;
   background:
-    radial-gradient(circle at 6% 0%, rgba(15, 111, 117, 0.09) 0, rgba(15, 111, 117, 0) 40%),
-    linear-gradient(180deg, #f6faf8 0%, var(--mist) 100%);
+    radial-gradient(circle at 6% 0%, rgba(15, 111, 117, 0.13) 0, rgba(15, 111, 117, 0) 40%),
+    linear-gradient(180deg, rgba(246, 250, 248, 0.78) 0%, rgba(243, 247, 246, 0.86) 100%),
+    url("../img/nm-organ-mountains.jpg") center 52% / cover no-repeat;
 }
 
 .home-intro-grid {
@@ -609,10 +598,17 @@ ul {
 
 .content-section {
   padding-block: 4.5rem;
+  background:
+    radial-gradient(circle at 6% 0%, rgba(15, 111, 117, 0.13) 0, rgba(15, 111, 117, 0) 40%),
+    linear-gradient(180deg, rgba(246, 250, 248, 0.78) 0%, rgba(243, 247, 246, 0.86) 100%),
+    url("../img/nm-organ-mountains.jpg") center 52% / cover no-repeat;
 }
 
 .content-section.muted {
-  background: #eef4ef;
+  background:
+    radial-gradient(circle at 6% 0%, rgba(15, 111, 117, 0.13) 0, rgba(15, 111, 117, 0) 40%),
+    linear-gradient(180deg, rgba(246, 250, 248, 0.78) 0%, rgba(243, 247, 246, 0.86) 100%),
+    url("../img/nm-organ-mountains.jpg") center 52% / cover no-repeat;
 }
 
 .section-heading > p,
@@ -1465,15 +1461,9 @@ ul {
     min-width: 0;
   }
 
-  .brand > span:not(.brand-mark) {
-    width: calc(100vw - 5rem);
-    max-width: calc(100vw - 5rem);
-  }
-
-  .brand-mark {
-    width: 50px;
-    height: 40px;
-    font-size: 0.7rem;
+  .brand > span {
+    width: calc(100vw - 1.25rem);
+    max-width: calc(100vw - 1.25rem);
   }
 
   .brand-title {

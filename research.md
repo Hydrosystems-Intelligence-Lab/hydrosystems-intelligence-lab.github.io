@@ -18,7 +18,7 @@ content_width: wide
     <p class="eyebrow">Integrated Portfolio</p>
     <h2>Research built for interpretation, transfer, and use</h2>
     <p>
-      The lab develops learning-based methods that respect physical structure, combine multiple sources of evidence, and produce decision-relevant outputs. The work is designed for settings where water managers and communities need robust information despite uncertain climate, aging infrastructure, and uneven water security.
+      The group develops learning-based methods that respect physical structure, combine multiple sources of evidence, and produce decision-relevant outputs. The work is designed for settings where water managers and communities need robust information despite uncertain climate, aging infrastructure, and uneven water security.
     </p>
     <div class="method-tags" aria-label="Research methods">
       <span>Physics-informed AI</span>

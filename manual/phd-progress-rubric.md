@@ -1,7 +1,7 @@
 ---
 layout: manual
 title: PhD Progress Rubric
-summary: Four competency areas tracked across four benchmark stages for PhD progress in the HORA Abeshu Lab.
+summary: Four competency areas tracked across four benchmark stages for PhD progress in the HORA Abeshu Research Group.
 ---
 
 ## How to Use This Rubric
@@ -48,8 +48,8 @@ It is meant as a shared map, not a strict checklist. Different students arrive w
 
 | Stage | Expected competency |
 |---|---|
-| End Y1 | Communicates ideas clearly in writing, presents in lab meetings, is capable of poster presentation, and shows initial competency with scientific visualization. |
-| End Y2 | Effectively answers critical questions in lab settings, presents initial results in posters, and shows growing skill in scientific visualization. |
+| End Y1 | Communicates ideas clearly in writing, presents in group meetings, is capable of poster presentation, and shows initial competency with scientific visualization. |
+| End Y2 | Effectively answers critical questions in group settings, presents initial results in posters, and shows growing skill in scientific visualization. |
 | Candidacy | Writes a clear dissertation proposal, defends it orally with compelling arguments, presents at scientific conferences, and is competent at scientific visualization. |
 | Defense | Independently prepares full manuscripts ready for journal submission, presents dissertation synthesis orally and answers critical questions in dynamic settings, and consistently produces effective scientific visualization. |
 
@@ -103,13 +103,13 @@ It is meant as a shared map, not a strict checklist. Different students arrive w
 
 | Stage | Expected competency |
 |---|---|
-| End Y1 | Begins to take some leadership in lab activities. |
-| End Y2 | Consistently takes leadership in lab activities. |
-| Candidacy | Shows positive leadership in the lab and demonstrates leadership in the CEE department and/or College community. |
+| End Y1 | Begins to take some leadership in group activities. |
+| End Y2 | Consistently takes leadership in group activities. |
+| Candidacy | Shows positive leadership in the group and demonstrates leadership in the CEE department and/or College community. |
 | Defense | May begin to demonstrate leadership in scientific and professional organizations beyond NMSU (AGU sections, CUAHSI working groups, and related organizations). |
 
-This rubric is a living document and will be revised as the HORA Abeshu Lab grows.
+This rubric is a living document and will be revised as the HORA Abeshu Research Group grows.
 
 Last updated: 2026.
 
-Acknowledgment: This document draws structural inspiration from the publicly shared graduate advising materials of Prof. Noah Diffenbaugh (Stanford). Content has been substantially adapted for the HORA Abeshu Lab at NMSU.
+Acknowledgment: This document draws structural inspiration from the publicly shared graduate advising materials of Prof. Noah Diffenbaugh (Stanford). Content has been substantially adapted for the HORA Abeshu Research Group at NMSU.

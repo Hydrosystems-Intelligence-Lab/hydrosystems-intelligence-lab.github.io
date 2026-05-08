@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Publications
-summary: Selected publications by Dr. Abeshu and collaborators, with HORA Lab outputs to be added as lab projects mature.
+summary: Selected publications by Dr. Abeshu and collaborators, with HORA Research Group outputs to be added as group projects mature.
 hero_image: /assets/img/nm-elephant-butte.jpg
 hero_image_position: center 46%
 content_width: wide
@@ -11,7 +11,7 @@ content_width: wide
   <p class="eyebrow">Research Outputs</p>
   <h2>Selected publications by Dr. Abeshu and collaborators.</h2>
   <p>
-    HORA Lab publications, datasets, and software will be added as lab projects mature. Current outputs are organized by type so peer-reviewed papers and conference abstracts remain clearly separated; public datasets and software-linked outputs are also summarized on the <a href="{{ '/software-data/' | relative_url }}">Software &amp; Data</a> page.
+    HORA Research Group publications, datasets, and software will be added as group projects mature. Current outputs are organized by type so peer-reviewed papers and conference abstracts remain clearly separated; public datasets and software-linked outputs are also summarized on the <a href="{{ '/software-data/' | relative_url }}">Software &amp; Data</a> page.
   </p>
 </section>
 

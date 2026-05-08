@@ -14,7 +14,7 @@
   url: /contact/
 - title: News
   url: /updates/
-- title: Lab Manual
+- title: Group Manual
   url: /manual/
   active_paths:
     - /team-resources/

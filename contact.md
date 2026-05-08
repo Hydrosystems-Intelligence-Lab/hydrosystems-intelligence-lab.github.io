@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contact
-summary: Contact the HORA Abeshu Lab at New Mexico State University.
+summary: Contact the HORA Abeshu Research Group at New Mexico State University.
 hero_image: /assets/img/nm-elephant-butte.jpg
 hero_image_position: center center
 content_width: wide
@@ -25,7 +25,7 @@ content_width: wide
     <p class="eyebrow">Location</p>
     <h2>Las Cruces, New Mexico</h2>
     <p>
-      The lab is based at New Mexico State University. Office details and campus meeting information will be shared as the lab launches.
+      The research group is based at New Mexico State University. Office details and campus meeting information will be shared as the group launches.
     </p>
   </section>
 

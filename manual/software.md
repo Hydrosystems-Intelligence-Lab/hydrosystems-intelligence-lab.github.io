@@ -1,7 +1,7 @@
 ---
 layout: manual
 title: HORA Software
-summary: A place to document software developed or maintained by the HORA Lab.
+summary: A place to document software developed or maintained by the HORA Research Group.
 ---
 
 ## Purpose

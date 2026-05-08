@@ -21,6 +21,19 @@ project-name/
   README.md
 ```
 
+## Project Work Plan
+
+At the start of a new project, use the project work plan template to convert a broad research direction into trackable work. The template is especially useful for advisor-student meetings because it keeps tasks, sub-tasks, data needs, blockers, meeting dates, and status in one place.
+
+[Download the project work plan template]({{ '/assets/templates/hora-project-work-plan-template.xlsx' | relative_url }})
+
+Suggested status labels:
+
+- `START NEXT`: ready to begin.
+- `IN-PROGRESS`: actively being worked on.
+- `ON-HOLD`: blocked, waiting, or intentionally paused.
+- `COMPLETE`: done for the current project stage.
+
 ## Reproducibility
 
 - Write a README before the project becomes complicated.

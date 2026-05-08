@@ -1,16 +1,16 @@
 ---
 layout: manual
 title: About HORA
-summary: Shared identity, values, communities, and first actions for members of the HORA Abeshu Lab.
+summary: Shared identity, values, communities, and first actions for members of the HORA Abeshu Research Group.
 ---
 
-## About the HORA Abeshu Lab
+## About the HORA Abeshu Research Group
 
-The HORA Abeshu Lab studies hydrologic systems, water infrastructure, and coupled human-water processes across watershed, regional, and Earth-system scales.
+The HORA Abeshu Research Group studies hydrologic systems, water infrastructure, and coupled human-water processes across watershed, regional, and Earth-system scales.
 
 We develop data-driven, physics-informed, and AI-enabled methods for resilient, equitable, and operationally intelligent water systems. Our work connects hydroclimate extremes, infrastructure operations, Earth observation, lake and reservoir dynamics, water equity, and Earth-system modeling.
 
-The lab is based at New Mexico State University and works at the boundary between hydrology, civil and environmental engineering, artificial intelligence, infrastructure systems, and decision science.
+The group is based at New Mexico State University and works at the boundary between hydrology, civil and environmental engineering, artificial intelligence, infrastructure systems, and decision science.
 
 ## Our Values
 
@@ -54,7 +54,7 @@ HORA members may engage with different scientific communities depending on their
 
 - Read the public HORA website and this manual.
 - Create or update your ORCID profile.
-- Set up a GitHub account and share your username with the lab.
+- Set up a GitHub account and share your username with the group.
 - Identify one or two professional societies most relevant to your research.
 - Read recent HORA publications or project notes related to your topic.
 - Start a project README early, even if the project is still forming.

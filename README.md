@@ -1,6 +1,6 @@
-# HORA Abeshu Lab Website
+# HORA Abeshu Research Group Website
 
-Source for the website of the HORA Abeshu Lab at New Mexico State University.
+Source for the website of the HORA Abeshu Research Group at New Mexico State University.
 
 The site is a Jekyll project: Markdown pages, YAML data files, and Liquid layouts.
 
@@ -10,7 +10,7 @@ Main pages live at the repository root: `index.md`, `research.md`, `people.md`, 
 
 Site metadata (institution, department, PI, email, URL) is in `_config.yml` under the `lab:` key. Top-level navigation is in `_data/navigation.yml`. Site styling is in `assets/css/style.css`, using an NMSU-inspired palette of crimson/maroon, dark navy, white/light gray, and blue/teal accents.
 
-The lab manual lives in `manual/` and uses the `manual` layout, which provides a dedicated sidebar while keeping the public site header and footer. Manual navigation is in `_data/manual_navigation.yml`. Sections cover onboarding, graduate studies, research workflows, programming, writing and reviewing, HORA software, other software, data visualization, job search, templates, and resources.
+The research group manual lives in `manual/` and uses the `manual` layout, which provides a dedicated sidebar while keeping the public site header and footer. Manual navigation is in `_data/manual_navigation.yml`. Sections cover onboarding, graduate studies, research workflows, programming, writing and reviewing, HORA software, other software, data visualization, job search, templates, and resources.
 
 ## Adding content
 
@@ -44,7 +44,7 @@ journal_articles:
 
 - `assets/img/nmsu-campus-panorama.jpg`: Panoramic view of NMSU from Tortugas ("A") Mountain by Terry Umbenhaur, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:NMSU_Campus.jpg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
 - `assets/img/nmsu_view.webp`: Campus aerial view used for NMSU location and contact sections.
-- `assets/img/hora-hero.png`: Generated local hero image for the lab website.
+- `assets/img/hora-hero.png`: Generated local hero image for the research group website.
 - `assets/img/pi-placeholder.svg`: Local placeholder SVG.
 - `assets/img/nm-rio-grande-bosque.jpg`: Rio Grande River and bosque near Albuquerque by Asaavedra32, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Rio_Grande_River_and_Bosque.JPG), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Resized for web use.
 - `assets/img/nm-rio-grande-gorge.jpg`: Rio Grande Gorge near Taos by Tobyw87, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:RioGrandGorge.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Resized for web use.

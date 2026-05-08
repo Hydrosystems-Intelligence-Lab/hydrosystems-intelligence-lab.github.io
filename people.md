@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Team
-summary: Members, collaborators, and prospective students connected to the HORA Abeshu Lab.
+summary: Members, collaborators, and prospective students connected to the HORA Abeshu Research Group.
 hero_image: /assets/img/nm-rio-grande-gorge.jpg
 hero_image_position: center 45%
 content_width: wide
@@ -40,7 +40,7 @@ content_width: wide
 </section>
 
 <section class="feature-block">
-  <p>HORA is building its first cohort of graduate and undergraduate researchers as the lab launches at New Mexico State University.</p>
+  <p>HORA is building its first cohort of graduate and undergraduate researchers as the research group launches at New Mexico State University.</p>
 </section>
 
 <section class="feature-block">

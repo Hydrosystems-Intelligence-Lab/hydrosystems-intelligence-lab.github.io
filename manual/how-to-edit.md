@@ -1,7 +1,7 @@
 ---
 layout: manual
 title: How to Edit This Manual
-summary: How to update the HORA lab manual without breaking the public website.
+summary: How to update the HORA research group manual without breaking the public website.
 ---
 
 ## Where the Manual Lives
@@ -45,7 +45,7 @@ http://127.0.0.1:4001/manual/
 
 ## Writing Style
 
-- Write for a future lab member who needs to act.
+- Write for a future group member who needs to act.
 - Keep pages specific and maintainable.
 - Prefer checklists, examples, and links over long essays.
 - Avoid storing passwords, private data, unpublished sensitive results, or confidential collaborator information.

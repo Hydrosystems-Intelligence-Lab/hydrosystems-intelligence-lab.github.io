@@ -29,7 +29,7 @@ open_roles:
     image: /assets/img/pi-placeholder.svg
   - name: You?
     role: Undergraduate Researcher
-    status: Project-based opportunities will be announced as the lab grows.
+    status: Project-based opportunities will be announced as the group grows.
     image: /assets/img/pi-placeholder.svg
 
 groups:

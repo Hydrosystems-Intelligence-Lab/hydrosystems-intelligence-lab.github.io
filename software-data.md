@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Software & Data
-summary: Public datasets, modeling workflows, code practices, and future open-source tools from the HORA Abeshu Lab.
+summary: Public datasets, modeling workflows, code practices, and future open-source tools from the HORA Abeshu Research Group.
 hero_image: /assets/img/nm-white-sands.jpg
 hero_image_position: center 52%
 content_width: wide
@@ -12,11 +12,11 @@ content_width: wide
     <p class="eyebrow">Open Research Outputs</p>
     <h2>Software and data should make the science reusable</h2>
     <p>
-      HORA is a new lab, so this page separates existing public datasets and publications from software that will emerge as lab projects mature. The goal is to make code, model workflows, data products, and documentation easy to find and cite.
+      HORA is a new research group, so this page separates existing public datasets and publications from software that will emerge as group projects mature. The goal is to make code, model workflows, data products, and documentation easy to find and cite.
     </p>
   </div>
   <aside class="deadline-card">
-    <span>Lab standard</span>
+    <span>Group standard</span>
     <strong>Document early</strong>
     <p>Each public tool or dataset should include a clear purpose, setup instructions, data requirements, citation guidance, and maintainer contact.</p>
   </aside>
@@ -68,7 +68,7 @@ content_width: wide
   <p class="eyebrow">Documentation</p>
   <h2>Repository and dataset standards</h2>
   <p>
-    The lab manual includes the working standards for repository structure, dependencies, examples, citation guidance, and maintainership.
+    The research group manual includes the working standards for repository structure, dependencies, examples, citation guidance, and maintainership.
   </p>
   <div class="button-row light">
     <a class="button secondary" href="{{ '/manual/software/' | relative_url }}">Software standards</a>

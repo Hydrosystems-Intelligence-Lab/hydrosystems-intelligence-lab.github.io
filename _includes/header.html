@@ -4,24 +4,23 @@
     <div class="wrapper institutional-inner">
       <span class="institutional-brand">
         {% if site.lab.institution_logo %}
-          <img class="institutional-logo" src="{{ site.lab.institution_logo | relative_url }}" alt="{{ site.lab.institution }} logo">
+          <img class="institutional-logo" src="{{ site.lab.institution_logo | relative_url }}?v=nmsu-swap" alt="{{ site.lab.institution }} logo">
         {% endif %}
         <span class="institutional-text">
-          <span class="institutional-motto">BE BOLD. Shape the Future.</span><br>
+          <span class="institutional-motto">BE BOLD. Shape the Future.</span>
           <a href="https://www.nmsu.edu/" target="_blank" rel="noopener noreferrer">{{ site.lab.institution }}</a>
         </span>
       </span>
       <span class="institutional-links">
-        <a href="https://engr.nmsu.edu/" target="_blank" rel="noopener noreferrer">{{ site.lab.college }}</a><br>
+        <a href="https://engr.nmsu.edu/" target="_blank" rel="noopener noreferrer">{{ site.lab.college }}</a>
         <a href="https://ce.nmsu.edu/" target="_blank" rel="noopener noreferrer">{{ site.lab.department }}</a>
       </span>
     </div>
   </div>
   <div class="wrapper nav-wrapper">
     <a class="brand" href="{{ '/' | relative_url }}" aria-label="{{ site.title }} home">
-      <span class="brand-mark" aria-hidden="true">HORA</span>
       <span>
-        <span class="brand-title">Abeshu Lab</span>
+        <span class="brand-title">HORA Abeshu Research Group</span>
         <span class="brand-subtitle">Climate &middot; Water &middot; Energy &middot; Infrastructure &middot; Society</span>
       </span>
     </a>
