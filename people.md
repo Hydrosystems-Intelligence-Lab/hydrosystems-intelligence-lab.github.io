@@ -19,6 +19,7 @@ content_width: wide
     <p><strong>{{ pi.role }}</strong></p>
     <p>
       {{ pi.department }}<br>
+      {{ pi.college }}<br>
       {{ pi.institute }}<br>
       {{ pi.institution }}
     </p>

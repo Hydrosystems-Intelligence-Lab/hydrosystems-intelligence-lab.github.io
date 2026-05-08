@@ -161,6 +161,33 @@ ul {
   gap: 0.5rem;
 }
 
+.institutional-text {
+  display: inline-block;
+  line-height: 1.2;
+}
+
+.institutional-motto {
+  display: block;
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 0.78rem;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.institutional-text a {
+  display: block;
+}
+
+.institutional-links {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: 0.08rem;
+  line-height: 1.25;
+  text-align: right;
+}
+
 .institutional-logo {
   width: auto;
   height: 46px;
@@ -214,7 +241,7 @@ ul {
 
 .brand-subtitle {
   color: var(--gray-700);
-  font-size: 0.88rem;
+  font-size: 1rem;
   line-height: 1.35;
   overflow-wrap: anywhere;
 }
@@ -254,19 +281,48 @@ ul {
   background: #f7edf1;
 }
 
+@keyframes hero-zoom {
+  from { transform: scale(1);    }
+  to   { transform: scale(1.08); }
+}
+
 .home-hero {
+  position: relative;
+  overflow: hidden;
   color: var(--white);
-  background:
-    linear-gradient(90deg, rgba(7, 31, 49, 0.96) 0%, rgba(7, 31, 49, 0.82) 48%, rgba(7, 31, 49, 0.24) 100%),
-    var(--home-hero-image),
-    var(--navy);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: var(--navy);
   border-bottom: 1px solid rgba(7, 31, 49, 0.34);
 }
 
+/* Animated background image layer */
+.home-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: var(--home-hero-image);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: hero-zoom 22s ease-in-out infinite alternate;
+  z-index: 0;
+}
+
+/* Gradient overlay */
+.home-hero::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(7, 31, 49, 0.96) 0%, rgba(7, 31, 49, 0.82) 48%, rgba(7, 31, 49, 0.24) 100%);
+  z-index: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .home-hero::before { animation: none; }
+}
+
 .home-hero-grid {
+  position: relative;
+  z-index: 2;
   display: block;
   min-height: min(620px, calc(100svh - 128px));
   padding-block: 4rem 3.75rem;
@@ -1378,6 +1434,15 @@ ul {
     font-size: 1rem;
   }
 
+  .institutional-inner {
+    align-items: flex-start;
+  }
+
+  .institutional-links {
+    align-items: flex-start;
+    text-align: left;
+  }
+
   .institutional-logo {
     height: 40px;
   }
@@ -1417,7 +1482,7 @@ ul {
 
   .brand-subtitle {
     display: block;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
 
   .site-nav {

@@ -6,9 +6,15 @@
         {% if site.lab.institution_logo %}
           <img class="institutional-logo" src="{{ site.lab.institution_logo | relative_url }}" alt="{{ site.lab.institution }} logo">
         {% endif %}
-        <a href="https://www.nmsu.edu/">{{ site.lab.institution }}</a>
+        <span class="institutional-text">
+          <span class="institutional-motto">BE BOLD. Shape the Future.</span><br>
+          <a href="https://www.nmsu.edu/" target="_blank" rel="noopener noreferrer">{{ site.lab.institution }}</a>
+        </span>
       </span>
-      <a href="https://ce.nmsu.edu/">{{ site.lab.department }}</a>
+      <span class="institutional-links">
+        <a href="https://engr.nmsu.edu/" target="_blank" rel="noopener noreferrer">{{ site.lab.college }}</a><br>
+        <a href="https://ce.nmsu.edu/" target="_blank" rel="noopener noreferrer">{{ site.lab.department }}</a>
+      </span>
     </div>
   </div>
   <div class="wrapper nav-wrapper">
