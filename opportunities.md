@@ -34,48 +34,73 @@ content_width: wide
   </div>
 </section>
 
-## Who Should Apply
+<section class="page-cluster">
+  <div class="section-heading compact-heading">
+    <p class="eyebrow">Applicant Fit</p>
+    <h2>Who should apply</h2>
+    <p>Students from interdisciplinary backgrounds are encouraged to apply, including civil and environmental engineering, hydrology, geosciences, computer science, and related areas.</p>
+  </div>
+  <div class="fit-grid">
+    <article class="fit-card">
+      <span class="status-pill">Research interests</span>
+      <h3>You are excited by water systems under change</h3>
+      <p>Strong fits are interested in hydrology, infrastructure systems, Earth observations, AI, and decision support for real-world water systems.</p>
+    </article>
+    <article class="fit-card">
+      <span class="status-pill">Preparation</span>
+      <h3>You bring a strong technical base</h3>
+      <ul>
+        <li>B.S. or M.S. in engineering, hydrology, computer science, or a related field</li>
+        <li>Strong academic record</li>
+        <li>Experience with Python, R, or Fortran</li>
+      </ul>
+    </article>
+    <article class="fit-card">
+      <span class="status-pill">Plus factors</span>
+      <h3>You have started building research judgment</h3>
+      <ul>
+        <li>Interest in AI/ML, geospatial analysis, remote sensing, or hydrologic modeling</li>
+        <li>Thesis, publication, presentation, report, or project experience</li>
+      </ul>
+    </article>
+  </div>
+</section>
 
-You may be a strong fit if you are excited about research at the intersection of hydrology, infrastructure systems, Earth observations, and AI for decision support in real-world water systems.
+<section class="page-cluster">
+  <div class="section-heading compact-heading">
+    <p class="eyebrow">Application Path</p>
+    <h2>Recommended application flow</h2>
+  </div>
+  <ol class="process-list">
+    <li>
+      <strong>Send an inquiry email.</strong>
+      <p>Email Dr. Guta Wakbulcho Abeshu before applying through official NMSU graduate admissions.</p>
+    </li>
+    <li>
+      <strong>Share a concise fit packet.</strong>
+      <p>Include a CV, unofficial transcript, brief research-interest statement, and a writing sample, report, or publication if available.</p>
+    </li>
+    <li>
+      <strong>Apply formally if there is alignment.</strong>
+      <p>Reference prior email communication in the formal NMSU application materials.</p>
+    </li>
+  </ol>
+</section>
 
-Students from interdisciplinary backgrounds are encouraged to apply, including civil and environmental engineering, hydrology, geosciences, computer science, and related areas.
-
-## Desired Qualifications
-
-- B.S. or M.S. in Engineering, Hydrology, Computer Science, or related fields
-- Strong academic record
-- Experience in Python, R, or Fortran, and familiarity with AI/ML methods
-- Interest in geospatial analysis, remote sensing, hydrologic modeling, or infrastructure systems
-- Research experience through thesis work, publications, or presentations is a plus
-
-## Application Instructions
-
-Prospective students should email Dr. Guta Wakbulcho Abeshu before applying through NMSU graduate admissions.
-
-Please include the following materials:
-
-- CV
-- Unofficial transcript
-- Brief statement of research interests (1-2 paragraphs)
-- Writing sample, report, or publication (if available)
-
-Email: [gutewaqi@gmail.com](mailto:gutewaqi@gmail.com)
-
-Suggested email subject:
-
-```text
-Prospective PhD Student - Spring 2027 - HORA
-```
-
-In your statement of interest, briefly describe your research background, technical skills, topics you would like to work on, and why HORA is a good fit.
-
-## Recommended Application Flow
-
-1. Send a concise inquiry email with the subject line above and your materials attached.
-2. If there is alignment, proceed with the formal NMSU graduate application.
-3. Reference your prior email communication in your application materials.
-
-Students should also follow official New Mexico State University graduate admission requirements and deadlines. Useful department resources include:
-
-- [CEE prospective students](https://ce.nmsu.edu/students/prospective-students.html)
-- [CEE graduate program information](https://ce.nmsu.edu/students/graduate-program-information.html)
+<section class="application-panel">
+  <div>
+    <p class="eyebrow">Email Details</p>
+    <h2>Use a clear subject line</h2>
+    <p>Email: <a href="mailto:gutewaqi@gmail.com">gutewaqi@gmail.com</a></p>
+    <code>Prospective PhD Student - Spring 2027 - HORA</code>
+  </div>
+  <div>
+    <p class="eyebrow">Official Resources</p>
+    <h2>NMSU graduate information</h2>
+    <p>Students should follow official New Mexico State University graduate admission requirements and deadlines.</p>
+    <div class="button-row light">
+      <a class="button secondary" href="https://ce.nmsu.edu/students/prospective-students.html">CEE prospective students</a>
+      <a class="button secondary" href="https://ce.nmsu.edu/students/graduate-program-information.html">Graduate program information</a>
+    </div>
+  </div>
+</section>

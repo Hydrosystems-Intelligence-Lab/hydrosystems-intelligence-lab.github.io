@@ -39,7 +39,7 @@ body {
   overflow-x: hidden;
   background:
     linear-gradient(180deg, rgba(243, 247, 246, 0.86), rgba(243, 247, 246, 0.91)),
-    url("../img/nm-organ-mountains.jpg") center top / cover fixed;
+    url("../img/nm-organ-mountains.jpg") center top / cover;
   color: var(--ink);
   line-height: 1.62;
 }
@@ -154,7 +154,7 @@ ul {
   align-items: center;
   justify-content: space-between;
   gap: 0.45rem 1rem;
-  padding-block: 0.55rem;
+  padding-block: 0;
 }
 
 .institutional-brand {
@@ -253,8 +253,9 @@ ul {
 .site-nav a {
   display: inline-flex;
   align-items: center;
-  min-height: 38px;
-  padding: 0.38rem 0.48rem;
+  flex: 0 0 auto;
+  min-height: 44px;
+  padding: 0.6rem 0.48rem;
   border-radius: 6px;
   color: var(--ink);
   font-size: 0.95rem;
@@ -300,7 +301,7 @@ ul {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(90deg, rgba(7, 31, 49, 0.96) 0%, rgba(7, 31, 49, 0.82) 48%, rgba(7, 31, 49, 0.24) 100%);
+  background: linear-gradient(90deg, rgba(7, 31, 49, 0.88) 0%, rgba(7, 31, 49, 0.68) 48%, rgba(7, 31, 49, 0.12) 100%);
   z-index: 1;
 }
 
@@ -468,9 +469,9 @@ ul {
 .home-intro-section {
   padding-block: 3.2rem;
   background:
-    radial-gradient(circle at 6% 0%, rgba(15, 111, 117, 0.13) 0, rgba(15, 111, 117, 0) 40%),
-    linear-gradient(180deg, rgba(246, 250, 248, 0.78) 0%, rgba(243, 247, 246, 0.86) 100%),
-    url("../img/nm-organ-mountains.jpg") center 52% / cover no-repeat;
+    radial-gradient(circle at 6% 0%, rgba(220, 100, 30, 0.14) 0, rgba(220, 100, 30, 0) 40%),
+    linear-gradient(180deg, rgba(255, 220, 185, 0.76) 0%, rgba(180, 50, 40, 0.78) 100%),
+    url("../img/background_image_nmsu.jpg") center 52% / cover no-repeat;
 }
 
 .home-intro-grid {
@@ -599,16 +600,15 @@ ul {
 .content-section {
   padding-block: 4.5rem;
   background:
-    radial-gradient(circle at 6% 0%, rgba(15, 111, 117, 0.13) 0, rgba(15, 111, 117, 0) 40%),
-    linear-gradient(180deg, rgba(246, 250, 248, 0.78) 0%, rgba(243, 247, 246, 0.86) 100%),
-    url("../img/nm-organ-mountains.jpg") center 52% / cover no-repeat;
+    linear-gradient(180deg, rgba(251, 252, 251, 0.98) 0%, rgba(243, 247, 246, 0.96) 100%),
+    var(--mist);
+  border-top: 1px solid rgba(208, 220, 222, 0.72);
 }
 
 .content-section.muted {
   background:
-    radial-gradient(circle at 6% 0%, rgba(15, 111, 117, 0.13) 0, rgba(15, 111, 117, 0) 40%),
-    linear-gradient(180deg, rgba(246, 250, 248, 0.78) 0%, rgba(243, 247, 246, 0.86) 100%),
-    url("../img/nm-organ-mountains.jpg") center 52% / cover no-repeat;
+    linear-gradient(180deg, rgba(243, 247, 246, 0.98) 0%, rgba(229, 236, 235, 0.96) 100%),
+    var(--gray-50);
 }
 
 .section-heading > p,
@@ -620,6 +620,19 @@ ul {
 .section-heading {
   max-width: 800px;
   margin-bottom: 2rem;
+}
+
+.compact-heading {
+  max-width: 860px;
+  margin-bottom: 1rem;
+}
+
+.compact-heading p:last-child {
+  margin-bottom: 0;
+}
+
+.page-cluster {
+  margin-top: 1.35rem;
 }
 
 .split-heading {
@@ -1035,6 +1048,7 @@ ul {
   height: 100%;
   min-height: 272px;
   object-fit: cover;
+  filter: saturate(1.18) brightness(0.96);
 }
 
 .research-detail-copy {
@@ -1065,6 +1079,122 @@ ul {
 
 .feature-block.research-detail {
   padding: 0;
+}
+
+.page-priority {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(340px, 0.72fr);
+  gap: 1.3rem;
+  align-items: center;
+}
+
+.page-priority p:last-child {
+  margin-bottom: 0;
+}
+
+.summary-stat-grid,
+.fit-grid,
+.role-opportunity-grid,
+.output-status-grid,
+.output-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.summary-stat-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.fit-grid,
+.role-opportunity-grid,
+.output-status-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.output-list {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  padding: 0;
+  list-style: none;
+}
+
+.stat-card,
+.fit-card,
+.role-opportunity-card,
+.output-status-card,
+.output-item,
+.application-panel > div {
+  min-width: 0;
+  padding: 1.1rem;
+  border: 1px solid var(--gray-200);
+  border-radius: 8px;
+  background: var(--panel);
+}
+
+.stat-card {
+  background: var(--white);
+}
+
+.stat-card span {
+  display: block;
+  margin-bottom: 0.25rem;
+  color: var(--crimson);
+  font-family: var(--font-serif);
+  font-size: 2.45rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.stat-card strong,
+.output-year {
+  color: var(--navy);
+  font-weight: 900;
+}
+
+.status-pill {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  min-height: 28px;
+  padding: 0.22rem 0.58rem;
+  border: 1px solid #cbe3e1;
+  border-radius: 999px;
+  color: var(--teal-dark);
+  background: #eef7f6;
+  font-size: 0.76rem;
+  font-weight: 900;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.status-pill.available {
+  color: #145329;
+  border-color: #c7decf;
+  background: #edf7ef;
+}
+
+.status-pill.muted {
+  color: var(--gray-700);
+  border-color: var(--gray-200);
+  background: var(--gray-50);
+}
+
+.fit-card h3,
+.role-opportunity-card h3,
+.output-status-card h3,
+.output-item h3 {
+  margin-top: 0.7rem;
+}
+
+.fit-card p:last-child,
+.role-opportunity-card p:last-child,
+.output-status-card p:last-child,
+.output-item p:last-child {
+  margin-bottom: 0;
+}
+
+.fit-card ul {
+  margin-bottom: 0;
+  padding-left: 1.1rem;
 }
 
 .person-profile {
@@ -1107,6 +1237,26 @@ ul {
   padding-left: 1rem;
   border-left: 3px solid var(--teal);
   color: var(--gray-700);
+}
+
+.cohort-callout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) max-content;
+  gap: 1.2rem;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1.35rem;
+}
+
+.cohort-callout p:last-child {
+  margin-bottom: 0;
+}
+
+.cohort-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.75rem;
 }
 
 .team-card-grid {
@@ -1156,6 +1306,10 @@ ul {
   margin-top: 1.5rem;
 }
 
+.collaboration-list {
+  grid-template-columns: minmax(0, 1fr);
+}
+
 .publication-intro {
   margin-bottom: 1rem;
 }
@@ -1170,10 +1324,50 @@ ul {
   grid-column: 1 / -1;
 }
 
+.publication-section-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.9rem;
+  border-bottom: 1px solid var(--gray-200);
+}
+
+.publication-section-header .eyebrow,
+.publication-section-header h2 {
+  margin-bottom: 0.25rem;
+}
+
+.publication-year-heading {
+  margin-top: 1.2rem;
+  padding-top: 0.95rem;
+  border-top: 1px solid var(--gray-200);
+  color: var(--crimson);
+  font-size: 1rem;
+}
+
+.publication-year-heading:first-of-type {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: 0;
+}
+
 .publication-list {
   display: grid;
-  gap: 1rem;
+  gap: 0;
   margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.publication-list li {
+  padding-block: 0.85rem;
+  border-top: 1px solid var(--gray-200);
+}
+
+.publication-list li:first-child {
+  border-top: 0;
 }
 
 .publication-authors,
@@ -1207,6 +1401,66 @@ ul {
 
 .empty-state {
   margin-bottom: 0;
+  color: var(--gray-700);
+}
+
+.application-panel {
+  display: grid;
+  grid-template-columns: minmax(0, 0.88fr) minmax(0, 1.12fr);
+  gap: 1rem;
+  margin-top: 1.35rem;
+}
+
+.application-panel code {
+  display: block;
+  width: 100%;
+  margin-top: 0.65rem;
+  padding: 0.75rem 0.85rem;
+  border: 1px solid var(--gray-200);
+  border-radius: 8px;
+  color: var(--navy);
+  background: var(--gray-50);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+  white-space: normal;
+}
+
+.process-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: process-step;
+}
+
+.process-list li {
+  position: relative;
+  min-width: 0;
+  padding: 1.1rem 1.1rem 1.1rem 3.45rem;
+  border: 1px solid var(--gray-200);
+  border-radius: 8px;
+  background: var(--panel);
+  counter-increment: process-step;
+}
+
+.process-list li::before {
+  content: counter(process-step);
+  position: absolute;
+  inset: 1.1rem auto auto 1.1rem;
+  display: grid;
+  place-items: center;
+  width: 1.65rem;
+  aspect-ratio: 1;
+  border-radius: 999px;
+  color: var(--white);
+  background: var(--crimson);
+  font-weight: 900;
+  line-height: 1;
+}
+
+.process-list p {
+  margin: 0.35rem 0 0;
   color: var(--gray-700);
 }
 
@@ -1269,6 +1523,18 @@ ul {
 
 .topic-grid {
   margin-top: 1rem;
+}
+
+.output-status-grid {
+  margin: 1rem 0 1.35rem;
+}
+
+.output-item-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.6rem;
 }
 
 .contact-grid {
@@ -1388,6 +1654,8 @@ ul {
   .research-overview,
   .manual-grid,
   .footer-grid,
+  .page-priority,
+  .application-panel,
   .opportunity-lead,
   .software-data-lead,
   .contact-grid {
@@ -1407,8 +1675,22 @@ ul {
   .group-list,
   .publication-grid,
   .highlight-grid,
-  .team-card-grid {
+  .team-card-grid,
+  .fit-grid,
+  .role-opportunity-grid,
+  .output-status-grid,
+  .output-list,
+  .process-list {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .collaboration-list,
+  .cohort-callout {
+    grid-template-columns: 1fr;
+  }
+
+  .cohort-actions {
+    justify-content: flex-start;
   }
 
   .research-detail {
@@ -1457,13 +1739,14 @@ ul {
   }
 
   .brand {
-    max-width: calc(100vw - 1.25rem);
+    width: 100%;
+    max-width: 100%;
     min-width: 0;
   }
 
   .brand > span {
-    width: calc(100vw - 1.25rem);
-    max-width: calc(100vw - 1.25rem);
+    width: 100%;
+    max-width: 100%;
   }
 
   .brand-title {
@@ -1476,15 +1759,23 @@ ul {
   }
 
   .site-nav {
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    width: calc(100vw - 1.25rem);
-    overflow-x: auto;
-    padding-bottom: 0.2rem;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    gap: 0.35rem;
+    padding-bottom: 0;
   }
 
   .site-nav a {
-    padding-inline: 0.55rem;
+    justify-content: center;
+    min-height: 38px;
+    padding: 0.45rem 0.55rem;
+    font-size: 0.92rem;
+    line-height: 1.15;
+    text-align: center;
+    white-space: normal;
   }
 
   .home-hero {
@@ -1520,6 +1811,11 @@ ul {
   .publication-grid,
   .highlight-grid,
   .team-card-grid,
+  .fit-grid,
+  .role-opportunity-grid,
+  .output-status-grid,
+  .output-list,
+  .process-list,
   .person-profile {
     grid-template-columns: 1fr;
   }
@@ -1555,11 +1851,27 @@ ul {
   .group-list section,
   .news-list article,
   .deadline-card,
+  .stat-card,
+  .fit-card,
+  .role-opportunity-card,
+  .output-status-card,
+  .output-item,
+  .application-panel > div,
+  .process-list li,
   .manual-content,
   .opportunity-lead > div,
   .software-data-lead > div,
   .highlight-card {
     padding: 1rem;
+  }
+
+  .publication-section-header,
+  .output-item-header {
+    display: grid;
+  }
+
+  .process-list li {
+    padding-left: 3.25rem;
   }
 
   .identity-panel .eyebrow {

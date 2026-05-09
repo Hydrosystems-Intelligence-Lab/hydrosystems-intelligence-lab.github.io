@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Software & Data
-summary: Public datasets, modeling workflows, code practices, and future open-source tools from the HORA Abeshu Research Group.
+summary: Planned datasets, modeling workflows, code practices, and future open-source tools from the HORA Abeshu Research Group.
 hero_image: /assets/img/nm-white-sands.jpg
 hero_image_position: center 52%
 content_width: wide
@@ -12,7 +12,7 @@ content_width: wide
     <p class="eyebrow">Open Research Outputs</p>
     <h2>Software and data should make the science reusable</h2>
     <p>
-      HORA is a new research group, so this page separates existing public datasets and publications from software that will emerge as group projects mature. The goal is to make code, model workflows, data products, and documentation easy to find and cite.
+      HORA is a new research group, so this page focuses on the software, datasets, modeling workflows, and documentation practices that will emerge from group projects. Public outputs will be added here once they are HORA products.
     </p>
   </div>
   <aside class="deadline-card">
@@ -22,38 +22,29 @@ content_width: wide
   </aside>
 </section>
 
-<section class="feature-block">
-  <p class="eyebrow">Existing Public Outputs</p>
-  <h2>Datasets and software-linked outputs</h2>
-  {% assign outputs = site.data.publications.datasets_software.items %}
-  {% if outputs.size > 0 %}
-    <ul class="publication-list">
-      {% for item in outputs %}
-        <li>
-          <strong>{{ item.title }}</strong>
-          {% if item.authors %}<span class="publication-authors">{{ item.authors }}</span>{% endif %}
-          {% if item.venue or item.year %}
-            <span class="publication-meta">
-              {% if item.venue %}<em>{{ item.venue }}</em>{% endif %}{% if item.year %}{% if item.venue %}, {% endif %}{{ item.year }}{% endif %}
-            </span>
-          {% endif %}
-          {% if item.doi or item.url %}
-            <span class="publication-links">
-              {% if item.doi %}<a href="https://doi.org/{{ item.doi }}">DOI</a>{% endif %}
-              {% if item.url %}<a href="{{ item.url }}">Link</a>{% endif %}
-            </span>
-          {% endif %}
-        </li>
-      {% endfor %}
-    </ul>
-  {% else %}
-    <p class="empty-state">Public datasets and software will be added as they are ready.</p>
-  {% endif %}
+<section class="output-status-grid" aria-label="Software and data status">
+  <article class="output-status-card">
+    <span class="status-pill">Planned</span>
+    <h3>HORA datasets</h3>
+    <p>Citable datasets will be posted once group projects produce public data products.</p>
+  </article>
+  <article class="output-status-card">
+    <span class="status-pill">Emerging</span>
+    <h3>Group tools</h3>
+    <p>Reusable modeling workflows and decision-support tools as HORA projects mature.</p>
+  </article>
+  <article class="output-status-card">
+    <span class="status-pill muted">Standard</span>
+    <h3>Documentation first</h3>
+    <p>Repositories should explain purpose, setup, data requirements, citation, and maintenance.</p>
+  </article>
 </section>
 
-<section class="feature-block">
-  <p class="eyebrow">Emerging Categories</p>
-  <h2>Where HORA software and data products are expected to grow</h2>
+<section class="page-cluster">
+  <div class="section-heading compact-heading">
+    <p class="eyebrow">Emerging Categories</p>
+    <h2>Where HORA software and data products are expected to grow</h2>
+  </div>
   <div class="topic-grid">
     <span>Physics-informed hydrologic modeling</span>
     <span>Earth observation processing</span>
@@ -64,14 +55,18 @@ content_width: wide
   </div>
 </section>
 
-<section class="feature-block">
-  <p class="eyebrow">Documentation</p>
-  <h2>Repository and dataset standards</h2>
-  <p>
-    The research group manual includes the working standards for repository structure, dependencies, examples, citation guidance, and maintainership.
-  </p>
-  <div class="button-row light">
-    <a class="button secondary" href="{{ '/manual/software/' | relative_url }}">Software standards</a>
-    <a class="button secondary" href="{{ '/manual/research-workflows/' | relative_url }}">Research workflows</a>
+<section class="application-panel">
+  <div>
+    <p class="eyebrow">Documentation</p>
+    <h2>Repository and dataset standards</h2>
+    <p>The research group manual includes working standards for repository structure, dependencies, examples, citation guidance, and maintainership.</p>
+  </div>
+  <div>
+    <p class="eyebrow">Reference</p>
+    <h2>Group workflows</h2>
+    <div class="button-row light">
+      <a class="button secondary" href="{{ '/manual/software/' | relative_url }}">Software standards</a>
+      <a class="button secondary" href="{{ '/manual/research-workflows/' | relative_url }}">Research workflows</a>
+    </div>
   </div>
 </section>

@@ -110,17 +110,3 @@ preprints:
       venue: "EGUsphere"
       year: 2025
       doi: "10.5194/egusphere-2025-5039"
-datasets_software:
-  title: Datasets / Software
-  note: Open datasets, models, code, and decision-support tools will be highlighted here.
-  items:
-    - title: "A national map of riverine median bed-material particle size over CONUS"
-      authors: "Hong-Yi Li, Guta Abeshu, Zhenduo Zhu, Zeli Tan, and L. Ruby Leung"
-      venue: "Zenodo"
-      year: 2021
-      doi: "10.5281/zenodo.4921987"
-    - title: "Transformation rate maps of dissolved organic carbon in the contiguous US"
-      authors: "Lingbo Li, Hong-Yi Li, Guta Abeshu, Jinyun Tang, L. Ruby Leung, Chang Liao, Zeli Tan, Hanqin Tian, Peter Thornton, and Xiaojuan Yang"
-      venue: "Zenodo"
-      year: 2024
-      doi: "10.5281/zenodo.14563816"

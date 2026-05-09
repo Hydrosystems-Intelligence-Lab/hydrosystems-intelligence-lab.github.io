@@ -7,19 +7,54 @@ hero_image_position: center 46%
 content_width: wide
 ---
 
-<section class="publication-intro feature-block">
-  <p class="eyebrow">Research Outputs</p>
-  <h2>Selected publications by Dr. Abeshu and collaborators.</h2>
-  <p>
-    HORA Research Group publications, datasets, and software will be added as group projects mature. Current outputs are organized by type so peer-reviewed papers and conference abstracts remain clearly separated; public datasets and software-linked outputs are also summarized on the <a href="{{ '/software-data/' | relative_url }}">Software &amp; Data</a> page.
-  </p>
+{% assign peer_count = site.data.publications.journal_articles.items | size %}
+{% assign conference_count = site.data.publications.conference_papers.items | size %}
+{% assign preprint_count = site.data.publications.preprints.items | size %}
+{% assign total_count = peer_count | plus: conference_count | plus: preprint_count %}
+
+<section class="publication-intro feature-block page-priority">
+  <div>
+    <p class="eyebrow">Research Outputs</p>
+    <h2>Selected publications by Dr. Abeshu and collaborators</h2>
+    <p>
+      Current outputs are organized by type so peer-reviewed papers, conference abstracts, and preprints remain easy to scan. HORA Research Group outputs will be added as new group projects mature.
+    </p>
+  </div>
+  <div class="summary-stat-grid compact-stats" aria-label="Publication summary">
+    <article class="stat-card">
+      <span>{{ total_count }}</span>
+      <strong>Selected outputs</strong>
+    </article>
+    <article class="stat-card">
+      <span>{{ peer_count }}</span>
+      <strong>Peer-reviewed papers</strong>
+    </article>
+    <article class="stat-card">
+      <span>{{ preprint_count }}</span>
+      <strong>Preprints</strong>
+    </article>
+    <article class="stat-card">
+      <span>{{ conference_count }}</span>
+      <strong>Conference outputs</strong>
+    </article>
+  </div>
 </section>
 
 <div class="publication-grid">
   {% for section in site.data.publications %}
     {% assign pub_section = section[1] %}
     <section class="publication-section">
-      <h2>{{ pub_section.title }}</h2>
+      <div class="publication-section-header">
+        <div>
+          <p class="eyebrow">Output Type</p>
+          <h2>{{ pub_section.title }}</h2>
+        </div>
+        {% if pub_section.items.size > 0 %}
+          <span class="status-pill">{{ pub_section.items.size }} listed</span>
+        {% else %}
+          <span class="status-pill muted">In progress</span>
+        {% endif %}
+      </div>
       {% if pub_section.items.size > 0 %}
         {% assign sorted_items = pub_section.items | sort: "year" | reverse %}
         {% assign grouped_items = sorted_items | group_by_exp: "item", "item.year | default: 'Undated'" %}

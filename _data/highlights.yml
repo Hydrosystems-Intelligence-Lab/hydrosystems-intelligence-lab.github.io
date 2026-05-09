@@ -16,15 +16,6 @@
       url: "https://doi.org/10.1029/2020WR029343"
     - text: Vegetation response to water availability
       url: "https://doi.org/10.5194/hess-29-1847-2025"
-- title: Open datasets for riverine and biogeochemical processes
-  label: Open data
-  summary: Public datasets on riverine sediment and dissolved organic carbon show the kind of reusable, documented data products HORA aims to continue producing.
-  evidence: "Earth System Science Data and Zenodo data products"
-  links:
-    - text: Riverine bed-material particle size dataset
-      url: "https://doi.org/10.5281/zenodo.4921987"
-    - text: DOC transformation rate maps
-      url: "https://doi.org/10.5281/zenodo.14563816"
 - title: Unprecedented floods, droughts, and sociohydrologic risk
   label: Risk and resilience
   summary: Work on unprecedented hydrologic extremes and paired flood-drought events informs HORA's emphasis on connected extremes, nonstationarity, and decision-relevant risk analysis.

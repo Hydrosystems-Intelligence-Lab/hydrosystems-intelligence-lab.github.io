@@ -39,30 +39,39 @@ content_width: wide
   </div>
 </section>
 
-<section class="feature-block">
-  <p>HORA is building its first cohort of graduate and undergraduate researchers as the research group launches at New Mexico State University.</p>
+<section class="feature-block cohort-callout">
+  <div>
+    <p class="eyebrow">First Cohort</p>
+    <h2>Building a research group around useful water intelligence</h2>
+    <p>HORA is recruiting its first cohort of graduate and undergraduate researchers as the group launches at New Mexico State University. Early members will help shape group culture, workflows, open research practices, and the first generation of HORA projects.</p>
+  </div>
+  <div class="cohort-actions">
+    <a class="button primary" href="{{ '/opportunities/' | relative_url }}">View Openings</a>
+    <a class="button secondary" href="{{ '/manual/' | relative_url }}">Read Group Manual</a>
+  </div>
 </section>
 
-<section class="feature-block">
-  <p class="eyebrow">Future Team Members</p>
-  <h2>Students and Postdoctoral Researchers</h2>
-  <div class="team-card-grid">
+<section class="page-cluster">
+  <div class="section-heading compact-heading">
+    <p class="eyebrow">Future Team Members</p>
+    <h2>Students and postdoctoral researchers</h2>
+    <p>Roles will open as funded projects and mentoring capacity become available.</p>
+  </div>
+  <div class="role-opportunity-grid">
     {% for role in site.data.people.open_roles %}
-      <article class="placeholder-profile">
-        <img class="placeholder-avatar" src="{{ role.image | relative_url }}" alt="" aria-hidden="true" loading="lazy">
-        <div>
-          <h3>{{ role.name }}</h3>
-          <p><strong>{{ role.role }}</strong></p>
-          <p>{{ role.status }}</p>
-        </div>
+      <article class="role-opportunity-card">
+        <span class="status-pill">Future role</span>
+        <h3>{{ role.role }}</h3>
+        <p>{{ role.status }}</p>
       </article>
     {% endfor %}
   </div>
 </section>
 
-<div class="group-list">
+<div class="group-list collaboration-list">
   {% for group in site.data.people.groups %}
     <section>
+      <p class="eyebrow">Partnerships</p>
       <h2>{{ group.name }}</h2>
       <p>{{ group.status }}</p>
     </section>
