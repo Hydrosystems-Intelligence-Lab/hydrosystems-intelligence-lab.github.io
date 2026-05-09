@@ -74,33 +74,73 @@ journal_articles:
       doi: "10.1029/2018MS001603"
 conference_papers:
   title: Conference Abstracts
-  note: Conference abstracts, posters, and presentations will be added here.
+  note: First-author conference abstracts, posters, and oral presentations by Dr. Abeshu.
   items:
+    - title: "Transfer-learning and meta-learning for hydrological signatures regionalization"
+      authors: "Guta Wakbulcho Abeshu, Hong-Yi Li, Taher Chegini, Zeli Tan, and L. Ruby Leung"
+      venue: "AGU Fall Meeting 2024, IN23A-2195"
+      year: 2024
+    - title: "Advancing Global Hydrological Models with a Novel Approach to Global Lake Modeling"
+      authors: "Guta Wakbulcho Abeshu, Hong-Yi Li, Thomas Wild, and Mengqi Zhao"
+      venue: "AGU Fall Meeting 2023, H53U-161"
+      year: 2023
+    - title: "Advances in Understanding Climate, Vegetation, Soil, and Topographic Controls on Hydrologic Patterns, Processes, and Functions at the Watershed and Larger Scales II"
+      authors: "Guta Wakbulcho Abeshu, Hong-Yi Li, and Solomon Ayalew Koriche"
+      venue: "AGU Fall Meeting 2023"
+      year: 2023
     - title: "Lag in catchment vegetation response to water availability and atmospheric dryness"
       authors: "Guta Wakbulcho Abeshu and Hong-Yi Li"
       venue: "EGU General Assembly 2023, EGU23-7302"
       year: 2023
       doi: "10.5194/egusphere-egu23-7302"
-    - title: "Deriving a Solubility Map of Soil Organic Carbon over the Contiguous United States"
-      authors: "Lingbo Li, Hong-Yi Li, Guta W. Abeshu, Xiaojuan Yang, Jinyun Tang, Peter E. Thornton, and others"
-      venue: "AGU Fall Meeting Abstracts"
-      year: 2023
-    - title: "Improving Lake Representations in Earth System Modeling"
-      authors: "Hong-Yi Li, Guta Wakbulcho Abeshu, L. Ruby Leung, Zeli Tan, and Tian Zhou"
-      venue: "AGU Fall Meeting"
+    - title: "A simple ecohydrological model for simulating global vegetation carbon uptake"
+      authors: "Guta Wakbulcho Abeshu, Hong-Yi Li, and L. Ruby Leung"
+      venue: "AGU Fall Meeting 2022, H26D-07"
+      year: 2022
+    - title: "Representing Lakes in the Global Hydrological Model Xanthos"
+      authors: "Guta Wakbulcho Abeshu, Hong-Yi Li, Thomas Wild, and Mengqi Zhao"
+      venue: "AGU Fall Meeting 2022, H32P-1127"
+      year: 2022
+    - title: "Advances in Understanding Climate, Vegetation, Soil, Topographic, and Precipitation Processes, and Their Subgrid-Scale Parameterization at the Watershed and Larger Scales I"
+      authors: "Guta Wakbulcho Abeshu, Hong-Yi Li, Sisi He, and Elizabeth Anne Kalina"
+      venue: "AGU Fall Meeting 2021"
       year: 2021
     - title: "A unified functional relationship between catchment water balance and vegetation productivity"
       authors: "Guta Wakbulcho Abeshu, Hong-Yi Li, Jack Brookshire, Jinyun Tang, Chonggang Xu, Nathan McDowell, and L. Ruby Leung"
-      venue: "AGU Fall Meeting"
+      venue: "AGU Fall Meeting 2021, H13A-07"
       year: 2021
     - title: "A new global water management module: Distributed vs. Lumped representations"
-      authors: "Guta Wakbulcho Abeshu, Hong-Yi Li, Mohamad Issa Hejazi, Thomas Bernard Wild, Chris R. Vernon, and Mengqi Zhao"
-      venue: "AGU Fall Meeting"
+      authors: "Guta Wakbulcho Abeshu, Hong-Yi Li, Mohamad Hejazi, Thomas Wild, Chris R. Vernon, and Mengqi Zhao"
+      venue: "AGU Fall Meeting 2021, GC25L-0768"
       year: 2021
-    - title: "Soil, Plant, and Climate Interactions in the Critical Zone Under Varying Land Use, Ecosystem Management, and Climatic Forcing I"
-      authors: "Salvatore Calabrese, Guta Wakbulcho Abeshu, Binayak Mohanty, Hong-Yi Li, and William J. Riley"
-      venue: "AGU Fall Meeting"
+    - title: "Analytical Expression of Horton Index Using Generalized Proportionality Hypothesis"
+      authors: "Guta Wakbulcho Abeshu and Hong-Yi Li"
+      venue: "AGU Fall Meeting 2020, H099-03"
       year: 2020
+    - title: "Advances in Understanding and Modeling of Climate, Water, Soil, and Vegetation Interactions at the Catchment Scale"
+      authors: "Guta Wakbulcho Abeshu, Hong-Yi Li, and Hailong Li"
+      venue: "AGU Fall Meeting 2020"
+      year: 2020
+    - title: "Global Stream Temperature Simulation and Affected Ecosystem Factors Analysis with an Earth System Modeling Approach"
+      authors: "Guta Wakbulcho Abeshu, Wondmagegn Yigzaw, Xue Zhang, Hong-Yi Li, Senlin Zhu, Tian Zhou, and L. Ruby Leung"
+      venue: "AGU Fall Meeting 2019, GC51K-1000"
+      year: 2019
+    - title: "Catchment-scale vegetation water use efficiency: patterns, processes and implications"
+      authors: "Guta Wakbulcho Abeshu and Hong-Yi Li"
+      venue: "AGU Fall Meeting 2019, H23P-2123"
+      year: 2019
+    - title: "Droughts Dynamics under the Impacts of Climate, Vegetation and Their Interactions"
+      authors: "Guta Wakbulcho Abeshu"
+      venue: "AGU Fall Meeting 2019"
+      year: 2019
+    - title: "Drought propagation through natural-human systems: the nonlinear filtering effects"
+      authors: "Guta Wakbulcho Abeshu and Hong-Yi Li"
+      venue: "AGU Fall Meeting 2018, H41N-2297"
+      year: 2018
+    - title: "Reservoir-induced Alterations in Flood Seasonality: Patterns, Processes, and Implications"
+      authors: "Guta Wakbulcho Abeshu, Hong-Yi Li, Wondmagegn Yigzaw, Mohamad Hejazi, Jinyun Tang, and Yonas Demissie"
+      venue: "AGU Fall Meeting 2017, H31A-1485"
+      year: 2017
 preprints:
   title: Preprints
   note: Preprints and working papers will be posted here.
