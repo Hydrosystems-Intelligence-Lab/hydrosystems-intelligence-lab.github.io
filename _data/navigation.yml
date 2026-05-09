@@ -2,20 +2,11 @@
   url: /
 - title: Research
   url: /research/
-- title: Team
+- title: People
   url: /people/
 - title: Publications
   url: /publications/
-- title: Software & Data
-  url: /software-data/
-- title: Opportunities
+- title: Join
   url: /opportunities/
 - title: Contact
   url: /contact/
-- title: News
-  url: /updates/
-- title: Group Manual
-  url: /manual/
-  active_paths:
-    - /team-resources/
-    - /manual/

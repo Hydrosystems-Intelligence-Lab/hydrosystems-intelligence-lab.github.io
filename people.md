@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Team
+title: People
 summary: Members, collaborators, and prospective students connected to the HORA Abeshu Research Group.
 hero_image: /assets/img/nm-rio-grande-gorge.jpg
 hero_image_position: center 45%
@@ -24,6 +24,17 @@ content_width: wide
       {{ pi.institution }}
     </p>
     <p>Email: <a href="mailto:{{ pi.email }}">{{ pi.email }}</a></p>
+    {% if pi.links %}
+      <div class="profile-links" aria-label="Professional profiles">
+        {% for link in pi.links %}
+          {% if link.url contains '://' %}
+            <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.label }}</a>
+          {% else %}
+            <a href="{{ link.url | relative_url }}">{{ link.label }}</a>
+          {% endif %}
+        {% endfor %}
+      </div>
+    {% endif %}
     <p>{{ pi.bio }}</p>
     {% if pi.focus %}
       <ul class="profile-focus">

@@ -38,7 +38,7 @@ description: HORA Abeshu Research Group at New Mexico State University.
         </div>
         <div>
           <strong>Our story.</strong>
-          <p>HORA Abeshu Research Group launches at NMSU in 2026. Our group name draws inspiration from the <a href="https://en.wikipedia.org/wiki/Oromo_people">Oromo</a> word hora, symbolizing life-giving water, community, and resilience. We work where data is sparse, decisions are urgent, and communities depend on getting it right.</p>
+          <p>HORA Abeshu Research Group launches at NMSU in Fall 2026. Our group name draws inspiration from the <a href="https://en.wikipedia.org/wiki/Oromo_people">Oromo</a> word hora, symbolizing life-giving water, community, and resilience. We work where data is sparse, decisions are urgent, and communities depend on getting it right.</p>
         </div>
       </div>
       <p class="manual-note">New and prospective group members can read the <a href="{{ '/manual/' | relative_url }}">HORA Research Group Manual</a> for advising expectations, onboarding, workflows, and group practices.</p>
@@ -67,7 +67,7 @@ description: HORA Abeshu Research Group at New Mexico State University.
 <section class="notice-band">
   <div class="wrapper notice">
     <strong>Funded PhD opportunity:</strong>
-    <span>Prospective doctoral students interested in AI-enabled water systems research are encouraged to connect for Spring 2027 admission.</span>
+    <span>Prospective doctoral students interested in AI-enabled water systems research are encouraged to connect in Fall 2026 for Spring 2027 admission.</span>
     <a href="{{ '/opportunities/' | relative_url }}">View Opportunity</a>
   </div>
 </section>

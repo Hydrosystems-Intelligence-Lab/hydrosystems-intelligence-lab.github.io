@@ -1,12 +1,19 @@
 pi:
   name: Dr. Guta Wakbulcho Abeshu
-  role: Incoming Assistant Professor
+  role: Assistant Professor
   department: Department of Civil & Environmental Engineering
   college: College of Engineering
   institute: Institute for Applied Practice in AI and Machine Learning
   institution: New Mexico State University
   email: gutewaqi@gmail.com
   image: /assets/img/pi-guta.JPG
+  links:
+    - label: Google Scholar
+      url: "https://scholar.google.com/citations?user=oJwf_RwAAAAJ&hl=en"
+    - label: GitHub
+      url: "https://github.com/gutabeshu"
+    - label: LinkedIn
+      url: "https://www.linkedin.com/in/guta-wakbulcho-abeshu-a9088236/"
   bio: >-
     Dr. Guta Wakbulcho Abeshu studies how water, climate, ecosystems,
     infrastructure, and communities interact across scales. His work brings
@@ -26,6 +33,10 @@ open_roles:
   - name: You?
     role: PhD Student
     status: Recruiting motivated doctoral students for Spring 2027.
+    image: /assets/img/pi-placeholder.svg
+  - name: You?
+    role: MS Student
+    status: Master's students may inquire about future project-based or funded opportunities as advising capacity grows.
     image: /assets/img/pi-placeholder.svg
   - name: You?
     role: Undergraduate Researcher

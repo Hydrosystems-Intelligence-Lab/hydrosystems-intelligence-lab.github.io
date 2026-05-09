@@ -1096,6 +1096,7 @@ ul {
 .fit-grid,
 .role-opportunity-grid,
 .output-status-grid,
+.opportunity-facts,
 .output-list {
   display: grid;
   gap: 1rem;
@@ -1107,7 +1108,8 @@ ul {
 
 .fit-grid,
 .role-opportunity-grid,
-.output-status-grid {
+.output-status-grid,
+.opportunity-facts {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
@@ -1119,6 +1121,7 @@ ul {
 
 .stat-card,
 .fit-card,
+.fact-card,
 .role-opportunity-card,
 .output-status-card,
 .output-item,
@@ -1179,6 +1182,7 @@ ul {
 }
 
 .fit-card h3,
+.fact-card h3,
 .role-opportunity-card h3,
 .output-status-card h3,
 .output-item h3 {
@@ -1186,6 +1190,7 @@ ul {
 }
 
 .fit-card p:last-child,
+.fact-card p:last-child,
 .role-opportunity-card p:last-child,
 .output-status-card p:last-child,
 .output-item p:last-child {
@@ -1223,6 +1228,32 @@ ul {
   border: 1px solid var(--gray-300);
   object-fit: cover;
   background: var(--white);
+}
+
+.profile-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin: -0.25rem 0 1rem;
+}
+
+.profile-links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 34px;
+  padding: 0.34rem 0.65rem;
+  border: 1px solid #cbe3e1;
+  border-radius: 8px;
+  color: var(--teal-dark);
+  background: #eef7f6;
+  font-size: 0.9rem;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.profile-links a:hover {
+  color: var(--crimson);
+  background: #ffffff;
 }
 
 .profile-focus {
@@ -1529,6 +1560,10 @@ ul {
   margin: 1rem 0 1.35rem;
 }
 
+.opportunity-facts {
+  margin: 1rem 0 1.35rem;
+}
+
 .output-item-header {
   display: flex;
   align-items: center;
@@ -1679,6 +1714,7 @@ ul {
   .fit-grid,
   .role-opportunity-grid,
   .output-status-grid,
+  .opportunity-facts,
   .output-list,
   .process-list {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1814,6 +1850,7 @@ ul {
   .fit-grid,
   .role-opportunity-grid,
   .output-status-grid,
+  .opportunity-facts,
   .output-list,
   .process-list,
   .person-profile {
@@ -1853,6 +1890,7 @@ ul {
   .deadline-card,
   .stat-card,
   .fit-card,
+  .fact-card,
   .role-opportunity-card,
   .output-status-card,
   .output-item,

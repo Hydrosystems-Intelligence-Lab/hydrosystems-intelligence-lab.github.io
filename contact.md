@@ -36,7 +36,7 @@ content_width: wide
       Students interested in AI-enabled water systems, Earth observation, hydrologic modeling, infrastructure resilience, or water equity should review the opportunities page before emailing.
     </p>
     <p>
-      For faster review, use the subject line <strong>Prospective PhD Student - Spring 2027 - HORA</strong> and include your CV, unofficial transcript, and a brief statement of interests.
+      For faster review, use the subject line <strong>Prospective PhD Student - Spring 2027 - HORA</strong> and include your CV, unofficial transcript, brief statement of interests, and a short note on your technical preparation.
     </p>
     <p><a class="text-link" href="{{ '/opportunities/' | relative_url }}">View opportunities</a></p>
   </section>
