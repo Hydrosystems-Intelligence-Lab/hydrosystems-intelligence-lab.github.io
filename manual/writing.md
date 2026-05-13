@@ -6,6 +6,8 @@ summary: Shared practices for manuscripts, proposals, peer review, and internal 
 
 ## Manuscripts
 
+Writing is part of the research process. Students are encouraged to begin writing early, even when results are incomplete. Drafts are working documents, not tests of worth, and revision is normal.
+
 A strong manuscript should make the research question, contribution, evidence, and limitations easy to find.
 
 Before requesting a full review, check:
@@ -32,6 +34,8 @@ When asking for feedback, state what kind of feedback you need:
 - Writing clarity
 - Journal fit
 - Final proofreading
+
+Advisor and peer feedback may be direct and critical, but it should be constructive and focused on improving the work. Early drafts do not need to be polished before they are useful.
 
 ## Peer Review
 

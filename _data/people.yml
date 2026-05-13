@@ -5,7 +5,7 @@ pi:
   college: College of Engineering
   institute: Institute for Applied Practice in AI and Machine Learning
   institution: New Mexico State University
-  email: gutewaqi@gmail.com
+  email: gwabeshu@nmsu.edu
   image: /assets/img/pi-guta.JPG
   links:
     - label: Google Scholar
@@ -15,15 +15,9 @@ pi:
     - label: LinkedIn
       url: "https://www.linkedin.com/in/guta-wakbulcho-abeshu-a9088236/"
   bio: >-
-    Dr. Guta Wakbulcho Abeshu studies how water, climate, ecosystems,
-    infrastructure, and communities interact across scales. His work brings
-    together hydrologic modeling, Earth-system science, remote sensing, and
-    physics-informed artificial intelligence to improve understanding and
-    prediction of water systems under change. Before launching HORA at New
-    Mexico State University, he contributed to research on catchment
-    ecohydrology, global water management, lake and reservoir modeling, and
-    learning-enhanced hydrologic prediction at the University of Houston,
-    Montana State University, and Pacific Northwest National Laboratory.
+    Dr. Guta Wakbulcho Abeshu is the founder of HORA Abeshu Research Group
+    and an Assistant Professor in Civil and Environmental Engineering at
+    New Mexico State University. 
 
 open_roles:
   - name: You?

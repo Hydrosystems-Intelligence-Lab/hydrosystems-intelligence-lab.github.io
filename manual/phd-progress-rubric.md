@@ -6,20 +6,20 @@ summary: Four competency areas tracked across four benchmark stages for PhD prog
 
 ## How to Use This Rubric
 
-This rubric describes the expected competencies a HORA Abeshu PhD student is developing at four stages of the program:
+This rubric describes developmental competencies a HORA Abeshu PhD student may build across four typical stages of the program:
 
 - End of Year 1
 - End of Year 2 (Qualifying Exam preparation)
 - Advancement to Candidacy (typically Year 3)
 - Dissertation Defense / PhD Completion
 
-It is meant as a shared map, not a strict checklist. Different students arrive with different backgrounds and progress at different rates. The rubric is used in annual reviews and in advisor-student conversations to identify strengths, areas for growth, and priorities.
+It is meant as a shared map, not a strict checklist, contract, or guaranteed timeline. Different students arrive with different backgrounds and progress at different rates. The rubric can be used in annual reviews and advisor-student conversations to identify strengths, areas for growth, and priorities. Expectations should be adjusted based on official program requirements, project needs, funding context, coursework, and student goals.
 
 ## Research
 
 ### Generating New Questions
 
-| Stage | Expected competency |
+| Stage | Developing competency |
 |---|---|
 | End Y1 | Capable of generating new questions related to the topic of initial research. |
 | End Y2 | Generates progressively more refined questions on the initial topic and begins generating questions outside the initial topic. |
@@ -28,7 +28,7 @@ It is meant as a shared map, not a strict checklist. Different students arrive w
 
 ### Conducting Rigorous Analysis
 
-| Stage | Expected competency |
+| Stage | Developing competency |
 |---|---|
 | End Y1 | Iteratively designs rigorous analyses to test specific hypotheses, with close advisor interaction; explores magnitude of uncertainty. |
 | End Y2 | Designs rigorous analyses with moderate advisor interaction; quantifies uncertainty and explores its sources. |
@@ -37,7 +37,7 @@ It is meant as a shared map, not a strict checklist. Different students arrive w
 
 ### Critically Self-Evaluating Results
 
-| Stage | Expected competency |
+| Stage | Developing competency |
 |---|---|
 | End Y1 | Critically evaluates results when prompted by advisor or peer. |
 | End Y2 | Consistently evaluates results before moving forward and recognizes results that are not credible. |
@@ -46,18 +46,18 @@ It is meant as a shared map, not a strict checklist. Different students arrive w
 
 ### Communicating Results
 
-| Stage | Expected competency |
+| Stage | Developing competency |
 |---|---|
 | End Y1 | Communicates ideas clearly in writing, presents in group meetings, is capable of poster presentation, and shows initial competency with scientific visualization. |
 | End Y2 | Effectively answers critical questions in group settings, presents initial results in posters, and shows growing skill in scientific visualization. |
 | Candidacy | Writes a clear dissertation proposal, defends it orally with compelling arguments, presents at scientific conferences, and is competent at scientific visualization. |
-| Defense | Independently prepares full manuscripts ready for journal submission, presents dissertation synthesis orally and answers critical questions in dynamic settings, and consistently produces effective scientific visualization. |
+| Defense | Develops full manuscripts toward journal submission, presents dissertation synthesis orally, answers critical questions in dynamic settings, and consistently produces effective scientific visualization. |
 
 ## Teaching
 
 ### Teaching Assistant Roles
 
-| Stage | Expected competency |
+| Stage | Developing competency |
 |---|---|
 | End Y1 | Capable of TA support in introductory undergraduate courses (for example: hydrology, Earth science fundamentals, introductory programming). |
 | End Y2 | Same as End Y1. |
@@ -66,7 +66,7 @@ It is meant as a shared map, not a strict checklist. Different students arrive w
 
 ### Guest Teaching
 
-| Stage | Expected competency |
+| Stage | Developing competency |
 |---|---|
 | End Y1 | Not yet expected. |
 | End Y2 | Capable of delivering an instructor-prepared guest lecture in the dissertation area. |
@@ -75,7 +75,7 @@ It is meant as a shared map, not a strict checklist. Different students arrive w
 
 ### Course Development
 
-| Stage | Expected competency |
+| Stage | Developing competency |
 |---|---|
 | End Y1 | Not yet expected. |
 | End Y2 | Not yet expected. |
@@ -84,7 +84,7 @@ It is meant as a shared map, not a strict checklist. Different students arrive w
 
 ## Coursework
 
-| Stage | Expected competency |
+| Stage | Developing competency |
 |---|---|
 | End Y1 | Succeeds in introductory graduate coursework in the dissertation area. |
 | End Y2 | Excels in introductory graduate coursework in the dissertation area. |
@@ -95,13 +95,13 @@ It is meant as a shared map, not a strict checklist. Different students arrive w
 
 ### Respectful Community
 
-| Stage | Expected competency |
+| Stage | Developing competency |
 |---|---|
 | All stages | Consistently adheres to NMSU and CEE community standards and treats advisor, peers, and collaborators respectfully. |
 
 ### Leadership
 
-| Stage | Expected competency |
+| Stage | Developing competency |
 |---|---|
 | End Y1 | Begins to take some leadership in group activities. |
 | End Y2 | Consistently takes leadership in group activities. |

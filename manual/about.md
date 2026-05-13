@@ -17,6 +17,7 @@ The group is based at New Mexico State University and works at the boundary betw
 There are a few values that should shape how we work:
 
 - A respectful, constructive, and welcoming research environment where people can ask questions early.
+- High standards and kindness at the same time. Students should feel comfortable asking basic questions, challenging assumptions, and admitting uncertainty.
 - Research that improves understanding and supports decisions for water systems, communities, and the environment.
 - Rigorous science that can be inspected, reproduced, challenged, and improved.
 - Slow, careful thinking when the problem requires it, especially when claims affect communities, infrastructure, or policy.

@@ -6,7 +6,11 @@
   url: /people/
 - title: Publications
   url: /publications/
+- title: Software & Data
+  url: /software-data/
+- title: Group Manual
+  url: /manual/
 - title: Join
   url: /opportunities/
-- title: Contact
-  url: /contact/
+- title: Blog
+  url: /updates/

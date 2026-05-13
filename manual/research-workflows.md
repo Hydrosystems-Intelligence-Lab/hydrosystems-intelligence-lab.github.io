@@ -36,13 +36,17 @@ Suggested status labels:
 
 ## Reproducibility
 
+Every project should move toward reproducible workflows: documented code, clear data provenance, version-controlled scripts when appropriate, and enough documentation that another group member can understand the analysis. This does not mean every exploratory notebook must be perfect, but it does mean the final path from data to claims should be inspectable.
+
 - Write a README before the project becomes complicated.
 - Track code in Git.
 - Record package dependencies in `environment.yml`, `requirements.txt`, or another project-appropriate file.
+- Use clear file and folder names that future you and future collaborators can understand.
 - Keep raw data unchanged.
 - Document data sources, licenses, spatial coverage, temporal coverage, and processing assumptions.
-- Save scripts used to generate figures and tables.
+- Save scripts used to generate figures and tables, or document exactly how final figures and tables were produced.
 - Record random seeds, model versions, configuration files, and compute environment details when they affect results.
+- Back up important project files in an approved storage location rather than relying on one laptop or one local drive.
 
 ## Meetings
 

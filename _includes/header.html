@@ -2,53 +2,49 @@
   <a class="skip-link" href="#main">Skip to content</a>
   <div class="institutional-bar">
     <div class="wrapper institutional-inner">
-      <span class="institutional-brand">
-        {% if site.lab.institution_logo %}
-          <img class="institutional-logo" src="{{ site.lab.institution_logo | relative_url }}?v=nmsu-swap" alt="{{ site.lab.institution }} logo">
-        {% endif %}
-        <span class="institutional-text">
-          <span class="institutional-motto">BE BOLD. Shape the Future.</span>
-          <a href="https://www.nmsu.edu/" target="_blank" rel="noopener noreferrer">{{ site.lab.institution }}</a>
-        </span>
-      </span>
-      <span class="institutional-links">
+      <span class="institutional-line" aria-label="Academic affiliation">
+        <a href="https://www.nmsu.edu/" target="_blank" rel="noopener noreferrer">{{ site.lab.institution }}</a>
+        <span aria-hidden="true">&middot;</span>
         <a href="https://engr.nmsu.edu/" target="_blank" rel="noopener noreferrer">{{ site.lab.college }}</a>
+        <span aria-hidden="true">&middot;</span>
         <a href="https://ce.nmsu.edu/" target="_blank" rel="noopener noreferrer">{{ site.lab.department }}</a>
       </span>
     </div>
   </div>
-  <div class="wrapper nav-wrapper">
-    <a class="brand" href="{{ '/' | relative_url }}" aria-label="{{ site.title }} home">
-      <span>
-        <span class="brand-title">HORA Abeshu Research Group</span>
-        <span class="brand-subtitle">Climate &middot; Water &middot; Energy &middot; Infrastructure &middot; Society</span>
-      </span>
-    </a>
-    <nav class="site-nav" aria-label="Primary navigation">
-      {% for item in site.data.navigation %}
-        {% assign is_current = false %}
-        {% if page.url == item.url %}
-          {% assign is_current = true %}
-        {% endif %}
-        {% if item.active_paths %}
-          {% for active_path in item.active_paths %}
-            {% if page.url contains active_path %}
-              {% assign is_current = true %}
-            {% endif %}
-          {% endfor %}
-        {% endif %}
-        <a href="{{ item.url | relative_url }}" {% if is_current %}aria-current="page"{% endif %}>{{ item.title }}</a>
-      {% endfor %}
-    </nav>
-    <button class="nav-toggle" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open navigation menu">
-      <span class="hamburger" aria-hidden="true"></span>
-    </button>
+  <div class="nav-band">
+    <div class="wrapper nav-wrapper">
+      <a class="brand" href="{{ '/' | relative_url }}" aria-label="{{ site.title }} home">
+        <span>
+          <span class="brand-title">The HORA Abeshu Research Group</span>
+          <span class="brand-subtitle">Climate &middot; Water &middot; Energy &middot; Infrastructure &middot; Society</span>
+        </span>
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        {% for item in site.data.navigation %}
+          {% assign is_current = false %}
+          {% if page.url == item.url %}
+            {% assign is_current = true %}
+          {% endif %}
+          {% if item.active_paths %}
+            {% for active_path in item.active_paths %}
+              {% if page.url contains active_path %}
+                {% assign is_current = true %}
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+          <a href="{{ item.url | relative_url }}" {% if is_current %}aria-current="page"{% endif %}>{{ item.title }}</a>
+        {% endfor %}
+      </nav>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open navigation menu">
+        <span class="hamburger" aria-hidden="true"></span>
+      </button>
+    </div>
   </div>
 
   <div class="mobile-nav" id="mobile-nav" role="dialog" aria-modal="true" aria-label="Navigation menu">
     <div class="mobile-nav-inner">
       <div class="mobile-nav-head">
-        <span class="mobile-nav-brand">HORA Abeshu Research Group</span>
+        <span class="mobile-nav-brand">The HORA Abeshu Research Group</span>
         <button class="mobile-nav-close" aria-label="Close navigation menu">
           <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
             <path d="M2 2l14 14M16 2L2 16" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>

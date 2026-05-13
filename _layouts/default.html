@@ -21,7 +21,10 @@
     {% endif %}
     <link rel="icon" type="image/png" href="{{ '/assets/img/favicon.png' | relative_url }}">
     <link rel="apple-touch-icon" href="{{ '/assets/img/favicon.png' | relative_url }}">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v=landscape3">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Outfit:wght@400;500;600;700;800&display=swap">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v=landscape4">
   </head>
   <body>
     {% include header.html %}
@@ -37,12 +40,31 @@
         var closeBtn = document.querySelector('.mobile-nav-close');
         if (!toggle || !nav) return;
 
+        function getFocusable() {
+          return Array.from(nav.querySelectorAll(
+            'a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])'
+          ));
+        }
+
+        function trapFocus(e) {
+          if (e.key !== 'Tab') return;
+          var focusable = getFocusable();
+          var first = focusable[0];
+          var last  = focusable[focusable.length - 1];
+          if (e.shiftKey) {
+            if (document.activeElement === first) { e.preventDefault(); last.focus(); }
+          } else {
+            if (document.activeElement === last)  { e.preventDefault(); first.focus(); }
+          }
+        }
+
         function openNav() {
           nav.classList.add('is-open');
           backdrop.classList.add('is-open');
           toggle.setAttribute('aria-expanded', 'true');
           document.body.style.overflow = 'hidden';
           closeBtn.focus();
+          nav.addEventListener('keydown', trapFocus);
         }
 
         function closeNav() {
@@ -50,6 +72,7 @@
           backdrop.classList.remove('is-open');
           toggle.setAttribute('aria-expanded', 'false');
           document.body.style.overflow = '';
+          nav.removeEventListener('keydown', trapFocus);
           toggle.focus();
         }
 

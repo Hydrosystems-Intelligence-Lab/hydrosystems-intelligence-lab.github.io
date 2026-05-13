@@ -8,7 +8,7 @@ description: HORA Abeshu Research Group at New Mexico State University.
   <div class="wrapper home-hero-grid">
     <div class="hero-copy">
       <h1>Hydrosystems intelligence for water futures beyond the past</h1>
-      <p class="hero-lede">At New Mexico State University, the Hydrosystems Operational Intelligence for Resilience and Adaptation (HORA) Research Group develops physics-informed AI, Earth observation, and decision-support tools for resilient and equitable water systems.</p>
+      <p class="hero-lede">At New Mexico State University, the Hydrosystems Operational-intelligence for Resilience and Adaptation (HORA) Abeshu Research Group develops physics-informed AI, Earth observation, and decision-support tools for resilient and equitable water systems.</p>
       <div class="button-row">
         <a class="button primary" href="{{ '/research/' | relative_url }}">Explore Research</a>
         <a class="button secondary" href="{{ '/publications/' | relative_url }}">View Publications</a>
@@ -26,7 +26,7 @@ description: HORA Abeshu Research Group at New Mexico State University.
       <div class="identity-list">
         <div>
           <strong>Who we are.</strong>
-          <p>We are a research group at New Mexico State University studying hydrologic systems, water infrastructure, and coupled human-water processes.</p>
+          <p>We are a water systems research group at New Mexico State University studying hydrologic systems, water infrastructure, and coupled human-water processes.</p>
         </div>
         <div>
           <strong>What we do.</strong>
@@ -34,11 +34,11 @@ description: HORA Abeshu Research Group at New Mexico State University.
         </div>
         <div>
           <strong>How we do it.</strong>
-          <p>We combine physically grounded modeling, Earth observation, artificial intelligence, optimization, and uncertainty-aware analytics — building tools that are both scientifically rigorous and useful in practice.</p>
+          <p>We combine physically grounded modeling, Earth observation, artificial intelligence, optimization, and uncertainty-aware analytics to build tools that are scientifically rigorous and useful in practice.</p>
         </div>
         <div>
           <strong>Our story.</strong>
-          <p>HORA Abeshu Research Group launches at NMSU in Fall 2026. Our group name draws inspiration from the <a href="https://en.wikipedia.org/wiki/Oromo_people">Oromo</a> word hora, symbolizing life-giving water, community, and resilience. We work where data is sparse, decisions are urgent, and communities depend on getting it right.</p>
+          <p>The name HORA Abeshu draws inspiration from the Oromo word hora, evoking life-giving water, gathering, community, and resilience. In that spirit, we work where data are sparse, decisions are urgent, and communities depend on water knowledge that is reliable, actionable, and grounded in place.</p>
         </div>
       </div>
       <p class="manual-note">New and prospective group members can read the <a href="{{ '/manual/' | relative_url }}">HORA Research Group Manual</a> for advising expectations, onboarding, workflows, and group practices.</p>

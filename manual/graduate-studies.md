@@ -19,7 +19,7 @@ Use regular meetings to make decisions, not just report activity. A useful updat
 
 ## Milestones
 
-Track the requirements for your specific degree program. Common milestones include:
+Track the requirements for your specific degree program. Milestones are typical planning markers, not guaranteed timelines. They should be adjusted based on official program requirements, project development, coursework, funding context, and student goals. Common milestones include:
 
 - Coursework plan
 - Committee formation
@@ -54,4 +54,4 @@ Graduate study should build both scientific depth and professional range. Consid
 
 ## Communication
 
-Communicate early about blockers, uncertainty, authorship questions, travel plans, deadline conflicts, and changes in scope.
+Communicate early about blockers, uncertainty, authorship questions, travel plans, deadline conflicts, and changes in scope. Students are not expected to solve every problem alone, but they are expected to describe what they have tried, where they are stuck, and what kind of help would be useful.
