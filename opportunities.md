@@ -26,7 +26,7 @@ content_width: wide
   <article class="fact-card">
     <span class="status-pill available">Opening</span>
     <h3>Funded PhD position</h3>
-    <p>The primary opening is for a doctoral student supported through an assistantship, subject to formal admission, project fit, and university appointment procedures.</p>
+    <p>The primary opening is for a doctoral student supported through an assistantship, subject to formal admission, project fit, funding availability, and university appointment procedures.</p>
   </article>
   <article class="fact-card">
     <span class="status-pill">Timeline</span>
@@ -109,7 +109,7 @@ content_width: wide
   <div>
     <p class="eyebrow">Email Details</p>
     <h2>Use a clear subject line</h2>
-    <p>Email: <a href="mailto:gutewaqi@gmail.com">gutewaqi@gmail.com</a></p>
+    <p>Email: <a href="mailto:gwabeshu@nmsu.edu">gwabeshu@nmsu.edu</a></p>
     <code>Prospective PhD Student - Spring 2027 - HORA</code>
   </div>
   <div>

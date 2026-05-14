@@ -18,6 +18,8 @@
   --white: #ffffff;
   --shadow: 0 22px 60px rgba(18, 50, 71, 0.12);
   --max-width: 1440px;
+  --content-max: 1180px;
+  --page-gutter: clamp(1.25rem, 4vw, 4rem);
   --font-sans: "Outfit", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   --font-serif: "DM Serif Display", Georgia, "Times New Roman", serif;
 }
@@ -91,16 +93,16 @@ ul {
 }
 
 .wrapper {
-  width: min(var(--max-width), calc(100% - 2rem));
+  width: min(var(--content-max), calc(100% - 2 * var(--page-gutter)));
   margin-inline: auto;
 }
 
 .narrow {
-  width: min(840px, calc(100% - 2rem));
+  width: min(840px, calc(100% - 2 * var(--page-gutter)));
 }
 
 .wide-content {
-  max-width: var(--max-width);
+  max-width: var(--content-max);
 }
 
 .skip-link {
@@ -151,10 +153,10 @@ ul {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 0.35rem;
   padding-block: 0.34rem;
-  text-align: center;
+  text-align: left;
 }
 
 .institutional-affiliation {
@@ -167,9 +169,9 @@ ul {
   display: inline-flex;
   align-items: center;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 0.35rem;
-  text-align: center;
+  text-align: left;
   line-height: 1.2;
 }
 
@@ -191,13 +193,11 @@ ul {
 
 .nav-wrapper {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1.5rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0;
   min-width: 0;
-  min-height: 72px;
-  padding-block: 0.65rem;
+  padding-block: 0.85rem;
 }
 
 .brand {
@@ -238,13 +238,16 @@ ul {
 
 .site-nav {
   display: flex;
-  flex: 0 1 auto;
-  flex-wrap: nowrap;
-  justify-content: flex-end;
+  flex-wrap: wrap;
+  justify-content: flex-start;
   gap: 0.34rem;
+  width: 100%;
   min-width: 0;
   overflow-x: auto;
   scrollbar-width: none;
+  border-top: 1px solid rgba(15, 111, 117, 0.22);
+  padding-top: 0.4rem;
+  margin-top: 0.45rem;
 }
 
 .site-nav::-webkit-scrollbar {
@@ -760,7 +763,7 @@ ul {
 }
 
 .page-hero-inner {
-  max-width: var(--max-width);
+  max-width: var(--content-max);
 }
 
 .page-hero h1 {
@@ -1734,9 +1737,7 @@ ul {
   }
 
   .nav-wrapper {
-    flex-direction: column;
-    justify-content: center;
-    min-height: 108px;
+    align-items: center;
     padding-block: 0.85rem;
   }
 
@@ -1843,11 +1844,6 @@ ul {
 
   h2 {
     font-size: 1.68rem;
-  }
-
-  .wrapper,
-  .narrow {
-    width: min(var(--max-width), calc(100% - 1.25rem));
   }
 
   .brand {

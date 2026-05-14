@@ -4,6 +4,7 @@ title: Blog
 summary: Announcements, research notes, opportunities, and short posts from the HORA Abeshu Research Group.
 hero_image: /assets/img/nm-valles-caldera.jpg
 hero_image_position: center 50%
+content_width: wide
 ---
 
 <div class="news-list">
