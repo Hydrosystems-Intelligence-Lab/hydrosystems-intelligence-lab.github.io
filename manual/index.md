@@ -1,12 +1,12 @@
 ---
 layout: manual
-title: Abeshu Water Systems Intelligence Lab Manual
+title: Abeshu Hydrosystems Intelligence Lab Manual
 summary: A living handbook for lab culture, onboarding, research workflows, software, writing, and professional development.
 ---
 
 ## Purpose
 
-This manual is the practical companion to the public Abeshu Water Systems Intelligence Lab website. The public website presents who we are and what we work on. This manual collects the shared knowledge that helps the lab work well together: expectations, workflows, technical recipes, writing guidance, reusable templates, and professional development resources.
+This manual is the practical companion to the public Abeshu Hydrosystems Intelligence Lab website. The public website presents who we are and what we work on. This manual collects the shared knowledge that helps the lab work well together: expectations, workflows, technical recipes, writing guidance, reusable templates, and professional development resources.
 
 The manual should grow with the research lab. When a process, tutorial, template, or recurring answer would help future lab members, it belongs here.
 

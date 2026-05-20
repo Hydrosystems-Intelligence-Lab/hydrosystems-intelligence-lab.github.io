@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Team Resources / Research Lab Manual
-summary: Public onboarding notes, research workflows, software practices, writing support, templates, and professional development resources for the Abeshu Water Systems Intelligence Lab.
+summary: Public onboarding notes, research workflows, software practices, writing support, templates, and professional development resources for the Abeshu Hydrosystems Intelligence Lab.
 hero_image: /assets/img/nm-valles-caldera.jpg
 hero_image_position: center 50%
 ---
 
-The Abeshu Water Systems Intelligence Lab team resources are collected in the public research lab manual. The manual documents onboarding, research workflows, software practices, writing, templates, and professional development resources. It is meant to make the lab’s working culture visible and to help recurring advice improve over time.
+The Abeshu Hydrosystems Intelligence Lab team resources are collected in the public research lab manual. The manual documents onboarding, research workflows, software practices, writing, templates, and professional development resources. It is meant to make the lab’s working culture visible and to help recurring advice improve over time.
 
 <div class="button-row light">
   <a class="button primary" href="{{ '/manual/' | relative_url }}">Open the Research Lab Manual</a>

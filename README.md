@@ -1,6 +1,6 @@
-# Abeshu Water Systems Intelligence Lab Website
+# Abeshu Hydrosystems Intelligence Lab Website
 
-Source for the website of the Abeshu Water Systems Intelligence Lab at New Mexico State University.
+Source for the website of the Abeshu Hydrosystems Intelligence Lab at New Mexico State University.
 
 The site is a Jekyll project: Markdown pages, YAML data files, and Liquid layouts.
 

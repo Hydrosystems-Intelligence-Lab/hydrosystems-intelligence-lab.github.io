@@ -1,7 +1,7 @@
 ---
 layout: manual
 title: Lab Software
-summary: A place to document software developed or maintained by the Abeshu Water Systems Intelligence Lab.
+summary: A place to document software developed or maintained by the Abeshu Hydrosystems Intelligence Lab.
 ---
 
 ## Purpose

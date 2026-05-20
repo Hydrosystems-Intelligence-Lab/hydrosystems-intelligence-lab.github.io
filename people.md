@@ -1,7 +1,7 @@
 ---
 layout: page
 title: People
-summary: Members, collaborators, and prospective students connected to the Abeshu Water Systems Intelligence Lab.
+summary: Members, collaborators, and prospective students connected to the Abeshu Hydrosystems Intelligence Lab.
 hero_image: /assets/img/nm-rio-grande-gorge.jpg
 hero_image_position: center 45%
 content_width: wide
@@ -54,7 +54,7 @@ content_width: wide
   <div>
     <p class="eyebrow">First Cohort</p>
     <h2>Building a research lab around useful water intelligence</h2>
-    <p>The Abeshu Water Systems Intelligence Lab is recruiting its first cohort of graduate and undergraduate researchers as the lab launches at New Mexico State University. Early members will help shape lab culture, workflows, open research practices, and the first generation of lab projects.</p>
+    <p>The Abeshu Hydrosystems Intelligence Lab is recruiting its first cohort of graduate and undergraduate researchers as the lab launches at New Mexico State University. Early members will help shape lab culture, workflows, open research practices, and the first generation of lab projects.</p>
   </div>
   <div class="cohort-actions">
     <a class="button primary" href="{{ '/opportunities/' | relative_url }}">View Openings</a>

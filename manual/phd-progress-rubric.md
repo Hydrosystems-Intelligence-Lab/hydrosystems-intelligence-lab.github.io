@@ -1,12 +1,12 @@
 ---
 layout: manual
 title: PhD Progress Rubric
-summary: Four competency areas tracked across four benchmark stages for PhD progress in the Abeshu Water Systems Intelligence Lab.
+summary: Four competency areas tracked across four benchmark stages for PhD progress in the Abeshu Hydrosystems Intelligence Lab.
 ---
 
 ## How to Use This Rubric
 
-This rubric describes developmental competencies an Abeshu Water Systems Intelligence Lab PhD student may build across four typical stages of the program:
+This rubric describes developmental competencies an Abeshu Hydrosystems Intelligence Lab PhD student may build across four typical stages of the program:
 
 - End of Year 1
 - End of Year 2 (Qualifying Exam preparation)
@@ -108,8 +108,8 @@ It is meant as a shared map, not a strict checklist, contract, or guaranteed tim
 | Candidacy | Shows positive leadership in the lab and demonstrates leadership in the CEE department and/or College community. |
 | Defense | May begin to demonstrate leadership in scientific and professional organizations beyond NMSU (AGU sections, CUAHSI working groups, and related organizations). |
 
-This rubric is a living document and will be revised as the Abeshu Water Systems Intelligence Lab grows.
+This rubric is a living document and will be revised as the Abeshu Hydrosystems Intelligence Lab grows.
 
 Last updated: 2026.
 
-Acknowledgment: This document draws structural inspiration from the publicly shared graduate advising materials of Prof. Noah Diffenbaugh (Stanford). Content has been substantially adapted for the Abeshu Water Systems Intelligence Lab at NMSU.
+Acknowledgment: This document draws structural inspiration from the publicly shared graduate advising materials of Prof. Noah Diffenbaugh (Stanford). Content has been substantially adapted for the Abeshu Hydrosystems Intelligence Lab at NMSU.

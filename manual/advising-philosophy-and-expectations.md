@@ -1,7 +1,7 @@
 ---
 layout: manual
 title: Advising Philosophy and Expectations
-summary: Mentoring commitments, progress expectations, and advising norms for graduate students in the Abeshu Water Systems Intelligence Lab.
+summary: Mentoring commitments, progress expectations, and advising norms for graduate students in the Abeshu Hydrosystems Intelligence Lab.
 ---
 
 ## Overview
@@ -14,7 +14,7 @@ The advisor is committed to:
 - working proactively with students and the department to identify and support stable funding pathways, subject to university policies, assistantship availability, fellowship opportunities, and project funding; and
 - helping students prepare for and pursue post-PhD opportunities.
 
-This document outlines how the Abeshu Water Systems Intelligence Lab operates. It is not exhaustive and will evolve as the lab grows. Students are encouraged to ask questions about anything that is unclear.
+This document outlines how the Abeshu Hydrosystems Intelligence Lab operates. It is not exhaustive and will evolve as the lab grows. Students are encouraged to ask questions about anything that is unclear.
 
 Research progress is a shared responsibility. I will help students define problems, interpret results, navigate professional norms, and find support. Students are not expected to solve every problem alone, but they are expected to communicate challenges early, document attempts, and participate actively in finding a path forward.
 
@@ -30,7 +30,7 @@ Meetings are typically in person when both parties are on campus, and by video c
 
 ### Lab meetings
 
-Lab members are generally expected to attend regular Abeshu Water Systems Intelligence Lab meetings, where members present research progress, discuss papers, share technical lessons, and prepare for upcoming professional activities. The cadence may change as the lab grows.
+Lab members are generally expected to attend regular Abeshu Hydrosystems Intelligence Lab meetings, where members present research progress, discuss papers, share technical lessons, and prepare for upcoming professional activities. The cadence may change as the lab grows.
 
 ## Communication Norms
 
@@ -50,7 +50,7 @@ Progress is monitored through:
 - committee meetings after committee formation;
 - the Qualifying Exam, the Dissertation Proposal Defense, and the Final Defense.
 
-Students are encouraged to refer to the Abeshu Water Systems Intelligence Lab PhD Progress Rubric as a guide for stage-by-stage development across research, teaching, coursework, and professional growth. The rubric is not a contract or a guaranteed timeline; progress expectations should be adjusted based on program requirements, project needs, funding context, coursework, and student goals.
+Students are encouraged to refer to the Abeshu Hydrosystems Intelligence Lab PhD Progress Rubric as a guide for stage-by-stage development across research, teaching, coursework, and professional growth. The rubric is not a contract or a guaranteed timeline; progress expectations should be adjusted based on program requirements, project needs, funding context, coursework, and student goals.
 
 ## Dissertation Committee
 
@@ -105,14 +105,14 @@ When funding permits, I will prioritize supporting students to present their wor
 
 Presentation is a core part of scientific work and professional development. Students should plan to present in settings such as:
 
-- Abeshu Water Systems Intelligence Lab meetings;
+- Abeshu Hydrosystems Intelligence Lab meetings;
 - NMSU CEE seminars and the IAAM seminar series;
 - annual NMSU Graduate Research Symposium;
 - AGU Fall Meeting and other field-specific conferences (CUAHSI Biennial, AMS, NeurIPS climate workshops, and related venues), when project stage and funding allow.
 
 ## Publications and Authorship
 
-Students are encouraged to develop dissertation chapters toward peer-reviewed publication as each chapter matures. Dissertations in the Abeshu Water Systems Intelligence Lab will typically consist of an overarching introduction and conclusion, plus a set of original research chapters, with publication status depending on project scope, committee guidance, student goals, and disciplinary norms.
+Students are encouraged to develop dissertation chapters toward peer-reviewed publication as each chapter matures. Dissertations in the Abeshu Hydrosystems Intelligence Lab will typically consist of an overarching introduction and conclusion, plus a set of original research chapters, with publication status depending on project scope, committee guidance, student goals, and disciplinary norms.
 
 Authorship will follow contribution, intellectual ownership, and disciplinary norms. We will discuss authorship early and revisit it as projects evolve. First authorship is typically associated with leading the framing, analysis, writing, and revision of a manuscript, but final authorship order will be discussed openly and fairly based on actual contributions.
 
@@ -122,7 +122,7 @@ The advisor will often be a co-author on dissertation chapters when contributing
 
 The PhD signifies the capability to independently initiate, conduct, document, and defend original scholarship. Graduation is determined primarily by research maturity, along with preparation for professional goals. Funding constraints and post-PhD opportunities also factor into the conversation.
 
-In the Abeshu Water Systems Intelligence Lab, a common goal by defense is that at least one chapter is published or in press, at least one additional chapter is submitted or close to submission, and the remaining chapters are in advanced form. This is a guide, not a rigid rule; expectations should be discussed with the dissertation committee and adjusted based on project, funding, coursework, and student goals.
+In the Abeshu Hydrosystems Intelligence Lab, a common goal by defense is that at least one chapter is published or in press, at least one additional chapter is submitted or close to submission, and the remaining chapters are in advanced form. This is a guide, not a rigid rule; expectations should be discussed with the dissertation committee and adjusted based on project, funding, coursework, and student goals.
 
 The final decision on graduation timing rests with the dissertation committee.
 
@@ -151,6 +151,6 @@ Raising a concern is not disloyal and should not be treated as a problem in itse
 
 ## Respectful Community
 
-All members of the Abeshu Water Systems Intelligence Lab are expected to adhere to NMSU standards of conduct and to treat advisors, peers, collaborators, and community partners with respect. The lab should be a place where high standards and kindness coexist. Harassment, discrimination, retaliation, and behavior that undermines the dignity of any community member are not tolerated and should be addressed through appropriate university policies, resources, and reporting channels.
+All members of the Abeshu Hydrosystems Intelligence Lab are expected to adhere to NMSU standards of conduct and to treat advisors, peers, collaborators, and community partners with respect. The lab should be a place where high standards and kindness coexist. Harassment, discrimination, retaliation, and behavior that undermines the dignity of any community member are not tolerated and should be addressed through appropriate university policies, resources, and reporting channels.
 
-Acknowledgment: This document draws structural inspiration from the publicly shared graduate advising materials of Prof. Noah Diffenbaugh (Stanford). Content has been substantially adapted for the Abeshu Water Systems Intelligence Lab at NMSU.
+Acknowledgment: This document draws structural inspiration from the publicly shared graduate advising materials of Prof. Noah Diffenbaugh (Stanford). Content has been substantially adapted for the Abeshu Hydrosystems Intelligence Lab at NMSU.

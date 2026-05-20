@@ -1,4 +1,4 @@
-title: The Abeshu Water Systems Intelligence Lab
+title: Abeshu Hydrosystems Intelligence Lab
 tagline: Climate · Water · Infrastructure · Society
 description: >-
   Data-driven, physics-informed, and decision-centered research for water
@@ -12,7 +12,7 @@ lang: en
 timezone: America/Denver
 
 lab:
-  short_name: Abeshu Water Systems Intelligence Lab
+  short_name: Abeshu Hydrosystems Intelligence Lab
   full_name: Climate · Water · Infrastructure · Society
   institution: New Mexico State University
   institution_logo: "/assets/img/New_Mexico_State_University_logo.svg"

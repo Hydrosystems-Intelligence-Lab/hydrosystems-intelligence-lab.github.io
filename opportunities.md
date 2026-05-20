@@ -12,7 +12,7 @@ content_width: wide
     <p class="eyebrow">Funded Doctoral Position</p>
     <h2>Build AI-enabled water systems research with real-world decision impact</h2>
     <p>
-      The Abeshu Water Systems Intelligence Lab is seeking motivated PhD students interested in water systems, infrastructure, AI/ML, Earth-system modeling, hydrometeorological extremes, resilience, and water equity.
+      The Abeshu Hydrosystems Intelligence Lab is seeking motivated PhD students interested in water systems, infrastructure, AI/ML, Earth-system modeling, hydrometeorological extremes, resilience, and water equity.
     </p>
   </div>
   <aside class="deadline-card" aria-label="Opportunity details">
@@ -110,7 +110,7 @@ content_width: wide
     <p class="eyebrow">Email Details</p>
     <h2>Use a clear subject line</h2>
     <p>Email: <a href="mailto:gwabeshu@nmsu.edu">gwabeshu@nmsu.edu</a></p>
-    <code>Prospective PhD Student - Spring 2027 - Abeshu Water Systems Intelligence Lab</code>
+    <code>Prospective PhD Student - Spring 2027 - Abeshu Hydrosystems Intelligence Lab</code>
   </div>
   <div>
     <p class="eyebrow">Official Resources</p>

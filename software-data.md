@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Software & Data
-summary: Software, datasets, modeling workflows, and open research standards emerging from the Abeshu Water Systems Intelligence Lab.
+summary: Software, datasets, modeling workflows, and open research standards emerging from the Abeshu Hydrosystems Intelligence Lab.
 hero_image: /assets/img/nm-white-sands.jpg
 hero_image_position: center 52%
 content_width: wide
@@ -12,7 +12,7 @@ content_width: wide
     <p class="eyebrow">Open Research Outputs</p>
     <h2>Software and data should make the science reusable</h2>
     <p>
-      As the Abeshu Water Systems Intelligence Lab launches, this page defines the kinds of software, datasets, modeling workflows, and documentation standards the lab is building toward. Public repositories and data products will appear here as projects mature.
+      As the Abeshu Hydrosystems Intelligence Lab launches, this page defines the kinds of software, datasets, modeling workflows, and documentation standards the lab is building toward. Public repositories and data products will appear here as projects mature.
     </p>
   </div>
   <aside class="deadline-card">

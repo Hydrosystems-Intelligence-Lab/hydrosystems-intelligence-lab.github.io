@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Research
-summary: Research in the Abeshu Water Systems Intelligence Lab centers on connected directions that use physics-informed AI, multi-sensor Earth observation, and decision analytics to improve water resilience from local infrastructure to global Earth-system models.
+summary: Research in the Abeshu Hydrosystems Intelligence Lab centers on connected directions that use physics-informed AI, multi-sensor Earth observation, and decision analytics to improve water resilience from local infrastructure to global Earth-system models.
 hero_image: /assets/img/nm-organ-mountains.jpg
 hero_image_position: center center
 content_width: wide

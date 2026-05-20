@@ -1,12 +1,12 @@
 ---
 layout: manual
 title: About the Lab
-summary: Shared identity, values, communities, and first actions for members of the Abeshu Water Systems Intelligence Lab.
+summary: Shared identity, values, communities, and first actions for members of the Abeshu Hydrosystems Intelligence Lab.
 ---
 
-## About the Abeshu Water Systems Intelligence Lab
+## About the Abeshu Hydrosystems Intelligence Lab
 
-The Abeshu Water Systems Intelligence Lab studies hydrologic systems, water infrastructure, and coupled human-water processes across watershed, regional, and Earth-system scales.
+The Abeshu Hydrosystems Intelligence Lab studies hydrologic systems, water infrastructure, and coupled human-water processes across watershed, regional, and Earth-system scales.
 
 We develop data-driven, physics-informed, and AI-enabled methods for resilient, equitable, and decision-ready water systems. Our work connects hydroclimate extremes, infrastructure operations, Earth observation, lake and reservoir dynamics, water equity, climate adaptation, and Earth-system modeling.
 
