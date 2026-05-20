@@ -12,7 +12,7 @@ layout: default
   {% endif %}
 >
   <div class="wrapper manual-hero-inner">
-    <p class="eyebrow">Open Research Group Manual</p>
+    <p class="eyebrow">Open Research Lab Manual</p>
     <h1>{{ page.title }}</h1>
     {% if page.summary %}
       <p class="page-summary">{{ page.summary }}</p>
@@ -22,8 +22,8 @@ layout: default
 
 <section class="manual-shell">
   <div class="wrapper manual-grid">
-    <aside class="manual-sidebar" aria-label="Research group manual navigation">
-      <a class="manual-brand" href="{{ '/manual/' | relative_url }}">HORA Research Group Manual</a>
+    <aside class="manual-sidebar" aria-label="Research lab manual navigation">
+      <a class="manual-brand" href="{{ '/manual/' | relative_url }}">Research Lab Manual</a>
       <nav class="manual-nav">
         {% for item in site.data.manual_navigation %}
           <a href="{{ item.url | relative_url }}" {% if page.url == item.url %}aria-current="page"{% endif %}>{{ item.title }}</a>

@@ -1,7 +1,7 @@
 ---
 layout: manual
 title: Onboarding
-summary: First steps for new students, staff, and collaborators joining the research group.
+summary: First steps for new students, staff, and collaborators joining the research lab.
 ---
 
 ## First Week
@@ -23,7 +23,7 @@ Typical access needs may include:
 - Shared document storage
 - Computing accounts or HPC allocations
 - Data portals used by your project
-- Group communication channels
+- Lab communication channels
 
 ## Project Orientation
 

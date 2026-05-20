@@ -1,14 +1,14 @@
 ---
 layout: manual
 title: Templates
-summary: Reusable starter materials for common group documents and workflows.
+summary: Reusable starter materials for common lab documents and workflows.
 ---
 
 ## Project Work Plan Template
 
 Use this workbook to turn advising conversations into a visible project plan. It is most useful at the start of a project, when a student needs to break a broad research direction into concrete tasks, data needs, meeting follow-ups, issues, and next actions.
 
-[Download the project work plan template]({{ '/assets/templates/hora-project-work-plan-template.xlsx' | relative_url }})
+[Download the project work plan template]({{ '/assets/templates/water-systems-project-work-plan-template.xlsx' | relative_url }})
 
 The workbook includes:
 

@@ -1,9 +1,9 @@
-title: HORA Abeshu Research Group
-tagline: Hydrosystems Operational-intelligence for Resilience and Adaptation
+title: The Abeshu Water Systems Intelligence Lab
+tagline: Climate · Water · Infrastructure · Society
 description: >-
-  Data-driven, physics-informed, and AI-enabled research for resilient,
-  equitable, and operationally intelligent water systems.
-social_image: /assets/img/hora-research-concept.png
+  Data-driven, physics-informed, and decision-centered research for water
+  prediction, infrastructure resilience, and climate adaptation.
+social_image: /assets/img/water-systems-research-concept.png
 manual_hero_image: /assets/img/nm-valles-caldera.jpg
 manual_hero_image_position: center 50%
 url: "https://gutabeshu.github.io"
@@ -12,8 +12,8 @@ lang: en
 timezone: America/Denver
 
 lab:
-  short_name: HORA
-  full_name: Hydrosystems Operational-intelligence for Resilience and Adaptation
+  short_name: Abeshu Water Systems Intelligence Lab
+  full_name: Climate · Water · Infrastructure · Society
   institution: New Mexico State University
   institution_logo: "/assets/img/New_Mexico_State_University_logo.svg"
   department: Department of Civil & Environmental Engineering
@@ -22,10 +22,6 @@ lab:
   pi: Dr. Guta Wakbulcho Abeshu
   pi_title: Assistant Professor
   email: gwabeshu@nmsu.edu
-
-site_credits:
-  template_name: Open-source Jekyll template
-  template_url: ""
 
 markdown: kramdown
 permalink: /updates/:year/:month/:day/:title/

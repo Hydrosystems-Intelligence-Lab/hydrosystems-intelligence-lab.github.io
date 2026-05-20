@@ -1,7 +1,7 @@
 ---
 layout: page
 title: People
-summary: Members, collaborators, and prospective students connected to the HORA Abeshu Research Group.
+summary: Members, collaborators, and prospective students connected to the Abeshu Water Systems Intelligence Lab.
 hero_image: /assets/img/nm-rio-grande-gorge.jpg
 hero_image_position: center 45%
 content_width: wide
@@ -53,25 +53,25 @@ content_width: wide
 <section class="feature-block cohort-callout">
   <div>
     <p class="eyebrow">First Cohort</p>
-    <h2>Building a research group around useful water intelligence</h2>
-    <p>HORA is recruiting its first cohort of graduate and undergraduate researchers as the group launches at New Mexico State University. Early members will help shape group culture, workflows, open research practices, and the first generation of HORA projects.</p>
+    <h2>Building a research lab around useful water intelligence</h2>
+    <p>The Abeshu Water Systems Intelligence Lab is recruiting its first cohort of graduate and undergraduate researchers as the lab launches at New Mexico State University. Early members will help shape lab culture, workflows, open research practices, and the first generation of lab projects.</p>
   </div>
   <div class="cohort-actions">
     <a class="button primary" href="{{ '/opportunities/' | relative_url }}">View Openings</a>
-    <a class="button secondary" href="{{ '/manual/' | relative_url }}">Read Group Manual</a>
+    <a class="button secondary" href="{{ '/manual/' | relative_url }}">Read Lab Manual</a>
   </div>
 </section>
 
 <section class="page-cluster">
   <div class="section-heading compact-heading">
-    <p class="eyebrow">Future Team Members</p>
-    <h2>Students and postdoctoral researchers</h2>
-    <p>Roles will open as funded projects and mentoring capacity become available.</p>
+    <p class="eyebrow">Founding Cohort</p>
+    <h2>Graduate students and postdoctoral researchers</h2>
+    <p>The lab is building its first cohort at New Mexico State University. Current and anticipated roles are listed below so prospective members can see where the lab is growing.</p>
   </div>
   <div class="role-opportunity-grid">
     {% for role in site.data.people.open_roles %}
       <article class="role-opportunity-card">
-        <span class="status-pill">Future role</span>
+        <span class="status-pill">Launch-stage role</span>
         <h3>{{ role.role }}</h3>
         <p>{{ role.status }}</p>
       </article>

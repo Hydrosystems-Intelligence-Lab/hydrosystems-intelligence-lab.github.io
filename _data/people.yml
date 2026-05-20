@@ -15,28 +15,32 @@ pi:
     - label: LinkedIn
       url: "https://www.linkedin.com/in/guta-wakbulcho-abeshu-a9088236/"
   bio: >-
-    Dr. Guta Wakbulcho Abeshu is the founder of HORA Abeshu Research Group
-    and an Assistant Professor in Civil and Environmental Engineering at
-    New Mexico State University. 
+    Dr. Guta Wakbulcho Abeshu is an Assistant Professor specializing in water
+    resources engineering, hydrologic prediction, water systems intelligence,
+    and AI-enabled climate adaptation. He is also the founder of the Abeshu
+    Water Systems Intelligence Lab, where his research integrates
+    physics-informed modeling, Earth observation, machine learning, and decision
+    analytics for resilient water infrastructure and coupled
+    climate-water-energy-infrastructure-society systems.
 
 open_roles:
   - name: You?
     role: Postdoctoral Researcher
-    status: Future postdoctoral opportunities will be posted as funded projects become available.
+    status: Postdoctoral openings will be announced as funded projects take shape within the founding research portfolio.
     image: /assets/img/pi-placeholder.svg
   - name: You?
     role: PhD Student
-    status: Recruiting motivated doctoral students for Spring 2027.
+    status: Recruiting motivated doctoral students for Spring 2027 as the lab launches at NMSU.
     image: /assets/img/pi-placeholder.svg
   - name: You?
     role: MS Student
-    status: Master's students may inquire about future project-based or funded opportunities as advising capacity grows.
+    status: Prospective master's students are welcome to inquire about project-based opportunities as the lab builds its first cohort.
     image: /assets/img/pi-placeholder.svg
   - name: You?
     role: Undergraduate Researcher
-    status: Project-based opportunities will be announced as the group grows.
+    status: Undergraduate research opportunities will grow with early projects and advising capacity.
     image: /assets/img/pi-placeholder.svg
 
 groups:
   - name: Collaborators
-    status: HORA welcomes collaborations with agencies, communities, utilities, and research partners working on water resilience.
+    status: The lab welcomes collaborations with agencies, communities, utilities, and research partners working on water resilience.

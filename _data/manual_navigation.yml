@@ -1,6 +1,6 @@
 - title: Manual Home
   url: /manual/
-- title: About HORA
+- title: About the Lab
   url: /manual/about/
 - title: How to Edit This Manual
   url: /manual/how-to-edit/
@@ -18,7 +18,7 @@
   url: /manual/programming/
 - title: Writing and Reviewing
   url: /manual/writing/
-- title: HORA Software
+- title: Lab Software
   url: /manual/software/
 - title: Other Software
   url: /manual/other-software/

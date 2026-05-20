@@ -25,7 +25,7 @@ project-name/
 
 At the start of a new project, use the project work plan template to convert a broad research direction into trackable work. The template is especially useful for advisor-student meetings because it keeps tasks, sub-tasks, data needs, blockers, meeting dates, and status in one place.
 
-[Download the project work plan template]({{ '/assets/templates/hora-project-work-plan-template.xlsx' | relative_url }})
+[Download the project work plan template]({{ '/assets/templates/water-systems-project-work-plan-template.xlsx' | relative_url }})
 
 Suggested status labels:
 
@@ -36,7 +36,7 @@ Suggested status labels:
 
 ## Reproducibility
 
-Every project should move toward reproducible workflows: documented code, clear data provenance, version-controlled scripts when appropriate, and enough documentation that another group member can understand the analysis. This does not mean every exploratory notebook must be perfect, but it does mean the final path from data to claims should be inspectable.
+Every project should move toward reproducible workflows: documented code, clear data provenance, version-controlled scripts when appropriate, and enough documentation that another lab member can understand the analysis. This does not mean every exploratory notebook must be perfect, but it does mean the final path from data to claims should be inspectable.
 
 - Write a README before the project becomes complicated.
 - Track code in Git.

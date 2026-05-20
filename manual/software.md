@@ -1,12 +1,12 @@
 ---
 layout: manual
-title: HORA Software
-summary: A place to document software developed or maintained by the HORA Research Group.
+title: Lab Software
+summary: A place to document software developed or maintained by the Abeshu Water Systems Intelligence Lab.
 ---
 
 ## Purpose
 
-This page defines the working standards for HORA-developed software, model workflows, packages, and reusable scripts. Public-facing software and datasets are summarized on the [Software & Data]({{ '/software-data/' | relative_url }}) page.
+This page defines the working standards for lab-developed software, model workflows, packages, and reusable scripts. Public-facing software and datasets are summarized on the [Software & Data]({{ '/software-data/' | relative_url }}) page.
 
 Each software entry should include:
 

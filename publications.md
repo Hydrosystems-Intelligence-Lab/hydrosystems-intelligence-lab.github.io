@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Publications
-summary: Selected publications by Dr. Abeshu and collaborators, with HORA Research Group outputs to be added as group projects mature.
+summary: Selected publications by Dr. Abeshu and collaborators that ground the research direction of the Abeshu Water Systems Intelligence Lab.
 hero_image: /assets/img/nm-elephant-butte.jpg
 hero_image_position: center 46%
 content_width: wide
@@ -15,9 +15,9 @@ content_width: wide
 <section class="publication-intro feature-block page-priority">
   <div>
     <p class="eyebrow">Research Outputs</p>
-    <h2>Selected publications by Dr. Abeshu and collaborators</h2>
+    <h2>Selected publications shaping the lab's research direction</h2>
     <p>
-      Current outputs are organized by type so peer-reviewed papers, conference abstracts, and preprints remain easy to scan. HORA Research Group outputs will be added as new group projects mature.
+      These publications reflect the scholarly foundation around which the Abeshu Water Systems Intelligence Lab is being launched. Lab-authored outputs will be added here as the lab's first projects mature.
     </p>
   </div>
   <div class="summary-stat-grid compact-stats" aria-label="Publication summary">
