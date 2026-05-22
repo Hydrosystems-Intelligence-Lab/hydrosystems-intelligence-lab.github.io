@@ -1,8 +1,9 @@
-# Abeshu Hydrosystems Intelligence Group Website
 
 <p align="center">
   <img src="assets/img/AWSI.png" alt="Abeshu Hydrosystems Intelligence Group logo" width="450">
 </p>
+
+# Abeshu Hydrosystems Intelligence Group Website
 
 Source for the website of the Abeshu Hydrosystems Intelligence Group at New Mexico State University.
 
