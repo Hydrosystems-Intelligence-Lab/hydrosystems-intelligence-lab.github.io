@@ -61,6 +61,8 @@ journal_articles:
 ## Previewing changes
 Before publishing changes, one can preview the website using bundle
 
+```yaml
 gem install bundler jekyll
 bundle install
 bundle exec jekyll serve
+```
