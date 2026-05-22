@@ -7,7 +7,7 @@ description: Abeshu Hydrosystems Intelligence Group at New Mexico State Universi
 <section class="home-hero" style="--home-hero-image: url('{{ '/assets/img/nm-rio-grande-bosque.jpg' | relative_url }}');">
   <div class="wrapper home-hero-grid">
     <div class="hero-copy">
-      <h1>Connecting climate, water, infrastructure, and society.</h1>
+      <h1>Connecting climate, water, infrastructure, and human dynamics.</h1>
       <p class="hero-lede">At New Mexico State University, the Abeshu Hydrosystems Intelligence Group develops models, data systems, and decision tools to understand and manage water risk in a changing climate, where past conditions no longer define future water security.</p>
       <div class="button-row">
         <a class="button primary" href="{{ '/research/' | relative_url }}">Explore Research</a>
@@ -30,11 +30,11 @@ description: Abeshu Hydrosystems Intelligence Group at New Mexico State Universi
         </div>
         <div>
           <strong>What we do.</strong>
-          <p>We study risk under climate stress and develop forecasts, models, and decision support for resilient, equitable water management.</p>
+          <p>We study water risk under climate stress and develop forecasts, models, and decision-support tools for resilient and equitable water management.</p>
         </div>
         <div>
           <strong>How we do it.</strong>
-          <p>Our approach blends process-based science, Earth observation, AI, optimization, and uncertainty analysis.</p>
+          <p>Our approach integrates process-based science, Earth observation, AI, optimization, and uncertainty analysis.</p>
         </div>
         <div>
           <strong>Research identity.</strong>
@@ -47,7 +47,7 @@ description: Abeshu Hydrosystems Intelligence Group at New Mexico State Universi
               <img src="{{ '/assets/img/AWSI.png' | relative_url }}" alt="" aria-hidden="true">
             </figure>
           </div>
-          <p>The blue hydrosystems mark centers water movement within a systems compass, linking water, infrastructure, weather, and community signals as inputs for resilient decisions.</p>
+          <p>The four interlocking petals represent climate, water, infrastructure, and human dynamics as interacting parts of a complex adaptive hydrosystem. Their circular motion reflects how these systems continuously influence, push, and respond to one another through feedbacks. The central mark represents hydrosystems intelligence: data, modeling, monitoring, and decision support guiding better water decisions.</p>
         </div>
       </div>
       <p class="manual-note">New and prospective group members can read the <a href="{{ '/manual/' | relative_url }}">Abeshu Hydrosystems Intelligence Group handbook</a> for advising expectations, onboarding, workflows, and group practices.</p>
