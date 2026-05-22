@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="assets/img/AWSI.png" alt="Abeshu Hydrosystems Intelligence Group logo" width="450">
+  <img src="assets/img/AWSI.png" alt="Abeshu Hydrosystems Intelligence Group logo" width="750">
 </p>
 
 # Abeshu Hydrosystems Intelligence Group Website
