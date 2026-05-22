@@ -47,7 +47,7 @@ description: Abeshu Hydrosystems Intelligence Group at New Mexico State Universi
               <img src="{{ '/assets/img/AWSI.png' | relative_url }}" alt="" aria-hidden="true">
             </figure>
           </div>
-          <p>The four interlocking petals represent climate, water, infrastructure, and human dynamics as interacting parts of a complex adaptive hydrosystem. Their circular motion reflects how these systems continuously influence, push, and respond to one another through feedbacks. The central mark represents hydrosystems intelligence: data, modeling, monitoring, and decision support guiding better water decisions.</p>
+          <p>The blue emblem reads as two interlocking loops, four interacting petals, and a continuous adaptive cycle. The petals represent climate, water, infrastructure, and human dynamics as distinct but inseparable parts of a complex adaptive hydrosystem. Their circular motion reflects feedbacks among these systems, while the central mark represents hydrosystems intelligence: data, modeling, monitoring, and decision support for better water decisions.</p>
         </div>
       </div>
       <p class="manual-note">New and prospective group members can read the <a href="{{ '/manual/' | relative_url }}">Abeshu Hydrosystems Intelligence Group handbook</a> for advising expectations, onboarding, workflows, and group practices.</p>

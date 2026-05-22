@@ -1,5 +1,7 @@
 :root {
   --crimson: #075f6b;
+  --header-blue: #0d4a5c;
+  --header-blue-deep: #082f3d;
   --crimson-dark: #4f0d22;
   --ink: #101923;
   --navy: #071f31;
@@ -20,7 +22,7 @@
   --max-width: 1440px;
   --content-max: 1180px;
   --page-gutter: clamp(1.25rem, 4vw, 4rem);
-  --font-brand: "Libre Franklin", "Source Sans 3", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-brand: "IBM Plex Sans Condensed", "Libre Franklin", "Source Sans 3", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   --font-sans: "Source Sans 3", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   --font-serif: "Source Serif 4", Georgia, "Times New Roman", serif;
 }
@@ -126,14 +128,14 @@ ul {
   position: sticky;
   top: 0;
   z-index: 10;
-  background: var(--crimson);
+  background: var(--header-blue);
   border-bottom: 1px solid rgba(7, 31, 49, 0.28);
   box-shadow: 0 12px 30px rgba(18, 50, 71, 0.08);
   backdrop-filter: blur(16px);
 }
 
 .nav-band {
-  background: var(--crimson);
+  background: linear-gradient(180deg, var(--header-blue), var(--header-blue-deep));
   border-bottom: 1px solid rgba(255, 255, 255, 0.16);
 }
 
@@ -174,7 +176,7 @@ ul {
 .brand-title {
   color: var(--white);
   font-family: var(--font-brand);
-  font-weight: 800;
+  font-weight: 700;
   font-size: 2rem;
   line-height: 1.08;
   letter-spacing: 0;
@@ -1680,7 +1682,7 @@ ul {
 
 .footer-grid {
   display: grid;
-  grid-template-columns: 300px minmax(300px, 1fr) minmax(200px, 0.75fr);
+  grid-template-columns: 360px minmax(300px, 1fr) minmax(200px, 0.75fr);
   gap: 1.5rem;
 }
 
@@ -1689,7 +1691,7 @@ ul {
 }
 
 .site-footer .footer-logo {
-  width: min(100%, 220px);
+  width: min(100%, 300px);
   max-width: none;
   height: auto;
   border-radius: 4px;
