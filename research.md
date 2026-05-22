@@ -1,16 +1,16 @@
 ---
 layout: page
 title: Research
-summary: Research in the Abeshu Hydrosystems Intelligence Lab centers on connected directions that use physics-informed AI, multi-sensor Earth observation, and decision analytics to improve water resilience from local infrastructure to global Earth-system models.
+summary: Research in the Abeshu Hydrosystems Intelligence Group centers on connected directions that use physics-informed AI, multi-sensor Earth observation, and decision analytics to improve water resilience from local infrastructure to global Earth-system models.
 hero_image: /assets/img/nm-organ-mountains.jpg
 hero_image_position: center center
 content_width: wide
 ---
 
 <div class="portfolio-intro">
-  <p class="eyebrow">Integrated Portfolio</p>
+  <p class="eyebrow">Adaptive Portfolio</p>
   <h2>Research built for interpretation, transfer, and use</h2>
-  <p class="portfolio-lede">The lab develops learning-based methods that respect physical structure, combine multiple sources of evidence, and produce decision-relevant outputs. The work is designed for settings where water managers and communities need robust information despite uncertain climate, aging infrastructure, and uneven water security.</p>
+  <p class="portfolio-lede">The group develops learning-based methods that respect physical structure, combine multiple sources of evidence, and produce decision-relevant outputs. The work is designed for settings where water managers and communities need robust information despite uncertain climate, aging infrastructure, and uneven water security.</p>
   <div class="method-tags" aria-label="Research methods">
     <span>Physics-informed AI</span>
     <span>Remote sensing</span>

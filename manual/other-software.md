@@ -1,7 +1,7 @@
 ---
 layout: manual
 title: Other Software
-summary: External tools that may be useful for lab research and collaboration.
+summary: External tools that may be useful for group research and collaboration.
 ---
 
 ## Scientific Computing

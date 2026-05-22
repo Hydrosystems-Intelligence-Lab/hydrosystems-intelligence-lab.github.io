@@ -1,5 +1,5 @@
-title: Abeshu Hydrosystems Intelligence Lab
-tagline: Climate · Water · Infrastructure · Society
+title: Abeshu Hydrosystems Intelligence Group
+tagline: Hydrosystems intelligence for water futures beyond historical experience
 description: >-
   Data-driven, physics-informed, and decision-centered research for water
   prediction, infrastructure resilience, and climate adaptation.
@@ -12,8 +12,8 @@ lang: en
 timezone: America/Denver
 
 lab:
-  short_name: Abeshu Hydrosystems Intelligence Lab
-  full_name: Climate · Water · Infrastructure · Society
+  short_name: Abeshu HSI Group
+  full_name: Abeshu Hydrosystems Intelligence Group
   institution: New Mexico State University
   institution_logo: "/assets/img/New_Mexico_State_University_logo.svg"
   department: Department of Civil & Environmental Engineering

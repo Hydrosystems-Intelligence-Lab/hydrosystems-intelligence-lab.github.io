@@ -1,8 +1,8 @@
-- title: Manual Home
+- title: Handbook Home
   url: /manual/
-- title: About the Lab
+- title: About the Group
   url: /manual/about/
-- title: How to Edit This Manual
+- title: How to Edit This Handbook
   url: /manual/how-to-edit/
 - title: Onboarding
   url: /manual/onboarding/
@@ -18,7 +18,7 @@
   url: /manual/programming/
 - title: Writing and Reviewing
   url: /manual/writing/
-- title: Lab Software
+- title: Group Software
   url: /manual/software/
 - title: Other Software
   url: /manual/other-software/

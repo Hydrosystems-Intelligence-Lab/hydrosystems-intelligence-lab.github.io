@@ -35,7 +35,11 @@ Notebooks are useful for exploration and communication. For production analyses,
 
 ## Large Data
 
-Do not commit large datasets to normal Git repositories. Use a documented shared storage location, data repository, or project-specific data management plan.
+Do not commit large datasets to normal Git repositories. Instead, use one of our approved shared storage locations:
+
+- **Group NAS**: For primary active research data, large remote-sensing datasets, and model outputs.
+- **NMSU OneDrive**: For documents, meeting notes, presentations, and small tabular data.
+- **HPC Project Space**: For temporary large-scale model runs and intermediate processing outputs.
 
 When working with large hydrologic or remote-sensing data, document:
 

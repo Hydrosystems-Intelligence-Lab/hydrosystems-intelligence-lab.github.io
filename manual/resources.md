@@ -1,12 +1,12 @@
 ---
 layout: manual
 title: Posts and Resources
-summary: A curated place for tutorials, reference notes, useful links, and future lab posts.
+summary: A curated place for tutorials, reference notes, useful links, and future group posts.
 ---
 
 ## Purpose
 
-This page collects links to useful tutorials, internal notes, and reference material. As the lab grows, it can also point to blog posts or short technical notes written by lab members.
+This page collects links to useful tutorials, internal notes, and reference material. As the group grows, it can also point to blog posts or short technical notes written by group members.
 
 ## Starter Resource Categories
 

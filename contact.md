@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contact
-summary: Contact the Abeshu Hydrosystems Intelligence Lab at New Mexico State University.
+summary: Contact the Abeshu Hydrosystems Intelligence Group at New Mexico State University.
 hero_image: /assets/img/nm-elephant-butte.jpg
 hero_image_position: center center
 content_width: wide
@@ -25,7 +25,7 @@ content_width: wide
     <p class="eyebrow">Location</p>
     <h2>Las Cruces, New Mexico</h2>
     <p>
-      The research lab is based at New Mexico State University in Las Cruces. Email is currently the best way to connect about research, collaboration, and student opportunities.
+      The research group is based at New Mexico State University in Las Cruces. Email is currently the best way to connect about research, collaboration, and student opportunities.
     </p>
   </section>
 
@@ -36,7 +36,7 @@ content_width: wide
       Students interested in AI-enabled water systems, Earth observation, hydrologic modeling, infrastructure resilience, or water equity should review the opportunities page before emailing.
     </p>
     <p>
-      For faster review, use the subject line <strong>Prospective PhD Student - Spring 2027 - Abeshu Hydrosystems Intelligence Lab</strong> and include your CV, unofficial transcript, brief statement of interests, and a short note on your technical preparation.
+      For faster review, use the subject line <strong>Prospective PhD Student - Spring 2027 - Abeshu Hydrosystems Intelligence Group</strong> and include your CV, unofficial transcript, brief statement of interests, and a short note on your technical preparation.
     </p>
     <p><a class="text-link" href="{{ '/opportunities/' | relative_url }}">View opportunities</a></p>
   </section>

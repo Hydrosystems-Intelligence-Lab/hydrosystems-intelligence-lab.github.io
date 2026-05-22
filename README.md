@@ -1,6 +1,6 @@
-# Abeshu Hydrosystems Intelligence Lab Website
+# Abeshu Hydrosystems Intelligence Group Website
 
-Source for the website of the Abeshu Hydrosystems Intelligence Lab at New Mexico State University.
+Source for the website of the Abeshu Hydrosystems Intelligence Group at New Mexico State University.
 
 The site is a Jekyll project: Markdown pages, YAML data files, and Liquid layouts.
 
@@ -10,7 +10,7 @@ Main pages live at the repository root: `index.md`, `research.md`, `people.md`, 
 
 Site metadata (institution, department, PI, email, URL) is in `_config.yml` under the `lab:` key. Top-level navigation is in `_data/navigation.yml`. Site styling is in `assets/css/style.css`, using an NMSU-inspired palette of crimson/maroon, dark navy, white/light gray, and blue/teal accents.
 
-The research lab manual lives in `manual/` and uses the `manual` layout, which provides a dedicated sidebar while keeping the public site header and footer. Manual navigation is in `_data/manual_navigation.yml`. Sections cover onboarding, graduate studies, research workflows, programming, writing and reviewing, lab software, other software, data visualization, job search, templates, and resources.
+The research group handbook lives in `manual/` and uses the `manual` layout, which provides a dedicated sidebar while keeping the public site header and footer. Handbook navigation is in `_data/manual_navigation.yml`. Sections cover onboarding, graduate studies, research workflows, programming, writing and reviewing, group software, other software, data visualization, job search, templates, and resources.
 
 ## Adding content
 
@@ -25,7 +25,7 @@ category: updates
 ---
 ```
 
-**People.** Edit `_data/people.yml`. The PI profile is defined; add students, undergraduate researchers, and alumni as real details become available. For headshots, set the image path to an approved photo, or leave the field blank to render without one.
+**Team.** Edit `_data/people.yml`. The PI profile is defined; add students, undergraduate researchers, and alumni as real details become available. For headshots, set the image path to an approved photo, or leave the field blank to render without one.
 
 **Publications.** Edit `_data/publications.yml`. The publications page renders entries automatically:
 
@@ -44,7 +44,7 @@ journal_articles:
 
 - `assets/img/nmsu-campus-panorama.jpg`: Panoramic view of NMSU from Tortugas ("A") Mountain by Terry Umbenhaur, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:NMSU_Campus.jpg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
 - `assets/img/nmsu_view.webp`: Campus aerial view used for NMSU location and contact sections.
-- `assets/img/water-systems-hero.png`: Generated local hero image for the research lab website.
+- `assets/img/water-systems-hero.png`: Generated local hero image for the research group website.
 - `assets/img/pi-placeholder.svg`: Local placeholder SVG.
 - `assets/img/nm-rio-grande-bosque.jpg`: Rio Grande River and bosque near Albuquerque by Asaavedra32, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Rio_Grande_River_and_Bosque.JPG), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Resized for web use.
 - `assets/img/nm-rio-grande-gorge.jpg`: Rio Grande Gorge near Taos by Tobyw87, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:RioGrandGorge.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Resized for web use.

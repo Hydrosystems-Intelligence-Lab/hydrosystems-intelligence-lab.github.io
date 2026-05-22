@@ -1,18 +1,18 @@
 ---
 layout: default
 title: Home
-description: Abeshu Hydrosystems Intelligence Lab at New Mexico State University.
+description: Abeshu Hydrosystems Intelligence Group at New Mexico State University.
 ---
 
 <section class="home-hero" style="--home-hero-image: url('{{ '/assets/img/nm-rio-grande-bosque.jpg' | relative_url }}');">
   <div class="wrapper home-hero-grid">
     <div class="hero-copy">
-      <h1>Hydrosystems intelligence for water futures beyond historical experience</h1>
-      <p class="hero-lede">At New Mexico State University, the Abeshu Hydrosystems Intelligence Lab (Abeshu HI Lab) develops models, data systems, and decision tools to understand and manage water risk in a changing climate, where past conditions no longer define future water security.</p>
+      <h1>Connecting climate, water, infrastructure, and society.</h1>
+      <p class="hero-lede">At New Mexico State University, the Abeshu Hydrosystems Intelligence Group develops models, data systems, and decision tools to understand and manage water risk in a changing climate, where past conditions no longer define future water security.</p>
       <div class="button-row">
         <a class="button primary" href="{{ '/research/' | relative_url }}">Explore Research</a>
         <a class="button secondary" href="{{ '/publications/' | relative_url }}">View Publications</a>
-        <a class="button secondary" href="{{ '/opportunities/' | relative_url }}">Join the Lab</a>
+        <a class="button secondary" href="{{ '/opportunities/' | relative_url }}">Join the Group</a>
       </div>
     </div>
   </div>
@@ -21,36 +21,36 @@ description: Abeshu Hydrosystems Intelligence Lab at New Mexico State University
 <section class="home-intro-section">
   <div class="wrapper home-intro-grid">
     <div class="identity-panel">
-      <p class="eyebrow sentence-case">About the Lab</p>
-      <h2 class="about-welcome-heading">Welcome to the Abeshu HI Lab</h2>
+      <p class="eyebrow sentence-case">About the Group</p>
+      <h2 class="about-welcome-heading">Welcome to the Abeshu Hydrosystems Intelligence Group</h2>
       <div class="identity-list">
         <div>
           <strong>Who we are.</strong>
-          <p>We are a hydrosystems research lab at New Mexico State University studying hydrologic systems, water infrastructure, and coupled human-water processes.</p>
+          <p>We are a hydrosystems research group in the Department of Civil and Environmental Engineering at New Mexico State University.</p>
         </div>
         <div>
           <strong>What we do.</strong>
-          <p>We characterize water risk and develop modeling, forecasting, and decision-support tools for resilient and equitable water systems.</p>
+          <p>We study risk under climate stress and develop forecasts, models, and decision support for resilient, equitable water management.</p>
         </div>
         <div>
           <strong>How we do it.</strong>
-          <p>We combine physically grounded modeling, Earth observation, artificial intelligence, optimization, and uncertainty-aware analytics to build tools that are scientifically rigorous and useful in practice.</p>
+          <p>Our approach blends process-based science, Earth observation, AI, optimization, and uncertainty analysis.</p>
         </div>
         <div>
           <strong>Research identity.</strong>
-          <p>We work on coupled climate-water-energy-infrastructure-society systems, with emphasis on hydrologic prediction, AI and machine learning, Earth observation, infrastructure resilience, and climate adaptation.</p>
+          <p>The group connects prediction, adaptation, infrastructure resilience, and equity across watersheds, regions, and Earth-system scales.</p>
         </div>
         <div class="emblem-item">
           <div class="emblem-heading">
             <strong>Our emblem.</strong>
             <figure class="emblem-mark">
-              <img src="{{ '/assets/img/awsi-emblem-transparent.png' | relative_url }}" alt="" aria-hidden="true">
+              <img src="{{ '/assets/img/AWSI.png' | relative_url }}" alt="" aria-hidden="true">
             </figure>
           </div>
-          <p>The four petals represent climate, water, infrastructure, and society as interconnected systems. Their interlocking form reflects mutual dependence, while the central lens represents data science and hydrosystems intelligence guiding better water decisions.</p>
+          <p>The blue hydrosystems mark centers water movement within a systems compass, linking water, infrastructure, weather, and community signals as inputs for resilient decisions.</p>
         </div>
       </div>
-      <p class="manual-note">New and prospective lab members can read the <a href="{{ '/manual/' | relative_url }}">Abeshu HI Lab manual</a> for advising expectations, onboarding, workflows, and lab practices.</p>
+      <p class="manual-note">New and prospective group members can read the <a href="{{ '/manual/' | relative_url }}">Abeshu Hydrosystems Intelligence Group handbook</a> for advising expectations, onboarding, workflows, and group practices.</p>
     </div>
     <aside class="home-news-panel" aria-label="Recent updates">
       <div class="panel-heading-row">
@@ -58,15 +58,11 @@ description: Abeshu Hydrosystems Intelligence Lab at New Mexico State University
         <a class="small-link" href="{{ '/updates/' | relative_url }}">View all</a>
       </div>
       <div class="news-list compact">
-        {% assign news_count = 0 %}
-        {% for post in site.posts %}
-          {% if news_count < 3 %}
-            <article>
-              <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
-              <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-            </article>
-            {% assign news_count = news_count | plus: 1 %}
-          {% endif %}
+        {% for post in site.posts limit: 3 %}
+          <article>
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+            <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+          </article>
         {% endfor %}
       </div>
     </aside>

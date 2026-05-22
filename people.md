@@ -1,7 +1,7 @@
 ---
 layout: page
-title: People
-summary: Members, collaborators, and prospective students connected to the Abeshu Hydrosystems Intelligence Lab.
+title: Team
+summary: Team members, collaborators, and prospective students connected to the Abeshu Hydrosystems Intelligence Group.
 hero_image: /assets/img/nm-rio-grande-gorge.jpg
 hero_image_position: center 45%
 content_width: wide
@@ -53,12 +53,12 @@ content_width: wide
 <section class="feature-block cohort-callout">
   <div>
     <p class="eyebrow">First Cohort</p>
-    <h2>Building a research lab around useful water intelligence</h2>
-    <p>The Abeshu Hydrosystems Intelligence Lab is recruiting its first cohort of graduate and undergraduate researchers as the lab launches at New Mexico State University. Early members will help shape lab culture, workflows, open research practices, and the first generation of lab projects.</p>
+    <h2>Building a research group around useful water intelligence</h2>
+    <p>The Abeshu Hydrosystems Intelligence Group is recruiting its first cohort of graduate and undergraduate researchers as the group launches at New Mexico State University. Early members will help shape group culture, workflows, open research practices, and the first generation of group projects.</p>
   </div>
   <div class="cohort-actions">
     <a class="button primary" href="{{ '/opportunities/' | relative_url }}">View Openings</a>
-    <a class="button secondary" href="{{ '/manual/' | relative_url }}">Read Lab Manual</a>
+    <a class="button secondary" href="{{ '/manual/' | relative_url }}">Read Group Handbook</a>
   </div>
 </section>
 
@@ -66,7 +66,7 @@ content_width: wide
   <div class="section-heading compact-heading">
     <p class="eyebrow">Founding Cohort</p>
     <h2>Graduate students and postdoctoral researchers</h2>
-    <p>The lab is building its first cohort at New Mexico State University. Current and anticipated roles are listed below so prospective members can see where the lab is growing.</p>
+    <p>The group is building its first cohort at New Mexico State University. Current and anticipated roles are listed below so prospective members can see where the group is growing.</p>
   </div>
   <div class="role-opportunity-grid">
     {% for role in site.data.people.open_roles %}

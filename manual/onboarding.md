@@ -1,7 +1,7 @@
 ---
 layout: manual
 title: Onboarding
-summary: First steps for new students, staff, and collaborators joining the research lab.
+summary: First steps for new students, staff, and collaborators joining the research group.
 ---
 
 ## First Week
@@ -9,9 +9,9 @@ summary: First steps for new students, staff, and collaborators joining the rese
 - Meet with the PI to discuss research goals, expectations, and near-term priorities.
 - Confirm access to shared folders, code repositories, communication channels, and computing resources.
 - Create or update your ORCID, GitHub, and academic profile links.
-- Review the public website, research themes, recent publications, and this manual.
+- Review the public website, research themes, recent publications, and this handbook (especially the [Advising Philosophy and Expectations]({{ '/manual/advising-philosophy-and-expectations/' | relative_url }})).
 - Set up a short recurring check-in schedule.
-- Pick one starter task that produces a visible artifact: a project README, a literature map, a reproduced figure, or a small data-processing script.
+- Pick one starter task that produces a visible artifact: a project README, a literature map, a reproduced figure, or a small data-processing script (see [General Programming]({{ '/manual/programming/' | relative_url }}) for code style and environment setup).
 
 ## Accounts and Access
 
@@ -23,7 +23,7 @@ Typical access needs may include:
 - Shared document storage
 - Computing accounts or HPC allocations
 - Data portals used by your project
-- Lab communication channels
+- Group communication channels
 
 ## Project Orientation
 

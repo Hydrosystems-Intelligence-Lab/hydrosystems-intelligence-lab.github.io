@@ -1,12 +1,12 @@
 ---
 layout: manual
-title: How to Edit This Manual
-summary: How to update the research lab manual without breaking the public website.
+title: How to Edit This Handbook
+summary: How to update the research group handbook without breaking the public website.
 ---
 
-## Where the Manual Lives
+## Where the Handbook Lives
 
-The manual lives in the `manual/` folder of the website repository. Each page is a Markdown file with front matter at the top.
+The handbook lives in the `manual/` folder of the website repository. Each page is a Markdown file with front matter at the top.
 
 Example:
 
@@ -22,7 +22,7 @@ summary: One sentence summary.
 Page content goes here.
 ```
 
-## Adding a New Manual Page
+## Adding a New Handbook Page
 
 1. Create a new Markdown file under `manual/`.
 2. Use `layout: manual` in the front matter.
@@ -45,7 +45,7 @@ http://127.0.0.1:4001/manual/
 
 ## Writing Style
 
-- Write for a future lab member who needs to act.
+- Write for a future group member who needs to act.
 - Keep pages specific and maintainable.
 - Prefer checklists, examples, and links over long essays.
 - Avoid storing passwords, private data, unpublished sensitive results, or confidential collaborator information.
