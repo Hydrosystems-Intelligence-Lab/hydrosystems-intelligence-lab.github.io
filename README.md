@@ -1,5 +1,9 @@
 # Abeshu Hydrosystems Intelligence Group Website
 
+<p align="center">
+  <img src="assets/img/AWSI.png" alt="Abeshu Hydrosystems Intelligence Group logo" width="260">
+</p>
+
 Source for the website of the Abeshu Hydrosystems Intelligence Group at New Mexico State University.
 
 The site is a Jekyll project: Markdown pages, YAML data files, and Liquid layouts.
