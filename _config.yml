@@ -1,5 +1,5 @@
 title: Abeshu Hydrosystems Intelligence Group
-tagline: Where climate, water, infrastructure, and human dynamics converge
+tagline: Where climate, water, infrastructure, and human dynamics converge.
 description: >-
   Data-driven, physics-informed, and decision-centered research for water
   prediction, infrastructure resilience, and climate adaptation.
@@ -7,7 +7,9 @@ social_image: /assets/img/water-systems-research-concept.png
 manual_hero_image: /assets/img/nm-valles-caldera.jpg
 manual_hero_image_position: center 50%
 url: "https://gutabeshu.github.io"
-baseurl: "/hora-abeshu-research-group"
+# This repository is configured as a GitHub Pages project site, so baseurl must
+# match the repository name exactly. Use "" only for a custom domain or root site.
+baseurl: "/Hydrosystems-Intelligence-Group"
 lang: en
 timezone: America/Denver
 

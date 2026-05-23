@@ -7,8 +7,8 @@ description: Abeshu Hydrosystems Intelligence Group at New Mexico State Universi
 <section class="home-hero" style="--home-hero-image: url('{{ '/assets/img/nm-rio-grande-bosque.jpg' | relative_url }}');">
   <div class="wrapper home-hero-grid">
     <div class="hero-copy">
-      <h1>Navigating water futures beyond the bounds of history</h1>
-      <p class="hero-lede">At New Mexico State University, the Abeshu Hydrosystems Intelligence Group develops models, data systems, and decision tools to understand and manage water risk in a changing climate, where past conditions no longer define future water security.</p>
+      <h1>Understanding and managing water risk in a changing world.</h1>
+      <p class="hero-lede">At New Mexico State University, the Abeshu Hydrosystems Intelligence Group develops models, data systems, and decision tools where climate, water, infrastructure, and human dynamics converge—and where past conditions no longer define future water security.</p>
       <div class="button-row">
         <a class="button primary" href="{{ '/research/' | relative_url }}">Explore Research</a>
         <a class="button secondary" href="{{ '/publications/' | relative_url }}">View Publications</a>
@@ -21,8 +21,8 @@ description: Abeshu Hydrosystems Intelligence Group at New Mexico State Universi
 <section class="home-intro-section">
   <div class="wrapper home-intro-grid">
     <div class="identity-panel">
-      <p class="eyebrow sentence-case">About the Group</p>
-      <h2 class="about-welcome-heading">Welcome to our website!</h2>
+      <!-- <p class="eyebrow sentence-case">About the Group</p> -->
+      <h2 class="about-welcome-heading">About the Group</h2>
       <div class="identity-list">
         <div>
           <strong>Who we are.</strong>
@@ -30,15 +30,15 @@ description: Abeshu Hydrosystems Intelligence Group at New Mexico State Universi
         </div>
         <div>
           <strong>What we do.</strong>
-          <p>We study water risk under climate stress and develop forecasts, models, and decision-support tools for resilient and equitable water management.</p>
+          <p>We study water futures in a changing world and develop predictive models, data systems, and decision-support tools for resilient and equitable water management.</p>
         </div>
         <div>
           <strong>How we do it.</strong>
-          <p>Our approach integrates process-based science, Earth observation, AI, optimization, and uncertainty analysis.</p>
+          <p>Our approach combines theory, physical understanding, Earth observation, AI, and decision science to study the adaptive complexity of water systems and support better decisions.</p>
         </div>
         <div>
-          <strong>Research identity.</strong>
-          <p>The group connects prediction, adaptation, infrastructure resilience, and equity across watersheds, regions, and Earth-system scales.</p>
+          <strong>Research focus.</strong>
+          <p>We connect prediction, adaptation, infrastructure resilience, and equity across watersheds, regions, and Earth-system scales.</p>
         </div>
         <div class="emblem-item">
           <div class="emblem-heading">
@@ -47,7 +47,7 @@ description: Abeshu Hydrosystems Intelligence Group at New Mexico State Universi
               <img src="{{ '/assets/img/AWSI.png' | relative_url }}" alt="" aria-hidden="true">
             </figure>
           </div>
-          <p>The blue emblem reads as two interlocking loops, four interacting petals, and a continuous adaptive cycle. The petals represent climate, water, infrastructure, and human dynamics as distinct but inseparable parts of a complex adaptive hydrosystem. Their circular motion reflects feedbacks among these systems, while the central mark represents hydrosystems intelligence: data, modeling, monitoring, and decision support for better water decisions.</p>
+          <p>The blue emblem reads as two interlocking loops, four interacting petals, and a continuous adaptive cycle. The petals represent climate, water, infrastructure, and human dynamics as inseparable parts of a complex hydrosystem. Their circular motion reflects feedbacks among these systems, while the central mark represents data, modeling, monitoring, and decision support for better water decisions.</p>
         </div>
       </div>
       <p class="manual-note">New and prospective group members can read the <a href="{{ '/manual/' | relative_url }}">Abeshu Hydrosystems Intelligence Group handbook</a> for advising expectations, onboarding, workflows, and group practices.</p>
