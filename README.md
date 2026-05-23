@@ -4,6 +4,7 @@
 </p>
 
 # Abeshu Hydrosystems Intelligence Group Website
+[![Site check](https://github.com/gutabeshu/Hydrosystems-Intelligence-Group/actions/workflows/site-check.yml/badge.svg)](https://github.com/gutabeshu/Hydrosystems-Intelligence-Group/actions/workflows/site-check.yml)
 
 Source for the website of the Abeshu Hydrosystems Intelligence Group at New Mexico State University.
 
