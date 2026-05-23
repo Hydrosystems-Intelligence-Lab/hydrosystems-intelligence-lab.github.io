@@ -23,7 +23,7 @@
     <link rel="apple-touch-icon" href="{{ '/assets/img/apple-touch-icon.png' | relative_url }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@600;700&family=Libre+Franklin:wght@700;800;900&family=Source+Sans+3:ital,wght@0,400..900;1,400..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,400..900;1,8..60,400..900&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@600;700&amp;family=Libre+Franklin:wght@700;800;900&amp;family=Source+Sans+3:ital,wght@0,400..900;1,400..900&amp;family=Source+Serif+4:ital,opsz,wght@0,8..60,400..900;1,8..60,400..900&amp;display=swap">
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v=ahi-font-2">
   </head>
   <body>
@@ -38,12 +38,42 @@
         var nav      = document.getElementById('mobile-nav');
         var backdrop = document.querySelector('.mobile-nav-backdrop');
         var closeBtn = document.querySelector('.mobile-nav-close');
-        if (!toggle || !nav) return;
+        if (!toggle || !nav || !backdrop || !closeBtn) return;
 
         function getFocusable() {
           return Array.from(nav.querySelectorAll(
             'a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])'
           ));
+        }
+
+        function setFocusableState(enabled) {
+          getFocusable().forEach(function (el) {
+            if (enabled) {
+              if (Object.prototype.hasOwnProperty.call(el.dataset, 'navOriginalTabindex')) {
+                if (el.dataset.navOriginalTabindex) {
+                  el.setAttribute('tabindex', el.dataset.navOriginalTabindex);
+                } else {
+                  el.removeAttribute('tabindex');
+                }
+                delete el.dataset.navOriginalTabindex;
+              }
+            } else {
+              if (!Object.prototype.hasOwnProperty.call(el.dataset, 'navOriginalTabindex')) {
+                el.dataset.navOriginalTabindex = el.getAttribute('tabindex') || '';
+              }
+              el.setAttribute('tabindex', '-1');
+            }
+          });
+        }
+
+        function setNavHidden(hidden) {
+          nav.setAttribute('aria-hidden', String(hidden));
+          if (hidden) {
+            nav.setAttribute('inert', '');
+          } else {
+            nav.removeAttribute('inert');
+          }
+          setFocusableState(!hidden);
         }
 
         function trapFocus(e) {
@@ -59,6 +89,7 @@
         }
 
         function openNav() {
+          setNavHidden(false);
           nav.classList.add('is-open');
           backdrop.classList.add('is-open');
           toggle.setAttribute('aria-expanded', 'true');
@@ -70,6 +101,7 @@
         function closeNav() {
           nav.classList.remove('is-open');
           backdrop.classList.remove('is-open');
+          setNavHidden(true);
           toggle.setAttribute('aria-expanded', 'false');
           document.body.style.overflow = '';
           nav.removeEventListener('keydown', trapFocus);
@@ -87,6 +119,8 @@
         window.addEventListener('resize', function () {
           if (window.innerWidth > 680 && nav.classList.contains('is-open')) closeNav();
         });
+
+        setNavHidden(true);
       })();
     </script>
   </body>

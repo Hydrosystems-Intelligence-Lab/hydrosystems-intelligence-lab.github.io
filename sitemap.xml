@@ -5,7 +5,7 @@ layout: null
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   {% assign sorted_pages = site.pages | sort: 'url' %}
   {% for page in sorted_pages %}
-    {% unless page.url contains '/404.html' %}
+    {% unless page.url contains '/404.html' or page.sitemap == false %}
       {% if page.url contains '.xml' or page.url contains '.txt' or page.url contains '.css' %}
       {% else %}
   <url>

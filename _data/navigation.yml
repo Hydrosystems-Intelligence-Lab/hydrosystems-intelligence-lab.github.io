@@ -8,7 +8,11 @@
   url: /publications/
 - title: Group Handbook
   url: /manual/
+  active_paths:
+    - /manual/
 - title: Join
   url: /opportunities/
 - title: Updates
   url: /updates/
+  active_paths:
+    - /updates/

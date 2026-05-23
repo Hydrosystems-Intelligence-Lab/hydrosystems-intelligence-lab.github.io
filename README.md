@@ -11,7 +11,7 @@ The site is a Jekyll project: Markdown pages, YAML data files, and Liquid layout
 
 ## Repository structure
 
-Main pages live at the repository root: `index.md`, `research.md`, `people.md`, `publications.md`, `software-data.md`, `opportunities.md`, `updates.md`, `team-resources.md`, `contact.md`. Each has YAML front matter at the top with the Markdown body below.
+Main pages live at the repository root: `index.md`, `research.md`, `people.md`, `publications.md`, `software-data.md`, `opportunities.md`, and `updates.md`. Each has YAML front matter at the top with the Markdown body below. The legacy `team-resources.md` URL redirects to the group handbook at `/manual/`.
 
 Site metadata (institution, department, PI, email, URL) is in `_config.yml` under the `lab:` key. Top-level navigation is in `_data/navigation.yml`. Site styling is in `assets/css/style.css`, using an NMSU-inspired palette of crimson/maroon, dark navy, white/light gray, and blue/teal accents.
 
@@ -48,7 +48,6 @@ journal_articles:
 ## Image credits
 
 - `assets/img/nmsu-campus-panorama.jpg`: Panoramic view of NMSU from Tortugas ("A") Mountain by Terry Umbenhaur, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:NMSU_Campus.jpg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
-- `assets/img/nmsu_view.webp`: Campus aerial view used for NMSU location and contact sections.
 - `assets/img/water-systems-hero.png`: Generated local hero image for the research group website.
 - `assets/img/pi-placeholder.svg`: Local placeholder SVG.
 - `assets/img/nm-rio-grande-bosque.jpg`: Rio Grande River and bosque near Albuquerque by Asaavedra32, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Rio_Grande_River_and_Bosque.JPG), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Resized for web use.
