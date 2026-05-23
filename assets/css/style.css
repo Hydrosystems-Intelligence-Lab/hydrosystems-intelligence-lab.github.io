@@ -20,7 +20,7 @@
   --white: #ffffff;
   --shadow: 0 22px 60px rgba(18, 50, 71, 0.12);
   --max-width: 1440px;
-  --content-max: 1180px;
+  --content-max: 1320px;
   --page-gutter: clamp(1.25rem, 4vw, 4rem);
   --font-brand: "IBM Plex Sans Condensed", "Libre Franklin", "Source Sans 3", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   --font-sans: "Source Sans 3", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -175,9 +175,9 @@ ul {
 
 .brand-title {
   color: var(--white);
-  font-family: var(--font-brand);
-  font-weight: 700;
-  font-size: 2rem;
+  font-family: var(--font-sans);
+  font-weight: 400;
+  font-size: 2.5rem;
   line-height: 1.08;
   letter-spacing: 0;
   text-wrap: balance;
@@ -187,9 +187,8 @@ ul {
   margin-top: 0.22rem;
   color: #d8f0ef;
   font-family: var(--font-serif);
-  font-size: 1rem;
+  font-size: 1.12rem;
   font-weight: 600;
-  font-style: italic;
   line-height: 1.32;
   overflow-wrap: anywhere;
 }
@@ -288,6 +287,7 @@ ul {
 
 .hero-copy h1 {
   color: var(--white);
+  font-size: 3.35rem;
 }
 
 .hero-lede {
@@ -1730,6 +1730,10 @@ ul {
     font-size: 3.1rem;
   }
 
+  .hero-copy h1 {
+    font-size: 2.75rem;
+  }
+
   h2 {
     font-size: 2rem;
   }
@@ -1862,6 +1866,10 @@ ul {
     font-size: 2.18rem;
   }
 
+  .hero-copy h1 {
+    font-size: 1.95rem;
+  }
+
   h2 {
     font-size: 1.68rem;
   }
@@ -1878,12 +1886,12 @@ ul {
   }
 
   .brand-title {
-    font-size: 1.42rem;
+    font-size: 1.74rem;
   }
 
   .brand-subtitle {
     display: block;
-    font-size: 0.84rem;
+    font-size: 0.94rem;
   }
 
   .site-nav {

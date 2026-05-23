@@ -7,7 +7,7 @@ description: Abeshu Hydrosystems Intelligence Group at New Mexico State Universi
 <section class="home-hero" style="--home-hero-image: url('{{ '/assets/img/nm-rio-grande-bosque.jpg' | relative_url }}');">
   <div class="wrapper home-hero-grid">
     <div class="hero-copy">
-      <h1>Connecting climate, water, infrastructure, and human dynamics.</h1>
+      <h1>Navigating water futures beyond the bounds of history</h1>
       <p class="hero-lede">At New Mexico State University, the Abeshu Hydrosystems Intelligence Group develops models, data systems, and decision tools to understand and manage water risk in a changing climate, where past conditions no longer define future water security.</p>
       <div class="button-row">
         <a class="button primary" href="{{ '/research/' | relative_url }}">Explore Research</a>
@@ -22,7 +22,7 @@ description: Abeshu Hydrosystems Intelligence Group at New Mexico State Universi
   <div class="wrapper home-intro-grid">
     <div class="identity-panel">
       <p class="eyebrow sentence-case">About the Group</p>
-      <h2 class="about-welcome-heading">Welcome to the Abeshu Hydrosystems Intelligence Group</h2>
+      <h2 class="about-welcome-heading">Welcome to our website!</h2>
       <div class="identity-list">
         <div>
           <strong>Who we are.</strong>
