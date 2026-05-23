@@ -4,7 +4,6 @@
 </p>
 
 # Abeshu Hydrosystems Intelligence Group Website
-[![Site check](https://github.com/gutabeshu/Hydrosystems-Intelligence-Group/actions/workflows/site-check.yml/badge.svg)](https://github.com/gutabeshu/Hydrosystems-Intelligence-Group/actions/workflows/site-check.yml)
 
 [![Site check](https://github.com/gutabeshu/Hydrosystems-Intelligence-Group/actions/workflows/site-check.yml/badge.svg)](https://github.com/gutabeshu/Hydrosystems-Intelligence-Group/actions/workflows/site-check.yml)
 ![Jekyll](https://img.shields.io/badge/Built%20with-Jekyll-cc0000)
