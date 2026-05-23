@@ -5,6 +5,11 @@
 
 # Abeshu Hydrosystems Intelligence Group Website
 
+[![Site check](https://github.com/gutabeshu/Hydrosystems-Intelligence-Group/actions/workflows/site-check.yml/badge.svg)](https://github.com/gutabeshu/Hydrosystems-Intelligence-Group/actions/workflows/site-check.yml)
+![Jekyll](https://img.shields.io/badge/Built%20with-Jekyll-cc0000)
+![GitHub Pages](https://img.shields.io/badge/Hosted%20on-GitHub%20Pages-222222)
+![Website](https://img.shields.io/website?url=https%3A%2F%2Fgutabeshu.github.io%2FHydrosystems-Intelligence-Group%2F)
+
 Source for the website of the Abeshu Hydrosystems Intelligence Group at New Mexico State University.
 
 The site is a Jekyll project: Markdown pages, YAML data files, and Liquid layouts.
