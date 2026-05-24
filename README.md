@@ -3,7 +3,7 @@
   <img src="assets/img/AWSI.png" alt="Abeshu Hydrosystems Intelligence Lab logo" width="1000">
 </p>
 
-# Website for Abeshu Hydrosystems Intelligence Lab at New Mexico State University
+# Website for Abeshu Lab at New Mexico State University
 
 [![Site check](https://github.com/Hydrosystems-Intelligence-Lab/Hydrosystems-Intelligence-Lab-Website/actions/workflows/site-check.yml/badge.svg)](https://github.com/Hydrosystems-Intelligence-Lab/Hydrosystems-Intelligence-Lab-Website/actions/workflows/site-check.yml)
 ![Jekyll](https://img.shields.io/badge/Built%20with-Jekyll-cc0000)
