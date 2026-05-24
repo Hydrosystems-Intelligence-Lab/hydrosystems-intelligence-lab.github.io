@@ -40,7 +40,7 @@ description: Abeshu Hydrosystems Intelligence Lab at New Mexico State University
           <strong>Research focus.</strong>
           <p>We connect prediction, adaptation, infrastructure resilience, and equity across watersheds, regions, and Earth-system scales.</p>
         </div>
-        <div class="emblem-item">
+        <!-- <div class="emblem-item">
           <div class="emblem-heading">
             <strong>Our emblem.</strong>
             <figure class="emblem-mark">
@@ -48,7 +48,7 @@ description: Abeshu Hydrosystems Intelligence Lab at New Mexico State University
             </figure>
           </div>
           <p>The blue emblem reads as two interlocking loops, four interacting petals, and a continuous adaptive cycle. The petals represent climate, water, infrastructure, and human dynamics as inseparable parts of a complex hydrosystem. Their circular motion reflects feedbacks among these systems, while the central mark represents data, modeling, monitoring, and decision support for better water decisions.</p>
-        </div>
+        </div> -->
       </div>
       <p class="manual-note">New and prospective lab members can read the <a href="{{ '/manual/' | relative_url }}">Abeshu Hydrosystems Intelligence Lab handbook</a> for advising expectations, onboarding, workflows, and lab practices.</p>
     </div>
