@@ -6,10 +6,10 @@ description: >-
 social_image: /assets/img/water-systems-research-concept.png
 manual_hero_image: /assets/img/nm-valles-caldera.jpg
 manual_hero_image_position: center 50%
-url: "https://gutabeshu.github.io"
+url: "https://Hydrosystems-Intelligence-Lab.github.io"
 # This repository is configured as a GitHub Pages project site, so baseurl must
 # match the repository name exactly. Use "" only for a custom domain or root site.
-baseurl: "/Hydrosystems-Intelligence-Lab"
+baseurl: "/Hydrosystems-Intelligence-Lab-Website"
 lang: en
 timezone: America/Denver
 
