@@ -9,7 +9,7 @@ manual_hero_image_position: center 50%
 url: "https://gutabeshu.github.io"
 # This repository is configured as a GitHub Pages project site, so baseurl must
 # match the repository name exactly. Use "" only for a custom domain or root site.
-baseurl: "/Hydrosystems-Intelligence-Group"
+baseurl: "/Hydrosystems-Intelligence-Lab"
 lang: en
 timezone: America/Denver
 
