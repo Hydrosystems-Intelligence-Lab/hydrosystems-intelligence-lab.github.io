@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="assets/img/AWSI2.png" alt="Abeshu Hydrosystems Intelligence Lab logo" width="800">
+  <img src="assets/img/AWSI2.png" alt="Abeshu Hydrosystems Intelligence Lab logo" width="1000">
 </p>
 
 # Abeshu Hydrosystems Intelligence Lab Website
