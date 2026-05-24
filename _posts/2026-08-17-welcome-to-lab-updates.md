@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Welcome to lab updates
-date: 2026-04-29
+date: 2026-08-17
 category: updates
 ---
 

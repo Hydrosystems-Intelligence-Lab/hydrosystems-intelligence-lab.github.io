@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Abeshu Hydrosystems Intelligence Lab website launched
-date: 2026-04-29
+date: 2026-08-17
 category: updates
 ---
 

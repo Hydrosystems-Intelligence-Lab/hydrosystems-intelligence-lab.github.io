@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Funded PhD opportunity for Spring 2027 admission
-date: 2026-04-29
+date: 2026-08-17
 category: updates
 ---
 
