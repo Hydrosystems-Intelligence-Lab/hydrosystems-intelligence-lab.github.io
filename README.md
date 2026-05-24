@@ -16,7 +16,7 @@ The site is a Jekyll project: Markdown pages, YAML data files, and Liquid layout
 
 ## Repository structure
 
-Main pages live at the repository root: `index.md`, `research.md`, `people.md`, `publications.md`, `software-data.md`, `opportunities.md`, and `updates.md`. Each has YAML front matter at the top with the Markdown body below. The legacy `team-resources.md` URL redirects to the lab handbook at `/manual/`.
+Main pages live at the repository root: `index.md`, `research.md`, `people.md`, `publications.md`, `software-data.md`, `opportunities.md`, and `updates.md`. Each has YAML front matter at the top with the Markdown body below. The lab handbook lives at `/manual/`.
 
 Site metadata (institution, department, PI, email, URL) is in `_config.yml` under the `lab:` key. Top-level navigation is in `_data/navigation.yml`. Site styling is in `assets/css/style.css`, using an NMSU-inspired palette of crimson/maroon, dark navy, white/light gray, and blue/teal accents.
 
