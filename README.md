@@ -70,5 +70,3 @@ gem install bundler jekyll
 bundle install
 bundle exec jekyll serve
 ```
-lsof -i :4000
-kill -9 32816
