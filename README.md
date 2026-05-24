@@ -10,8 +10,6 @@
 ![GitHub Pages](https://img.shields.io/badge/Hosted%20on-GitHub%20Pages-222222)
 ![Website](https://img.shields.io/website?url=https%3A%2F%2FHydrosystems-Intelligence-Lab.github.io%2FHydrosystems-Intelligence-Lab-Website%2F)
 
-Source for the website of the Abeshu Hydrosystems Intelligence Lab at New Mexico State University.
-
 The site is a Jekyll project: Markdown pages, YAML data files, and Liquid layouts.
 
 ## Repository structure
