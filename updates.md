@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Updates
-summary: Announcements, research notes, opportunities, and short posts from the Abeshu Hydrosystems Intelligence Group.
+summary: Announcements, research notes, opportunities, and short posts from the Abeshu Hydrosystems Intelligence Lab.
 hero_image: /assets/img/nm-valles-caldera.jpg
 hero_image_position: center 50%
 content_width: wide

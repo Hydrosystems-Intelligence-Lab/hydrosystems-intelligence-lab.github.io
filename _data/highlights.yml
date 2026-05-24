@@ -1,6 +1,6 @@
 - title: Human water management in large-scale hydrologic models
   label: Foundational work
-  summary: Research on representing reservoirs, allocation, and water management in global hydrologic and multisector models provides a foundation for the group's work on water systems intelligence.
+  summary: Research on representing reservoirs, allocation, and water management in global hydrologic and multisector models provides a foundation for the lab's work on water systems intelligence.
   evidence: "Geoscientific Model Development, 2023; GCAM-GLORY, 2024"
   links:
     - text: Water management in global hydrological models
@@ -9,7 +9,7 @@
       url: "https://doi.org/10.5194/gmd-17-5587-2024"
 - title: Vegetation, water balance, and hydroclimate stress
   label: Foundational work
-  summary: Studies of catchment water balance, root-zone water availability, atmospheric dryness, and vegetation productivity support the group's interest in process-aware AI for drought and ecosystem response.
+  summary: Studies of catchment water balance, root-zone water availability, atmospheric dryness, and vegetation productivity support the lab's interest in process-aware AI for drought and ecosystem response.
   evidence: "Water Resources Research, 2021; Journal of Hydrologic Engineering, 2024; HESS, 2025"
   links:
     - text: Horton Index framework
@@ -18,7 +18,7 @@
       url: "https://doi.org/10.5194/hess-29-1847-2025"
 - title: Unprecedented floods, droughts, and sociohydrologic risk
   label: Risk and resilience
-  summary: Work on unprecedented hydrologic extremes and paired flood-drought events informs the group's emphasis on connected extremes, nonstationarity, and decision-relevant risk analysis.
+  summary: Work on unprecedented hydrologic extremes and paired flood-drought events informs the lab's emphasis on connected extremes, nonstationarity, and decision-relevant risk analysis.
   evidence: "Nature, 2022; Earth System Science Data, 2023"
   links:
     - text: Unprecedented floods and droughts

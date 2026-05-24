@@ -1,6 +1,6 @@
 - title: Handbook Home
   url: /manual/
-- title: About the Group
+- title: About the Lab
   url: /manual/about/
 - title: How to Edit This Handbook
   url: /manual/how-to-edit/
@@ -18,7 +18,7 @@
   url: /manual/programming/
 - title: Writing and Reviewing
   url: /manual/writing/
-- title: Group Software
+- title: Lab Software
   url: /manual/software/
 - title: Other Software
   url: /manual/other-software/

@@ -1,18 +1,18 @@
 ---
 layout: default
 title: Home
-description: Abeshu Hydrosystems Intelligence Group at New Mexico State University.
+description: Abeshu Hydrosystems Intelligence Lab at New Mexico State University.
 ---
 
 <section class="home-hero" style="--home-hero-image: url('{{ '/assets/img/nm-rio-grande-bosque.jpg' | relative_url }}');">
   <div class="wrapper home-hero-grid">
     <div class="hero-copy">
       <h1>Understanding and managing water risk in a changing world.</h1>
-      <p class="hero-lede">At New Mexico State University, the Abeshu Hydrosystems Intelligence Group develops models, data systems, and decision tools where climate, water, infrastructure, and human dynamics converge—and where past conditions no longer define future water security.</p>
+      <p class="hero-lede">At New Mexico State University, the Abeshu Hydrosystems Intelligence Lab develops models, data systems, and decision tools where climate, water, infrastructure, and human dynamics converge—and where past conditions no longer define future water security.</p>
       <div class="button-row">
         <a class="button primary" href="{{ '/research/' | relative_url }}">Explore Research</a>
         <a class="button secondary" href="{{ '/publications/' | relative_url }}">View Publications</a>
-        <a class="button secondary" href="{{ '/opportunities/' | relative_url }}">Join the Group</a>
+        <a class="button secondary" href="{{ '/opportunities/' | relative_url }}">Join the Lab</a>
       </div>
     </div>
   </div>
@@ -21,12 +21,12 @@ description: Abeshu Hydrosystems Intelligence Group at New Mexico State Universi
 <section class="home-intro-section">
   <div class="wrapper home-intro-grid">
     <div class="identity-panel">
-      <!-- <p class="eyebrow sentence-case">About the Group</p> -->
-      <h2 class="about-welcome-heading">About the Group</h2>
+      <!-- <p class="eyebrow sentence-case">About the Lab</p> -->
+      <h2 class="about-welcome-heading">About the Lab</h2>
       <div class="identity-list">
         <div>
           <strong>Who we are.</strong>
-          <p>We are a hydrosystems research group in the Department of Civil and Environmental Engineering at New Mexico State University.</p>
+          <p>We are a hydrosystems research lab in the Department of Civil and Environmental Engineering at New Mexico State University.</p>
         </div>
         <div>
           <strong>What we do.</strong>
@@ -50,7 +50,7 @@ description: Abeshu Hydrosystems Intelligence Group at New Mexico State Universi
           <p>The blue emblem reads as two interlocking loops, four interacting petals, and a continuous adaptive cycle. The petals represent climate, water, infrastructure, and human dynamics as inseparable parts of a complex hydrosystem. Their circular motion reflects feedbacks among these systems, while the central mark represents data, modeling, monitoring, and decision support for better water decisions.</p>
         </div>
       </div>
-      <p class="manual-note">New and prospective group members can read the <a href="{{ '/manual/' | relative_url }}">Abeshu Hydrosystems Intelligence Group handbook</a> for advising expectations, onboarding, workflows, and group practices.</p>
+      <p class="manual-note">New and prospective lab members can read the <a href="{{ '/manual/' | relative_url }}">Abeshu Hydrosystems Intelligence Lab handbook</a> for advising expectations, onboarding, workflows, and lab practices.</p>
     </div>
     <aside class="home-news-panel" aria-label="Recent updates">
       <div class="panel-heading-row">

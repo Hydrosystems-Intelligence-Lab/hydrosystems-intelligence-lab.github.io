@@ -37,7 +37,7 @@ Notebooks are useful for exploration and communication. For production analyses,
 
 Do not commit large datasets to normal Git repositories. Instead, use one of our approved shared storage locations:
 
-- **Group NAS**: For primary active research data, large remote-sensing datasets, and model outputs.
+- **Lab NAS**: For primary active research data, large remote-sensing datasets, and model outputs.
 - **NMSU OneDrive**: For documents, meeting notes, presentations, and small tabular data.
 - **HPC Project Space**: For temporary large-scale model runs and intermediate processing outputs.
 

@@ -1,16 +1,16 @@
 ---
 layout: manual
-title: About the Group
-summary: Shared identity, values, communities, and first actions for members of the Abeshu Hydrosystems Intelligence Group.
+title: About the Lab
+summary: Shared identity, values, communities, and first actions for members of the Abeshu Hydrosystems Intelligence Lab.
 ---
 
-## About the Abeshu Hydrosystems Intelligence Group
+## About the Abeshu Hydrosystems Intelligence Lab
 
-The Abeshu Hydrosystems Intelligence Group studies hydrologic systems, water infrastructure, and coupled human-water processes across watershed, regional, and Earth-system scales.
+The Abeshu Hydrosystems Intelligence Lab studies hydrologic systems, water infrastructure, and coupled human-water processes across watershed, regional, and Earth-system scales.
 
 We develop data-driven, physics-informed, and AI-enabled methods for resilient, equitable, and decision-ready water systems. Our work connects hydroclimate extremes, infrastructure operations, Earth observation, lake and reservoir dynamics, water equity, climate adaptation, and Earth-system modeling.
 
-The group is based at New Mexico State University and works at the boundary between hydrology, civil and environmental engineering, artificial intelligence, infrastructure systems, and decision science.
+The lab is based at New Mexico State University and works at the boundary between hydrology, civil and environmental engineering, artificial intelligence, infrastructure systems, and decision science.
 
 ## Our Values
 
@@ -40,7 +40,7 @@ ORCID is especially important because journals, professional societies, funding 
 
 ## Our Community
 
-Group members may engage with different scientific communities depending on their projects. Common communities include:
+Lab members may engage with different scientific communities depending on their projects. Common communities include:
 
 - American Geophysical Union for hydrology, climate, Earth observation, and water resources.
 - American Society of Civil Engineers and EWRI for civil infrastructure, hydrology, hydraulics, and water management.
@@ -53,10 +53,10 @@ Group members may engage with different scientific communities depending on thei
 
 ## To Do List for New Members
 
-- Read the public group website and this handbook.
+- Read the public lab website and this handbook.
 - Create or update your ORCID profile.
-- Set up a GitHub account and share your username with the group.
+- Set up a GitHub account and share your username with the lab.
 - Identify one or two professional societies most relevant to your research.
-- Read recent group publications or project notes related to your topic.
+- Read recent lab publications or project notes related to your topic.
 - Start a project README early, even if the project is still forming.
 - Schedule a short conversation about your research goals, expected outputs, and support needs.

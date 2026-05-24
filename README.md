@@ -1,26 +1,26 @@
 
 <p align="center">
-  <img src="assets/img/AWSI.png" alt="Abeshu Hydrosystems Intelligence Group logo" width="800">
+  <img src="assets/img/AWSI.png" alt="Abeshu Hydrosystems Intelligence Lab logo" width="800">
 </p>
 
-# Abeshu Hydrosystems Intelligence Group Website
+# Abeshu Hydrosystems Intelligence Lab Website
 
 [![Site check](https://github.com/gutabeshu/Hydrosystems-Intelligence-Group/actions/workflows/site-check.yml/badge.svg)](https://github.com/gutabeshu/Hydrosystems-Intelligence-Group/actions/workflows/site-check.yml)
 ![Jekyll](https://img.shields.io/badge/Built%20with-Jekyll-cc0000)
 ![GitHub Pages](https://img.shields.io/badge/Hosted%20on-GitHub%20Pages-222222)
 ![Website](https://img.shields.io/website?url=https%3A%2F%2Fgutabeshu.github.io%2FHydrosystems-Intelligence-Group%2F)
 
-Source for the website of the Abeshu Hydrosystems Intelligence Group at New Mexico State University.
+Source for the website of the Abeshu Hydrosystems Intelligence Lab at New Mexico State University.
 
 The site is a Jekyll project: Markdown pages, YAML data files, and Liquid layouts.
 
 ## Repository structure
 
-Main pages live at the repository root: `index.md`, `research.md`, `people.md`, `publications.md`, `software-data.md`, `opportunities.md`, and `updates.md`. Each has YAML front matter at the top with the Markdown body below. The legacy `team-resources.md` URL redirects to the group handbook at `/manual/`.
+Main pages live at the repository root: `index.md`, `research.md`, `people.md`, `publications.md`, `software-data.md`, `opportunities.md`, and `updates.md`. Each has YAML front matter at the top with the Markdown body below. The legacy `team-resources.md` URL redirects to the lab handbook at `/manual/`.
 
 Site metadata (institution, department, PI, email, URL) is in `_config.yml` under the `lab:` key. Top-level navigation is in `_data/navigation.yml`. Site styling is in `assets/css/style.css`, using an NMSU-inspired palette of crimson/maroon, dark navy, white/light gray, and blue/teal accents.
 
-The research group handbook lives in `manual/` and uses the `manual` layout, which provides a dedicated sidebar while keeping the public site header and footer. Handbook navigation is in `_data/manual_navigation.yml`. Sections cover onboarding, graduate studies, research workflows, programming, writing and reviewing, group software, other software, data visualization, job search, templates, and resources.
+The research lab handbook lives in `manual/` and uses the `manual` layout, which provides a dedicated sidebar while keeping the public site header and footer. Handbook navigation is in `_data/manual_navigation.yml`. Sections cover onboarding, graduate studies, research workflows, programming, writing and reviewing, lab software, other software, data visualization, job search, templates, and resources.
 
 ## Adding content
 
@@ -53,7 +53,7 @@ journal_articles:
 ## Image credits
 
 - `assets/img/nmsu-campus-panorama.jpg`: Panoramic view of NMSU from Tortugas ("A") Mountain by Terry Umbenhaur, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:NMSU_Campus.jpg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
-- `assets/img/water-systems-hero.png`: Generated local hero image for the research group website.
+- `assets/img/water-systems-hero.png`: Generated local hero image for the research lab website.
 - `assets/img/pi-placeholder.svg`: Local placeholder SVG.
 - `assets/img/nm-rio-grande-bosque.jpg`: Rio Grande River and bosque near Albuquerque by Asaavedra32, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Rio_Grande_River_and_Bosque.JPG), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Resized for web use.
 - `assets/img/nm-rio-grande-gorge.jpg`: Rio Grande Gorge near Taos by Tobyw87, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:RioGrandGorge.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Resized for web use.

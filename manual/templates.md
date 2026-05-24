@@ -1,7 +1,7 @@
 ---
 layout: manual
 title: Templates
-summary: Reusable starter materials for common group documents and workflows.
+summary: Reusable starter materials for common lab documents and workflows.
 ---
 
 ## Project Work Plan Template

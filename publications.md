@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Publications
-summary: Selected publications by Dr. Abeshu and collaborators that ground the research direction of the Abeshu Hydrosystems Intelligence Group.
+summary: Selected publications by Dr. Abeshu and collaborators that ground the research direction of the Abeshu Hydrosystems Intelligence Lab.
 hero_image: /assets/img/nm-elephant-butte.jpg
 hero_image_position: center 46%
 content_width: wide
@@ -15,9 +15,9 @@ content_width: wide
 <section class="publication-intro feature-block page-priority">
   <div>
     <p class="eyebrow">Research Outputs</p>
-    <h2>Selected publications shaping the group's research direction</h2>
+    <h2>Selected publications shaping the lab's research direction</h2>
     <p>
-      These publications reflect the scholarly foundation around which the Abeshu Hydrosystems Intelligence Group is being launched. Group-authored outputs will be added here as the group's first projects mature.
+      These publications reflect the scholarly foundation around which the Abeshu Hydrosystems Intelligence Lab is being launched. Lab-authored outputs will be added here as the lab's first projects mature.
     </p>
   </div>
   <div class="summary-stat-grid compact-stats" aria-label="Publication summary">

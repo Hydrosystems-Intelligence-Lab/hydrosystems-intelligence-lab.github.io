@@ -1,6 +1,6 @@
 ---
 layout: null
-title: Team Resources / Group Handbook
+title: Team Resources / Lab Handbook
 permalink: /team-resources/
 sitemap: false
 ---
@@ -12,10 +12,10 @@ sitemap: false
     <meta name="robots" content="noindex">
     <link rel="canonical" href="{{ '/manual/' | absolute_url }}">
     <meta http-equiv="refresh" content="0; url={{ '/manual/' | relative_url }}">
-    <title>Redirecting to Group Handbook | {{ site.title }}</title>
+    <title>Redirecting to Lab Handbook | {{ site.title }}</title>
   </head>
   <body>
-    <p>The group handbook has moved to <a href="{{ '/manual/' | relative_url }}">the manual</a>.</p>
+    <p>The lab handbook has moved to <a href="{{ '/manual/' | relative_url }}">the manual</a>.</p>
     <script>
       window.location.replace("{{ '/manual/' | relative_url }}");
     </script>

@@ -1,7 +1,7 @@
 ---
 layout: manual
 title: How to Edit This Handbook
-summary: How to update the research group handbook without breaking the public website.
+summary: How to update the research lab handbook without breaking the public website.
 ---
 
 ## Where the Handbook Lives
@@ -45,7 +45,7 @@ http://127.0.0.1:4001/manual/
 
 ## Writing Style
 
-- Write for a future group member who needs to act.
+- Write for a future lab member who needs to act.
 - Keep pages specific and maintainable.
 - Prefer checklists, examples, and links over long essays.
 - Avoid storing passwords, private data, unpublished sensitive results, or confidential collaborator information.

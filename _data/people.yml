@@ -18,7 +18,7 @@ pi:
     Dr. Guta Wakbulcho Abeshu is an Assistant Professor specializing in water
     resources engineering, hydrologic prediction, water systems intelligence,
     and AI-enabled climate adaptation. He is also the founder of the Abeshu
-    Hydrosystems Intelligence Group, where his research integrates
+    Hydrosystems Intelligence Lab, where his research integrates
     physics-informed modeling, Earth observation, machine learning, and decision
     analytics for resilient water infrastructure and coupled
     climate-water-energy-infrastructure-society systems.
@@ -30,11 +30,11 @@ open_roles:
     image: /assets/img/pi-placeholder.svg
   - name: You?
     role: PhD Student
-    status: Recruiting motivated doctoral students for Spring 2027 as the group launches at NMSU.
+    status: Recruiting motivated doctoral students for Spring 2027 as the lab launches at NMSU.
     image: /assets/img/pi-placeholder.svg
   - name: You?
     role: MS Student
-    status: Prospective master's students are welcome to inquire about project-based opportunities as the group builds its first cohort.
+    status: Prospective master's students are welcome to inquire about project-based opportunities as the lab builds its first cohort.
     image: /assets/img/pi-placeholder.svg
   - name: You?
     role: Undergraduate Researcher
@@ -43,4 +43,4 @@ open_roles:
 
 groups:
   - name: Collaborators
-    status: The group welcomes collaborations with agencies, communities, utilities, and research partners working on water resilience.
+    status: The lab welcomes collaborations with agencies, communities, utilities, and research partners working on water resilience.
