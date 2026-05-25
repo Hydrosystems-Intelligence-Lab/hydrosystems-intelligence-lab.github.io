@@ -4,7 +4,7 @@
 </p>
 
 
-[Website for Abeshu Lab at New Mexico State University](https://ce.nmsu.edu/)
+#Website for Abeshu Lab at [New Mexico State University](https://ce.nmsu.edu/)
 
 [![Site check](https://github.com/Hydrosystems-Intelligence-Lab/Hydrosystems-Intelligence-Lab-Website/actions/workflows/site-check.yml/badge.svg)](https://github.com/Hydrosystems-Intelligence-Lab/Hydrosystems-Intelligence-Lab-Website/actions/workflows/site-check.yml)
 ![Jekyll](https://img.shields.io/badge/Built%20with-Jekyll-cc0000)
