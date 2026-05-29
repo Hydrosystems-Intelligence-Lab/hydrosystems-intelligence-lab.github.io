@@ -8,8 +8,12 @@ pi:
   email: gwabeshu@nmsu.edu
   image: /assets/img/pi-guta.JPG
   links:
+    - label: CV
+      url: "/assets/cv/Guta-Wakbulcho-Abeshu-CV.pdf"
     - label: Google Scholar
       url: "https://scholar.google.com/citations?user=oJwf_RwAAAAJ&hl=en"
+    - label: ORCID
+      url: "https://orcid.org/0000-0001-8775-3678"
     - label: GitHub
       url: "https://github.com/gutabeshu"
     - label: LinkedIn

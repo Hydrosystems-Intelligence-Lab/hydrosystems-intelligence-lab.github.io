@@ -17,7 +17,14 @@
   </div>
   <div class="wrapper footer-meta" role="contentinfo">
     <p>
+      &copy; {{ site.time | date: "%Y" }} {{ site.lab.full_name }}, {{ site.lab.institution }}.
+    </p>
+    <p>
       Built with <a href="https://jekyllrb.com/">Jekyll</a> for the Abeshu Hydrosystems Intelligence Lab at New Mexico State University.
     </p>
   </div>
 </footer>
+
+{% if site.analytics.cloudflare_token and site.analytics.cloudflare_token != "" %}
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "{{ site.analytics.cloudflare_token }}"}'></script>
+{% endif %}

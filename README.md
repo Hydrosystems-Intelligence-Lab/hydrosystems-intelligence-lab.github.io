@@ -6,10 +6,10 @@
 
 # Website for Abeshu Lab at [New Mexico State University](https://ce.nmsu.edu/)
 
-[![Site check](https://github.com/Hydrosystems-Intelligence-Lab/Hydrosystems-Intelligence-Lab-Website/actions/workflows/site-check.yml/badge.svg)](https://github.com/Hydrosystems-Intelligence-Lab/Hydrosystems-Intelligence-Lab-Website/actions/workflows/site-check.yml)
+[![Site check](https://github.com/Hydrosystems-Intelligence-Lab/hydrosystems-intelligence-lab.github.io/actions/workflows/site-check.yml/badge.svg)](https://github.com/Hydrosystems-Intelligence-Lab/hydrosystems-intelligence-lab.github.io/actions/workflows/site-check.yml)
 ![Jekyll](https://img.shields.io/badge/Built%20with-Jekyll-cc0000)
 ![GitHub Pages](https://img.shields.io/badge/Hosted%20on-GitHub%20Pages-222222)
-![Website](https://img.shields.io/website?url=https%3A%2F%2FHydrosystems-Intelligence-Lab.github.io%2FHydrosystems-Intelligence-Lab-Website%2F)
+![Website](https://img.shields.io/website?url=https%3A%2F%2Fhydrosystems-intelligence-lab.github.io%2F)
 
 The site is a Jekyll project: Markdown pages, YAML data files, and Liquid layouts.
 
@@ -62,10 +62,50 @@ journal_articles:
 - `assets/img/nm-valles-caldera.jpg`: Valles Caldera panorama by Thomas Shahan, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Panorama_of_Valles_Caldera,_New_Mexico_(7271433464).jpg), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/). Resized for web use.
 
 ## Previewing changes
-Before publishing changes, one can preview the website using bundle
 
-```yaml
+Before publishing changes, preview the website locally from the repository root
+(the Jekyll project lives at the root of this repo).
+
+Install dependencies once:
+
+```sh
 gem install bundler jekyll
 bundle install
-bundle exec jekyll serve
 ```
+
+Then start the local preview server:
+
+```sh
+bundle exec jekyll server
+```
+
+Open the site at:
+
+```text
+http://localhost:4000/
+```
+
+This repo is named `<org>.github.io`, so `baseurl` in `_config.yml` is empty
+(`""`) and the site is served at the root, both locally and once deployed at
+<https://hydrosystems-intelligence-lab.github.io>.
+
+Useful flags:
+
+- `bundle exec jekyll server --future` — also render future-dated posts (the
+  posts in `_posts/` are dated to the lab launch, so they are hidden by default
+  until that date).
+- `bundle exec jekyll server --livereload` — auto-refresh the browser on save.
+
+### Troubleshooting
+
+**`bundle exec jekyll server` reports missing gems / `command not found: jekyll`,
+even though `vendor/bundle` exists.** Bundler has lost the local install path.
+Re-point it (this repo uses Bundler 1.x with system Ruby, so use the 1.x
+syntax), then verify:
+
+```sh
+bundle config --local path vendor/bundle
+bundle check        # should report "The Gemfile's dependencies are satisfied"
+```
+
+On Bundler 2.x the equivalent command is `bundle config set --local path vendor/bundle`.

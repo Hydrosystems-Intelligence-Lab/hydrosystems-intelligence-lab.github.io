@@ -10,6 +10,13 @@ vendor/
 vendor/bundle/
 *.gem
 
+# VS Code/editor local state
+.vscode/
+*.code-workspace
+.history/
+*.swp
+*~
+
 # macOS/system files
 .DS_Store
 ._*
@@ -24,6 +31,4 @@ __MACOSX/
 *.log
 *.tmp
 *.temp
-*.swp
-*~
 *.zip
