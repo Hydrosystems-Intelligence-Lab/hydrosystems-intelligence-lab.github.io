@@ -1,0 +1,29 @@
+# Jekyll build output
+_site/
+.jekyll-cache/
+.sass-cache/
+.jekyll-metadata
+
+# Ruby/Bundler local installs
+.bundle/
+vendor/
+vendor/bundle/
+*.gem
+
+# macOS/system files
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+Icon?
+.Spotlight-V100
+.Trashes
+__MACOSX/
+
+# Local logs, temp files, and generated archives
+*.log
+*.tmp
+*.temp
+*.swp
+*~
+*.zip
