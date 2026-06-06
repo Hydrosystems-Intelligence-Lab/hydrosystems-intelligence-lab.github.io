@@ -28,5 +28,5 @@ When adding a resource, include a one-sentence note explaining why it is useful.
 Suggested format:
 
 ```markdown
-- [Resource title](https://example.com): Short note about why this is useful.
+- [Resource title](<resource URL>): Short note about why this is useful.
 ```
