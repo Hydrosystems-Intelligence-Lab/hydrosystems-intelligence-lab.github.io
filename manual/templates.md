@@ -4,6 +4,101 @@ title: Templates
 summary: Reusable starter materials for common lab documents and workflows.
 ---
 
+## Project Charter
+
+Use this as the first project document. Fill it once at project start with your
+PI. The Project Work Plan workbook is the living task tracker that the timeline
+points to; the Project README is the in-repository version of the
+reproducibility plan.
+
+```markdown
+# Project Charter
+
+Status:
+Last updated:
+
+## People
+
+PI:
+Student/researcher:
+Collaborators:
+
+## Funding / Support Source
+
+Grant, assistantship, fellowship, startup funds, course credit, or unfunded exploratory work:
+
+## One-Sentence Goal
+
+## Research Question
+
+## Why It Matters
+
+## Scope and Non-Goals
+
+This project will do:
+
+This project will not do:
+
+## Expected Outputs
+
+- Paper:
+- Dataset:
+- Code/tool:
+- Presentation:
+
+## Success Criteria
+
+Done looks like:
+
+## Data, Compliance, and Ethics
+
+Data sources:
+Raw data storage location:
+Access restrictions:
+License/citation:
+IRB / data-use agreement / export-control / community considerations:
+
+## Initial Methods
+
+Key prior work or references:
+
+## Reproducibility Plan
+
+Repository:
+Environment file:
+Small test case:
+Final output/archive location:
+
+## Timeline
+
+First 2 weeks:
+First month:
+Semester milestone:
+Target conference/journal:
+
+## Top Risks and Mitigation
+
+Risk 1:
+Mitigation:
+
+Risk 2:
+Mitigation:
+
+Risk 3:
+Mitigation:
+
+## Authorship and Ownership Notes
+
+Expected lead author / author order:
+Authorship criteria:
+Data and code ownership:
+Reuse or extension after the student leaves:
+If the student departs before completion:
+Acknowledgments:
+
+## Next Actions
+```
+
 ## Project Work Plan Template
 
 Use this workbook to turn advising conversations into a visible project plan. It is most useful at the start of a project, when a student needs to break a broad research direction into concrete tasks, data needs, meeting follow-ups, issues, and next actions.
@@ -73,24 +168,4 @@ Participants:
 - [ ] Results support the conclusions.
 - [ ] Limitations are explicit.
 - [ ] References are current and relevant.
-```
-
-## New Member Project Summary
-
-```markdown
-# Project Summary
-
-## Research Question
-
-## Why It Matters
-
-## Data
-
-## Methods
-
-## Expected Outputs
-
-## First Milestone
-
-## Open Questions
 ```

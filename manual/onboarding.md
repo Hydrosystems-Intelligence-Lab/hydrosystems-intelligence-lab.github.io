@@ -27,22 +27,14 @@ Typical access needs may include:
 
 ## Project Orientation
 
-For each project, identify:
-
-- Research question
-- Current datasets
-- Main code repositories
-- Key papers and reports
-- Expected outputs
-- Immediate blockers
-- Reproducibility requirements
+For each project, complete the [Project Charter]({{ '/manual/templates/' | relative_url }}#project-charter) with the PI or project lead. The charter identifies the research question, current datasets, repositories, key prior work, expected outputs, blockers, reproducibility requirements, and authorship or ownership notes.
 
 ## First Month
 
 By the end of the first month, each new member should have:
 
 - A working development environment for the project.
-- A short written project summary.
+- A completed [Project Charter]({{ '/manual/templates/' | relative_url }}#project-charter) for the project.
 - A first annotated reading list.
 - A repository or shared folder structure agreed with the PI or project lead.
 - A clear near-term milestone.
