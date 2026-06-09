@@ -32,6 +32,14 @@
       {{ content }}
     </main>
     {% include footer.html %}
+    <div class="image-lightbox" role="dialog" aria-modal="true" aria-label="Expanded image" hidden>
+      <button class="image-lightbox-close" type="button" aria-label="Close expanded image">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+          <path d="M2 2l14 14M16 2L2 16" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+        </svg>
+      </button>
+      <img alt="">
+    </div>
     <script>
       (function () {
         var toggle   = document.querySelector('.nav-toggle');
@@ -121,6 +129,52 @@
         });
 
         setNavHidden(true);
+      })();
+    </script>
+    <script>
+      (function () {
+        var triggers = Array.from(document.querySelectorAll('.js-image-zoom'));
+        var lightbox = document.querySelector('.image-lightbox');
+        if (!triggers.length || !lightbox) return;
+
+        var image = lightbox.querySelector('img');
+        var closeBtn = lightbox.querySelector('.image-lightbox-close');
+        var lastTrigger = null;
+        var previousBodyOverflow = '';
+
+        function openLightbox(trigger) {
+          var triggerImage = trigger.querySelector('img');
+          lastTrigger = trigger;
+          previousBodyOverflow = document.body.style.overflow;
+          image.src = trigger.dataset.fullSrc || triggerImage.src;
+          image.alt = trigger.dataset.alt || triggerImage.alt || '';
+          lightbox.hidden = false;
+          document.body.style.overflow = 'hidden';
+          closeBtn.focus();
+        }
+
+        function closeLightbox() {
+          lightbox.hidden = true;
+          image.removeAttribute('src');
+          document.body.style.overflow = previousBodyOverflow;
+          if (lastTrigger) lastTrigger.focus();
+        }
+
+        triggers.forEach(function (trigger) {
+          trigger.addEventListener('click', function () {
+            openLightbox(trigger);
+          });
+        });
+
+        closeBtn.addEventListener('click', closeLightbox);
+
+        lightbox.addEventListener('click', function (event) {
+          if (event.target === lightbox) closeLightbox();
+        });
+
+        document.addEventListener('keydown', function (event) {
+          if (event.key === 'Escape' && !lightbox.hidden) closeLightbox();
+        });
       })();
     </script>
   </body>

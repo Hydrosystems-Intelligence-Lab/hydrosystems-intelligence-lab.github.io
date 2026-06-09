@@ -34,7 +34,15 @@ content_width: wide
   {% for area in site.data.research %}
     <section class="feature-block research-detail" id="{{ area.icon }}">
       {% if area.image %}
-        <img class="research-detail-image" src="{{ area.image | relative_url }}" alt="{{ area.image_alt | default: area.title }}" loading="lazy">
+        <button
+          class="research-detail-media js-image-zoom"
+          type="button"
+          data-full-src="{{ area.image | relative_url }}"
+          data-alt="{{ area.image_alt | default: area.title }}"
+          aria-label="View larger image: {{ area.title }}"
+        >
+          <img class="research-detail-image" src="{{ area.image | relative_url }}" alt="{{ area.image_alt | default: area.title }}" loading="lazy">
+        </button>
       {% endif %}
       <div class="research-detail-copy">
         <p class="eyebrow">Thrust {{ forloop.index }}</p>
