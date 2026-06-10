@@ -4,6 +4,17 @@ title: Templates
 summary: Reusable starter materials for common lab documents and workflows.
 ---
 
+## Repository Templates
+
+Starter repositories on GitHub that give new lab projects a consistent structure.
+Use them as the starting point for new code or presentation repositories.
+
+- [hsi-lab-template-code](https://github.com/Hydrosystems-Intelligence-Lab/hsi-lab-template-code) — Python project starter with the standard layout, CI, tests, linting, and reproducibility scaffolding.
+- [hsi-lab-template-presentations](https://github.com/Hydrosystems-Intelligence-Lab/hsi-lab-template-presentations) — Branded talk and poster templates (PowerPoint plus Overleaf/Beamer) on the NMSU palette.
+
+The rest of this page collects document and workflow templates you copy into an
+existing project.
+
 ## Project Charter
 
 Use this as the first project document. Fill it once at project start with your

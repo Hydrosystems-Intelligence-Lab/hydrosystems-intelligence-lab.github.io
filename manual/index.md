@@ -30,6 +30,16 @@ The structure follows the same useful logic as strong research lab handbooks: st
 - [Templates]({{ '/manual/templates/' | relative_url }}) stores reusable project, meeting, review, and writing templates.
 - [Posts and Resources]({{ '/manual/resources/' | relative_url }}) points to tutorials, blog posts, and reference material.
 
+## Lab Repositories
+
+Shared GitHub repositories for the lab, collected in one place:
+
+- [hsi-lab-template-code](https://github.com/Hydrosystems-Intelligence-Lab/hsi-lab-template-code) — Starter template for new Python research projects (structure, CI, tests, reproducibility).
+- [hsi-lab-template-presentations](https://github.com/Hydrosystems-Intelligence-Lab/hsi-lab-template-presentations) — Branded talk and poster templates (PowerPoint and Overleaf/Beamer).
+- [hsi-lab-curated-research-tools](https://github.com/Hydrosystems-Intelligence-Lab/hsi-lab-curated-research-tools) — Curated directory of research tools across AI/ML, geospatial, remote sensing, modeling, writing, and computing.
+
+The template repositories also appear under [Templates]({{ '/manual/templates/' | relative_url }}), and the tool catalog under [Other Software]({{ '/manual/other-software/' | relative_url }}).
+
 ## Contributing
 
 Treat the handbook as a shared lab asset. Small edits are encouraged when they make a process clearer, remove outdated information, or add a reusable resource.

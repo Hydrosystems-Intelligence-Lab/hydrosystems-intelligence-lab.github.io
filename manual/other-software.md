@@ -4,6 +4,16 @@ title: Other Software
 summary: External tools that may be useful for lab research and collaboration.
 ---
 
+## Curated Tool Catalog
+
+For a fuller, categorized directory of research tools — AI/ML, geospatial, remote
+sensing, hydrologic modeling, figures, writing, reproducibility, and HPC/cloud —
+see the lab catalog:
+
+- [hsi-lab-curated-research-tools](https://github.com/Hydrosystems-Intelligence-Lab/hsi-lab-curated-research-tools) — Curated, one-line directory of tools and data portals for hydrosystems research, organized into twelve categories.
+
+The sections below are a short orientation to the tools used most day to day.
+
 ## Scientific Computing
 
 - Python: general analysis, modeling, automation, and visualization.
