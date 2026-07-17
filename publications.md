@@ -19,6 +19,10 @@ content_width: wide
     <p>
       These publications reflect the scholarly foundation around which the Abeshu Hydrosystems Intelligence Lab is being launched. Lab-authored outputs will be added here as the lab's first projects mature.
     </p>
+    {% assign scholar_link = site.data.people.pi.links | where: "label", "Google Scholar" | first %}
+    {% if scholar_link %}
+      <a class="text-link" href="{{ scholar_link.url }}">Full publication list on Google Scholar</a>
+    {% endif %}
   </div>
   <div class="summary-stat-grid compact-stats" aria-label="Publication summary">
     <article class="stat-card">

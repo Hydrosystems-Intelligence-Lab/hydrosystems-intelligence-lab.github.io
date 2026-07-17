@@ -34,8 +34,16 @@ analytics:
 markdown: kramdown
 permalink: /updates/:year/:month/:day/:title/
 
+plugins:
+  - jekyll-feed
+
+# jekyll-feed: serve the feed at /feed.xml with Updates posts.
+feed:
+  posts_limit: 20
+
 exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+  - LAUNCH_CHECKLIST.md
   - vendor/

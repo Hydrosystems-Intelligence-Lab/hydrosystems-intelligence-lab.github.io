@@ -7,6 +7,8 @@ hero_image_position: center 50%
 content_width: wide
 ---
 
+<p><a class="text-link" href="{{ '/feed.xml' | relative_url }}">Subscribe to updates via RSS</a></p>
+
 <div class="news-list">
   {% for post in site.posts %}
     <article>

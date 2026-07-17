@@ -19,6 +19,46 @@
       <meta property="og:image" content="{{ social_image | absolute_url }}">
       <meta name="twitter:card" content="summary_large_image">
     {% endif %}
+    {% feed_meta %}
+    {% assign pi_data = site.data.people.pi %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "{{ '/' | absolute_url }}#organization",
+          "name": {{ site.lab.full_name | jsonify }},
+          "url": "{{ '/' | absolute_url }}",
+          "email": {{ site.lab.email | jsonify }},
+          "parentOrganization": {
+            "@type": "CollegeOrUniversity",
+            "name": {{ site.lab.institution | jsonify }}
+          },
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Las Cruces",
+            "addressRegion": "NM",
+            "addressCountry": "US"
+          },
+          "founder": { "@id": "{{ '/' | absolute_url }}#pi" }
+        },
+        {
+          "@type": "Person",
+          "@id": "{{ '/' | absolute_url }}#pi",
+          "name": {{ site.lab.pi | jsonify }},
+          "jobTitle": {{ site.lab.pi_title | jsonify }},
+          "email": "mailto:{{ site.lab.email }}",
+          "worksFor": { "@id": "{{ '/' | absolute_url }}#organization" },
+          "affiliation": {
+            "@type": "CollegeOrUniversity",
+            "name": {{ site.lab.institution | jsonify }}
+          }{% if pi_data.links %}{% assign pi_profiles = pi_data.links | where_exp: "l", "l.url contains 'http'" %}{% if pi_profiles.size > 0 %},
+          "sameAs": [{% for l in pi_profiles %}{{ l.url | jsonify }}{% unless forloop.last %}, {% endunless %}{% endfor %}]{% endif %}{% endif %}
+        }
+      ]
+    }
+    </script>
     <link rel="icon" href="{{ '/assets/img/favicon.ico' | relative_url }}" sizes="any">
     <link rel="apple-touch-icon" href="{{ '/assets/img/apple-touch-icon.png' | relative_url }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">

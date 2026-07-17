@@ -62,3 +62,29 @@ content_width: wide
     </section>
   {% endfor %}
 </div>
+
+<div class="portfolio-intro">
+  <p class="eyebrow">Research Foundations</p>
+  <h2>Prior work the lab builds on</h2>
+  <p class="portfolio-lede">The lab's research directions grow out of published work on water management in large-scale models, catchment water balance and vegetation response, and unprecedented hydrologic extremes.</p>
+</div>
+
+<div class="highlight-grid">
+  {% for item in site.data.highlights %}
+    <article class="highlight-card">
+      {% if item.label %}<span>{{ item.label }}</span>{% endif %}
+      <h3>{{ item.title }}</h3>
+      <p>{{ item.summary }}</p>
+      {% if item.evidence %}
+        <p class="highlight-evidence">{{ item.evidence }}</p>
+      {% endif %}
+      {% if item.links %}
+        <div class="highlight-links">
+          {% for link in item.links %}
+            <a href="{{ link.url }}">{{ link.text }}</a>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </article>
+  {% endfor %}
+</div>
