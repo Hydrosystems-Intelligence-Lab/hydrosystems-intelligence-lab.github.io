@@ -44,7 +44,7 @@ description: Abeshu Hydrosystems Intelligence Lab at New Mexico State University
           <div class="emblem-heading">
             <strong>Our emblem.</strong>
             <figure class="emblem-mark">
-              <img src="{{ '/assets/img/AWSI-emblem.png' | relative_url }}" alt="" aria-hidden="true">
+              <img src="{{ '/assets/img/hil-emblem.png' | relative_url }}" alt="" aria-hidden="true">
             </figure>
           </div>
           <p>The blue emblem reads as two interlocking loops, four interacting petals, and a continuous adaptive cycle. The petals represent climate, water, infrastructure, and human dynamics as inseparable parts of a complex hydrosystem. Their circular motion reflects feedbacks among these systems, while the central mark represents data, modeling, monitoring, and decision support for better water decisions.</p>

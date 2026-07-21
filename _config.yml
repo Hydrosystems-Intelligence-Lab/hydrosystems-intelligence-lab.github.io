@@ -14,7 +14,7 @@ lang: en
 timezone: America/Denver
 
 lab:
-  short_name: Abeshu HSI Lab
+  short_name: Abeshu HIL
   full_name: Abeshu Hydrosystems Intelligence Lab
   institution: New Mexico State University
   institution_logo: "/assets/img/New_Mexico_State_University_logo.svg"
