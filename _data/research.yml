@@ -1,7 +1,10 @@
 - title: Physics-Informed AI for Connected Water Extremes
   icon: extremes
-  image: /assets/img/research-connected-extremes.png
-  image_alt: AI-generated visualization of connected drought, flood, reservoir, groundwater, and community water-system dynamics.
+  pillar: process-aware-prediction
+  feature_image: true
+  image: /assets/img/research-connected-extremes-760.jpg
+  image_webp: /assets/img/research-connected-extremes-760.webp
+  image_alt: Illustrated diagram linking watersheds, aquifers, reservoirs and communities with arrows showing how one extreme propagates into another.
   summary: Modeling how droughts, floods, heat, and water-storage anomalies emerge, interact, and propagate across watersheds, aquifers, reservoirs, and communities.
   focus:
     - Graph learning for cascading hydroclimate extremes across connected water systems.
@@ -10,8 +13,11 @@
   outcomes: Probabilistic forecasts and hotspot analyses to support preparedness in systems such as the Rio Grande, Elephant Butte, Caballo, and irrigated landscapes.
 - title: Equitable Water Security and Sociohydrologic Intelligence
   icon: equity
-  image: /assets/img/research-water-equity.png
-  image_alt: AI-generated visualization of rural water infrastructure, communities, fields, and spatial analytics for water security.
+  pillar: human-water-resilience
+  feature_image: true
+  image: /assets/img/research-water-equity-760.jpg
+  image_webp: /assets/img/research-water-equity-760.webp
+  image_alt: Illustrated map-style diagram of rural water infrastructure and community service areas shaded to show differences in water access.
   summary: Combining AI, Earth observation, hydrologic modeling, and socioeconomic data to identify water access gaps and emerging risks.
   focus:
     - Fine-scale mapping of water insecurity, quality stressors, and service gaps.
@@ -20,8 +26,11 @@
   outcomes: Decision-ready benchmarks that help agencies and partners prioritize water infrastructure, policy intervention, and community resilience investments.
 - title: Learning-Enhanced Earth System and Hydrologic Modeling
   icon: earth
-  image: /assets/img/research-earth-system-modeling.png
-  image_alt: AI-generated visualization of Earth-system hydrology, satellites, model grids, groundwater, and learning-based model components.
+  pillar: process-aware-prediction
+  feature_image: false
+  image: /assets/img/research-earth-system-modeling-760.jpg
+  image_webp: /assets/img/research-earth-system-modeling-760.webp
+  image_alt: Illustrated schematic of satellites feeding observations into a gridded land-surface model with subsurface storage layers.
   summary: Building physics-guided machine learning components that improve regional and global hydrologic models under changing climate, land, and infrastructure conditions.
   focus:
     - Differentiable soil moisture, groundwater, surface water, and storage representations.
@@ -30,8 +39,11 @@
   outcomes: Faster, more reliable model components that preserve physical constraints while improving prediction under non-stationary conditions.
 - title: Adaptive Operations for Resilient Water Infrastructure
   icon: resilience
-  image: /assets/img/research-infrastructure-operations.png
-  image_alt: AI-generated visualization of reservoir operations, hydropower infrastructure, river releases, and decision-support overlays.
+  pillar: infrastructure-operations
+  feature_image: true
+  image: /assets/img/research-infrastructure-operations-760.jpg
+  image_webp: /assets/img/research-infrastructure-operations-760.webp
+  image_alt: Illustrated schematic of a reservoir and dam with release pathways and an operator decision panel.
   summary: Developing AI-enabled decision tools for reservoirs, hydropower, flood control, water supply, and environmental flows under deep uncertainty.
   focus:
     - Hybrid forecasting that blends hydraulic routing, hydrologic prediction, and regime-shift detection.
@@ -40,8 +52,11 @@
   outcomes: Open-source tools, scenarios, and training resources that support adaptive risk management with agencies, utilities, and stakeholder groups.
 - title: Lake Dynamics, Remote Sensing, and Earth-System Integration
   icon: lakes
-  image: /assets/img/research-lake-dynamics.png
-  image_alt: AI-generated visualization of lake remote sensing, thermal structure, ice, changing extent, and satellite observations.
+  pillar: process-aware-prediction
+  feature_image: false
+  image: /assets/img/research-lake-dynamics-760.jpg
+  image_webp: /assets/img/research-lake-dynamics-760.webp
+  image_alt: Illustrated diagram of a lake observed by several satellite sensor types, with layers indicating temperature structure and changing extent.
   summary: Using multi-sensor observations and physics-guided learning to monitor and predict lake storage, extent, temperature, ice, and mixing.
   focus:
     - Optical, radar, altimetry, and thermal sensing for global and regional lake dynamics.

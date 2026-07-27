@@ -1,7 +1,10 @@
 <footer class="site-footer">
   <div class="wrapper footer-grid">
     <div>
-      <img class="footer-logo" src="{{ '/assets/img/hil-logo.png' | relative_url }}?v=hil-footer" alt="{{ site.title }}">
+      <picture>
+        <source srcset="{{ '/assets/img/hil-logo-600.webp' | relative_url }}" type="image/webp">
+        <img class="footer-logo" src="{{ '/assets/img/hil-logo-600.jpg' | relative_url }}" alt="{{ site.title }}" width="600" height="280" loading="lazy" decoding="async">
+      </picture>
     </div>
     <div>
       <strong>{{ site.lab.institution }}</strong>

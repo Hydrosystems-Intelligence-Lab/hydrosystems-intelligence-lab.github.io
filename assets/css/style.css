@@ -248,12 +248,22 @@ ul {
   content: '';
   position: absolute;
   inset: 0;
+  /* Plain url() first so browsers without image-set() still get the JPEG. */
+  background-image: var(--home-hero-image-fallback);
   background-image: var(--home-hero-image);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   animation: hero-zoom 22s ease-in-out infinite alternate;
   z-index: 0;
+}
+
+/* Narrow viewports get the 960px hero rendition. */
+@media (max-width: 700px) {
+  .home-hero::before {
+    background-image: var(--home-hero-image-sm-fallback, var(--home-hero-image-fallback));
+    background-image: var(--home-hero-image-sm, var(--home-hero-image));
+  }
 }
 
 /* Gradient overlay */
@@ -267,6 +277,14 @@ ul {
 
 @media (prefers-reduced-motion: reduce) {
   .home-hero::before { animation: none; }
+
+  .mobile-nav,
+  .mobile-nav-backdrop,
+  .hamburger,
+  .hamburger::before,
+  .hamburger::after {
+    transition: none;
+  }
 }
 
 .home-hero-grid {
@@ -986,6 +1004,28 @@ ul {
 .group-list {
   display: grid;
   gap: 1rem;
+}
+
+/* Research pillars: each groups one or more thrusts. */
+.research-pillar {
+  margin-bottom: 2.5rem;
+  scroll-margin-top: 92px;
+}
+
+.research-pillar > .section-heading {
+  margin-bottom: 1rem;
+}
+
+/* Thrusts shown without an illustration collapse to a single column. */
+.research-detail.no-media {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.image-note {
+  margin-top: 1rem;
+  color: var(--gray-700);
+  font-size: 0.92rem;
+  font-style: italic;
 }
 
 .research-highlights-block {
@@ -1931,25 +1971,8 @@ ul {
     font-size: 0.94rem;
   }
 
-  .site-nav {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    width: 100%;
-    max-width: 100%;
-    overflow: hidden;
-    gap: 0.35rem;
-    padding-bottom: 0;
-  }
-
-  .site-nav a {
-    justify-content: center;
-    min-height: 38px;
-    padding: 0.45rem 0.55rem;
-    font-size: 0.92rem;
-    line-height: 1.15;
-    text-align: center;
-    white-space: normal;
-  }
+  /* Below 680px the drawer takes over; .site-nav is hidden by the drawer block
+     further down. No inline nav grid is defined here. */
 
   .home-hero {
     background-position: 58% center;
@@ -2104,6 +2127,22 @@ ul {
 .hamburger::before { top: -6px; }
 .hamburger::after  { top:  6px; }
 
+/* Open state: collapse the bars into an X. Without these rules the transition
+   declared above animates a state that is never set. */
+.nav-toggle[aria-expanded='true'] .hamburger {
+  background: transparent;
+}
+
+.nav-toggle[aria-expanded='true'] .hamburger::before {
+  top: 0;
+  transform: rotate(45deg);
+}
+
+.nav-toggle[aria-expanded='true'] .hamburger::after {
+  top: 0;
+  transform: rotate(-45deg);
+}
+
 /* ── Mobile nav drawer ─────────────────────────────────────────────── */
 
 .mobile-nav,
@@ -2227,46 +2266,15 @@ ul {
 }
 
 @media (max-width: 680px) {
-  .nav-wrapper {
-    grid-template-columns: minmax(0, 1fr);
-    min-height: auto;
-  }
-
   .brand,
   .brand > span {
     width: 100%;
+    min-width: 0;
   }
 
   .brand-title,
   .brand-subtitle {
     max-width: 100%;
     white-space: normal;
-  }
-
-  .site-nav {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    width: 100%;
-    max-width: 100%;
-    overflow: visible;
-    gap: 0.35rem;
-    padding-bottom: 0;
-  }
-
-  .site-nav a {
-    justify-content: center;
-    min-height: 38px;
-    padding: 0.45rem 0.55rem;
-    font-size: 0.92rem;
-    line-height: 1.15;
-    overflow-wrap: anywhere;
-    text-align: center;
-    white-space: normal;
-  }
-
-  .nav-toggle,
-  .mobile-nav,
-  .mobile-nav-backdrop {
-    display: none;
   }
 }

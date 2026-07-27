@@ -26,7 +26,7 @@ content_width: wide
   <article class="fact-card">
     <span class="status-pill available">Opening</span>
     <h3>Funded PhD position</h3>
-    <p>The primary opening is for a doctoral student supported through an assistantship, subject to formal admission, project fit, funding availability, and university appointment procedures.</p>
+    <p>The primary opening is for a doctoral student supported through a funded assistantship, subject to admission, project fit, and formal university appointment.</p>
   </article>
   <article class="fact-card">
     <span class="status-pill">Timeline</span>
@@ -92,7 +92,7 @@ content_width: wide
   <ol class="process-list">
     <li>
       <strong>Send an inquiry email.</strong>
-      <p>Email Dr. Guta Wakbulcho Abeshu in Fall 2026 before applying through official NMSU graduate admissions.</p>
+      <p>Email {{ site.lab.pi }} in Fall 2026 before applying through official NMSU graduate admissions.</p>
     </li>
     <li>
       <strong>Share a concise fit packet.</strong>
@@ -109,7 +109,7 @@ content_width: wide
   <div>
     <p class="eyebrow">Email Details</p>
     <h2>Use a clear subject line</h2>
-    <p>Email: <a href="mailto:gwabeshu@nmsu.edu">gwabeshu@nmsu.edu</a></p>
+    <p>Email: <a href="mailto:{{ site.lab.email }}">{{ site.lab.email }}</a></p>
     <code>Prospective PhD Student - Spring 2027 - Abeshu Hydrosystems Intelligence Lab</code>
   </div>
   <div>

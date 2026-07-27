@@ -6,10 +6,15 @@ pi:
   institute: Institute for Applied Practice in AI and Machine Learning
   institution: New Mexico State University
   email: gwabeshu@nmsu.edu
-  image: /assets/img/pi-guta.JPG
+  image: /assets/img/pi-guta-480.jpg
+  image_webp: /assets/img/pi-guta-480.webp
   links:
-    - label: CV
-      url: "/assets/cv/Guta-Wakbulcho-Abeshu-CV.pdf"
+    # TODO (2026-07-27): CV link hidden pre-launch. The PDF at
+    # /assets/cv/Guta-Wakbulcho-Abeshu-CV.pdf still presents the PNNL postdoc
+    # affiliation, a @pnnl.gov address, and a personal phone number. Restore this
+    # entry once an NMSU-current CV is exported from the (external) moderncv source.
+    # - label: CV
+    #   url: "/assets/cv/Guta-Wakbulcho-Abeshu-CV.pdf"
     - label: Google Scholar
       url: "https://scholar.google.com/citations?user=oJwf_RwAAAAJ&hl=en"
     - label: ORCID
@@ -27,23 +32,12 @@ pi:
     analytics for resilient water infrastructure and coupled
     climate-water-energy-infrastructure-society systems.
 
+# Only positions that are genuinely open are listed here. Roles that are not
+# currently advertised (postdoctoral, MS, undergraduate) are intentionally absent
+# rather than shown as speculative placeholders.
 open_roles:
-  - name: You?
-    role: Postdoctoral Researcher
-    status: Postdoctoral openings will be announced as funded projects take shape within the founding research portfolio.
-    image: /assets/img/pi-placeholder.svg
-  - name: You?
-    role: PhD Student
+  - role: PhD Student
     status: Recruiting motivated doctoral students for Spring 2027 as the lab launches at NMSU.
-    image: /assets/img/pi-placeholder.svg
-  - name: You?
-    role: MS Student
-    status: Prospective master's students are welcome to inquire about project-based opportunities as the lab builds its first cohort.
-    image: /assets/img/pi-placeholder.svg
-  - name: You?
-    role: Undergraduate Researcher
-    status: Undergraduate research opportunities will grow with early projects and advising capacity.
-    image: /assets/img/pi-placeholder.svg
 
 groups:
   - name: Collaborators

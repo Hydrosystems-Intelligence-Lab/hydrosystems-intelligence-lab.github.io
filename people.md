@@ -11,7 +11,10 @@ content_width: wide
 
 <section class="person-profile featured-profile{% unless pi.image %} no-photo{% endunless %}">
   {% if pi.image %}
-    <img class="profile-photo" src="{{ pi.image | relative_url }}" alt="{{ pi.name }}">
+    <picture>
+      {% if pi.image_webp %}<source srcset="{{ pi.image_webp | relative_url }}" type="image/webp">{% endif %}
+      <img class="profile-photo" src="{{ pi.image | relative_url }}" alt="{{ pi.name }}" width="480" height="640" decoding="async">
+    </picture>
   {% endif %}
   <div>
     <p class="eyebrow">Principal Investigator</p>
@@ -54,24 +57,24 @@ content_width: wide
   <div>
     <p class="eyebrow">First Cohort</p>
     <h2>Building a research lab around useful water intelligence</h2>
-    <p>The Abeshu Hydrosystems Intelligence Lab is recruiting its first cohort of graduate and undergraduate researchers as the lab launches at New Mexico State University. Early members will help shape lab culture, workflows, open research practices, and the first generation of lab projects.</p>
+    <p>The Abeshu Hydrosystems Intelligence Lab is recruiting its first researchers as the lab launches at New Mexico State University. Early members will help shape lab culture, workflows, open research practices, and the first generation of lab projects.</p>
   </div>
   <div class="cohort-actions">
-    <a class="button primary" href="{{ '/opportunities/' | relative_url }}">View Openings</a>
+    <a class="button primary" href="{{ '/opportunities/' | relative_url }}">View Opening</a>
     <a class="button secondary" href="{{ '/manual/' | relative_url }}">Read Lab Handbook</a>
   </div>
 </section>
 
 <section class="page-cluster">
   <div class="section-heading compact-heading">
-    <p class="eyebrow">Founding Cohort</p>
-    <h2>Graduate students and postdoctoral researchers</h2>
-    <p>The lab is building its first cohort at New Mexico State University. Current and anticipated roles are listed below so prospective members can see where the lab is growing.</p>
+    <p class="eyebrow">Open Positions</p>
+    <h2>Currently recruiting</h2>
+    <p>The lab is starting at New Mexico State University and is recruiting its first doctoral researcher. Only positions that are currently open are listed here; future opportunities will be announced on this page and in <a href="{{ '/updates/' | relative_url }}">lab updates</a>.</p>
   </div>
   <div class="role-opportunity-grid">
     {% for role in site.data.people.open_roles %}
       <article class="role-opportunity-card">
-        <span class="status-pill">Launch-stage role</span>
+        <span class="status-pill available">Open</span>
         <h3>{{ role.role }}</h3>
         <p>{{ role.status }}</p>
       </article>

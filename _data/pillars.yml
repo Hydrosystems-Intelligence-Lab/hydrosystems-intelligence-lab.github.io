@@ -1,0 +1,28 @@
+# The three research pillars. Each thrust in research.yml carries a `pillar:` key
+# matching one of these ids; research.md groups the thrusts underneath them.
+- id: process-aware-prediction
+  title: Process-Aware Hydrologic Prediction
+  summary: Predicting how water moves and is stored across watersheds, aquifers, rivers, and lakes, with learning-based methods that respect physical structure.
+  scope:
+    - Hydrologic processes
+    - Compound and connected extremes
+    - Lakes, rivers, groundwater, and storage
+    - Earth-system and watershed modeling
+
+- id: infrastructure-operations
+  title: Water Infrastructure and Operational Intelligence
+  summary: Turning prediction into operating decisions for the reservoirs, dams, and supply systems that communities depend on.
+  scope:
+    - Reservoirs and dams
+    - Water-supply reliability
+    - Infrastructure aging and sedimentation
+    - Forecasting, operations, and decision support
+
+- id: human-water-resilience
+  title: Human–Water Resilience and Adaptation
+  summary: Studying how people and water systems shape each other, and what makes adaptation effective and equitable.
+  scope:
+    - Sociohydrology
+    - Water equity
+    - Climate adaptation
+    - Human–water feedbacks and regional resilience

@@ -4,11 +4,11 @@ title: Home
 description: Abeshu Hydrosystems Intelligence Lab at New Mexico State University.
 ---
 
-<section class="home-hero" style="--home-hero-image: url('{{ '/assets/img/nm-rio-grande-bosque.jpg' | relative_url }}');">
+<section class="home-hero" style="--home-hero-image: image-set(url('{{ '/assets/img/water-systems-hero-1600.webp' | relative_url }}') type('image/webp'), url('{{ '/assets/img/water-systems-hero-1600.jpg' | relative_url }}') type('image/jpeg')); --home-hero-image-fallback: url('{{ '/assets/img/water-systems-hero-1600.jpg' | relative_url }}'); --home-hero-image-sm: image-set(url('{{ '/assets/img/water-systems-hero-960.webp' | relative_url }}') type('image/webp'), url('{{ '/assets/img/water-systems-hero-960.jpg' | relative_url }}') type('image/jpeg')); --home-hero-image-sm-fallback: url('{{ '/assets/img/water-systems-hero-960.jpg' | relative_url }}');">
   <div class="wrapper home-hero-grid">
     <div class="hero-copy">
-      <h1>Understanding and managing water risk in a changing world.</h1>
-      <p class="hero-lede">At New Mexico State University, the Abeshu Hydrosystems Intelligence Lab develops models, data systems, and decision tools where climate, water, infrastructure, and human dynamics converge—and where past conditions no longer define future water security.</p>
+      <h1>Process-aware intelligence for water, climate, and infrastructure.</h1>
+      <p class="hero-lede">At New Mexico State University, the Abeshu Hydrosystems Intelligence Lab studies how connected hydrologic systems behave under change—building process-aware prediction, environmental data systems, scientific AI, and decision tools for water security that past conditions no longer describe.</p>
       <div class="button-row">
         <a class="button primary" href="{{ '/research/' | relative_url }}">Explore Research</a>
         <a class="button secondary" href="{{ '/publications/' | relative_url }}">View Publications</a>
@@ -21,7 +21,6 @@ description: Abeshu Hydrosystems Intelligence Lab at New Mexico State University
 <section class="home-intro-section">
   <div class="wrapper home-intro-grid">
     <div class="identity-panel">
-      <!-- <p class="eyebrow sentence-case">About the Lab</p> -->
       <h2 class="about-welcome-heading">About the Lab</h2>
       <div class="identity-list">
         <div>
@@ -40,15 +39,6 @@ description: Abeshu Hydrosystems Intelligence Lab at New Mexico State University
           <strong>Research focus.</strong>
           <p>We connect prediction, adaptation, infrastructure resilience, and equity across watersheds, regions, and Earth-system scales.</p>
         </div>
-        <!-- <div class="emblem-item">
-          <div class="emblem-heading">
-            <strong>Our emblem.</strong>
-            <figure class="emblem-mark">
-              <img src="{{ '/assets/img/hil-emblem.png' | relative_url }}" alt="" aria-hidden="true">
-            </figure>
-          </div>
-          <p>The blue emblem reads as two interlocking loops, four interacting petals, and a continuous adaptive cycle. The petals represent climate, water, infrastructure, and human dynamics as inseparable parts of a complex hydrosystem. Their circular motion reflects feedbacks among these systems, while the central mark represents data, modeling, monitoring, and decision support for better water decisions.</p>
-        </div> -->
       </div>
       <p class="manual-note">New and prospective lab members can read the <a href="{{ '/manual/' | relative_url }}">Abeshu Hydrosystems Intelligence Lab handbook</a> for advising expectations, onboarding, workflows, and lab practices.</p>
     </div>
@@ -63,6 +53,8 @@ description: Abeshu Hydrosystems Intelligence Lab at New Mexico State University
             <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
             <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
           </article>
+        {% else %}
+          <p class="empty-state">Lab updates will be posted here as the lab opens at NMSU.</p>
         {% endfor %}
       </div>
     </aside>

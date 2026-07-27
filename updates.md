@@ -18,5 +18,7 @@ content_width: wide
         {{ post.excerpt }}
       {% endif %}
     </article>
+  {% else %}
+    <p class="empty-state">No updates have been published yet. Announcements, research notes, and opportunities will appear here as the lab opens at NMSU.</p>
   {% endfor %}
 </div>
