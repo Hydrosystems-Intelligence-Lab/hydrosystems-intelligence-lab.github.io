@@ -87,13 +87,13 @@ content_width: wide
   </div>
   <p class="image-note">Illustrations on this page are AI-generated diagrams used to introduce each pillar. They are illustrative only and do not present research results or data.</p>
 </div>
-
+<!-- 
 <div class="portfolio-intro">
   <p class="eyebrow">Research Foundations</p>
   <h2>Prior work the lab builds on</h2>
   <p class="portfolio-lede">The lab's research directions grow out of published work on water management in large-scale models, catchment water balance and vegetation response, and unprecedented hydrologic extremes.</p>
-</div>
-
+</div> -->
+<!-- 
 <div class="highlight-grid">
   {% for item in site.data.highlights %}
     <article class="highlight-card">
@@ -112,4 +112,4 @@ content_width: wide
       {% endif %}
     </article>
   {% endfor %}
-</div>
+</div> -->

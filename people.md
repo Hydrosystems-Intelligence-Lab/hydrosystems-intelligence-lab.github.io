@@ -13,7 +13,7 @@ content_width: wide
   {% if pi.image %}
     <picture>
       {% if pi.image_webp %}<source srcset="{{ pi.image_webp | relative_url }}" type="image/webp">{% endif %}
-      <img class="profile-photo" src="{{ pi.image | relative_url }}" alt="{{ pi.name }}" width="480" height="640" decoding="async">
+      <img class="profile-photo" src="{{ pi.image | relative_url }}" alt="{{ pi.name }}" width="480" height="480" decoding="async">
     </picture>
   {% endif %}
   <div>

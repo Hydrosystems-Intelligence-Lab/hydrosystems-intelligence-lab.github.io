@@ -13,8 +13,8 @@ pi:
     # /assets/cv/Guta-Wakbulcho-Abeshu-CV.pdf still presents the PNNL postdoc
     # affiliation, a @pnnl.gov address, and a personal phone number. Restore this
     # entry once an NMSU-current CV is exported from the (external) moderncv source.
-    # - label: CV
-    #   url: "/assets/cv/Guta-Wakbulcho-Abeshu-CV.pdf"
+    - label: CV
+      url: "/assets/cv/Guta-Wakbulcho-Abeshu-CV.pdf"
     - label: Google Scholar
       url: "https://scholar.google.com/citations?user=oJwf_RwAAAAJ&hl=en"
     - label: ORCID
