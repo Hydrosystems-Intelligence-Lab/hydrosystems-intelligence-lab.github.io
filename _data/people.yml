@@ -9,10 +9,11 @@ pi:
   image: /assets/img/pi-guta-480.jpg
   image_webp: /assets/img/pi-guta-480.webp
   links:
-    # TODO (2026-07-27): CV link hidden pre-launch. The PDF at
-    # /assets/cv/Guta-Wakbulcho-Abeshu-CV.pdf still presents the PNNL postdoc
-    # affiliation, a @pnnl.gov address, and a personal phone number. Restore this
-    # entry once an NMSU-current CV is exported from the (external) moderncv source.
+    # Verified 2026-08-20: the CV PDF is NMSU-current and safe to link publicly.
+    # Header shows the NMSU affiliation, gwabeshu@nmsu.edu, and the NMSU office
+    # line (+1 575 646-2001) - no @pnnl.gov address and no personal cell. The one
+    # "Richland, WA" mention is the PNNL postdoc employment-history entry, which
+    # belongs there. Supersedes the earlier pre-launch TODO on this entry.
     - label: CV
       url: "/assets/cv/Guta-Wakbulcho-Abeshu-CV.pdf"
     - label: Google Scholar
