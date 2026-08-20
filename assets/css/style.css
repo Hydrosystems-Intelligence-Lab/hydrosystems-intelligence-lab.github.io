@@ -1548,10 +1548,16 @@ ul {
   border-top: 0;
 }
 
+.publication-summary,
 .publication-authors,
 .publication-meta,
 .publication-links {
   display: block;
+}
+
+.publication-summary {
+  margin-top: 0.28rem;
+  color: var(--gray-700);
 }
 
 .publication-authors {

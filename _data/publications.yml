@@ -2,6 +2,11 @@ journal_articles:
   title: Peer-Reviewed Papers
   note: Peer-reviewed papers will be listed here.
   items:
+    - title: "A unified scheme for modeling saturation and infiltration excess runoff"
+      authors: "Yuanqi Hong, Guta Wakbulcho Abeshu, Hong-Yi Li, Dingbao Wang, Mengqi Zhao, Thomas Wild, Gunter Bloschl, and L. Ruby Leung"
+      venue: "Hydrology and Earth System Sciences, 30, 4293-4303"
+      year: 2026
+      doi: "10.5194/hess-30-4293-2026"
     - title: "ELM-MOSART-DOC: A Large-Scale Riverine Dissolved Organic Carbon Model and Its Application Over the United States"
       authors: "Lingbo Li, Hong-Yi Li, Guta Abeshu, Xiaojuan Yang, Jinyun Tang, Zeli Tan, Chang Liao, Dongyu Feng, Peter Thornton, and L. Ruby Leung"
       venue: "Journal of Advances in Modeling Earth Systems, 18(2), e2025MS005307"
@@ -72,6 +77,16 @@ journal_articles:
       venue: "Journal of Advances in Modeling Earth Systems, 11(7), 2089-2129"
       year: 2019
       doi: "10.1029/2018MS001603"
+    - title: "Maximum carbon uptake rate dominates the interannual variability of global net ecosystem exchange"
+      authors: "Zheng Fu, Paul C. Stoy, Benjamin Poulter, Tobias Gerken, Zhen Zhang, Guta Wakbulcho Abeshu, and Shuli Niu"
+      venue: "Global Change Biology, 25, 3381-3394"
+      year: 2019
+      doi: "10.1111/gcb.14731"
+    - title: "Characterization of Ethiopian mega hydrogeological regimes using GRACE, TRMM and GLDAS datasets"
+      authors: "Joseph L. Awange, Mekonnen Gebremichael, Ehsan Forootan, Guta Wakbulcho Abeshu, Richard Anyah, Vagner G. Ferreira, and Tenalem Alemayehu"
+      venue: "Advances in Water Resources, 74, 64-78"
+      year: 2014
+      doi: "10.1016/j.advwatres.2014.07.012"
 conference_papers:
   title: Conference Abstracts
   note: First-author conference abstracts, posters, and oral presentations by Dr. Abeshu.
@@ -145,8 +160,8 @@ preprints:
   title: Preprints
   note: Preprints and working papers will be posted here.
   items:
-    - title: "A Unified Scheme for Modeling Saturation and Infiltration Excess Runoff"
-      authors: "Yuanqi Hong, Guta Wakbulcho Abeshu, Hong-Yi Li, Dingbao Wang, Mengqi Zhao, Thomas Wild, Gunter Bloschl, and L. Ruby Leung"
-      venue: "EGUsphere"
+    - title: "The past and future changes of river suspended sediment in the U.S. Mid-Atlantic"
+      authors: "Zeli Tan, Donghui Xu, Tian Zhou, Dongyu Feng, Lingbo Li, Matt G. Cooper, Chang Liao, Gautam Bisht, Guta Wakbulcho Abeshu, and L. Ruby Leung"
+      venue: "ESS Open Archive"
       year: 2025
-      doi: "10.5194/egusphere-2025-5039"
+      doi: "10.22541/essoar.175431503.33100168/v1"

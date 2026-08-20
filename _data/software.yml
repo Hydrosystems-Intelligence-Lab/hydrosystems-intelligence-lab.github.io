@@ -1,0 +1,38 @@
+models:
+  title: Models & Code
+  note: Lab-developed and PI-contributed model code will be listed here.
+  items:
+    - title: "Xanthos-Lake Model Source Code"
+      authors: "Guta Abeshu, Hong-Yi Li, Thomas Wild, and Mengqi Zhao"
+      venue: "Pacific Northwest National Laboratory / DOE Data Explorer"
+      year: 2026
+      doi: "10.57931/3377428"
+      summary: "Global lake module extending the Xanthos global hydrological model."
+    - title: "Abeshu-etal_2023_GMD v1.01"
+      authors: "Guta W. Abeshu"
+      venue: "Zenodo"
+      year: 2023
+      doi: "10.5281/zenodo.7582310"
+      summary: "Analysis and figure code archive for the 2023 GMD water-management paper."
+    - title: "Xanthos-wm v1.02"
+      authors: "Guta W. Abeshu"
+      venue: "Zenodo"
+      year: 2023
+      doi: "10.5281/zenodo.8267343"
+      summary: "Water management module for Xanthos: reservoir operations and allocation."
+datasets:
+  title: Datasets
+  note: Published datasets will be listed here.
+  items:
+    - title: "Xanthos-Lake Dataset"
+      authors: "Guta Abeshu, Hong-Yi Li, Thomas Wild, and Mengqi Zhao"
+      venue: "Pacific Northwest National Laboratory / DOE Data Explorer"
+      year: 2026
+      doi: "10.57931/2997580"
+      summary: "Global lake input and output dataset accompanying the Xanthos-Lake module."
+    - title: "Repository of HydroSMADE: Hydropower Site-level Monthly Availability Data Ensemble for 1950-2100 at Existing and Potential Global Sites"
+      authors: "A. F. M. Kamal Chowdhury, Guta Wakbulcho Abeshu, Mengqi Zhao, Thomas B. Wild, Hassan Niazi, Ying Zhang, Gi Joo Kim, Matthew Binsted, Jonathan Lamontagne, and Hong-Yi Li"
+      venue: "Pacific Northwest National Laboratory / DOE Data Explorer"
+      year: 2026
+      doi: "10.57931/3015845"
+      summary: "Monthly hydropower availability ensemble for existing and potential global sites, 1950-2100."
